@@ -2104,12 +2104,26 @@ input[type="submit"]:hover, .button:hover, .button1:hover, .button2:hover {
 }
 
 .niepatrz {   
-  width: 1000px;
-  background: var(--darkerbackground);
+    position: relative;
+    width: 1000px;
     border-radius: 10px;
     padding: 2%;
     border: var(--border);
-  box-shadow: var(--shadow);}
+    box-shadow: var(--shadow);
+}
+
+.niepatrz::before {
+    border: var(--border);
+    border-radius: 10px;
+    box-shadow: var(--shadow3);
+    z-index: -9;
+    opacity: 0.8;
+    margin: -2%;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: var(--darkerbackground); }
 
 .niepatrz > .sub-header { height: auto;}
 .postbody {
@@ -2152,6 +2166,7 @@ input[type="submit"]:hover, .button:hover, .button1:hover, .button2:hover {
 }
 
 .post {
+	margin: 0px 30px;
 	    position: relative;
        margin-top: 20px !important;
     background: var(--darkerbackground);
