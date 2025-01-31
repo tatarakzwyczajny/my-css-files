@@ -2128,7 +2128,7 @@ input[type="submit"]:hover, .button:hover, .button1:hover, .button2:hover {
 .postbody .content {
   color: var(--c1);
     position: relative;
-    box-sizing: var(--shadow);
+    box-shadow: var(--shadow);
     text-align: justify;
     background: var(--b4);
     padding: 20px;
@@ -2341,7 +2341,6 @@ margin-top:0px;}
 .postprofile-avatar img {
 	height: 100%;
 	    min-width: 260px;
-    max-height: -webkit-fill-available;
 box-shadow: none;
     border-radius: 10px;
     border: var(--border);
