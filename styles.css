@@ -2262,7 +2262,10 @@ width: 35px;
 }
 
  .topic-date {
-     right: 20px;
+    top: 40px;
+    padding: 0px 10px !important;
+    border: var(--border) !important;
+    right: 20px;
     position: absolute;
     color: var(--bright);
     letter-spacing: 0.5px;
