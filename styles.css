@@ -2263,7 +2263,7 @@ width: 35px;
     text-align: center;
 }
 
-.postprofile-contact > .topic-date {
+ .topic-date {
      right: 20px;
     position: absolute;
     color: var(--bright);
