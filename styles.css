@@ -2252,14 +2252,16 @@ width: 35px;
 .postprofile-contact {    
 	position: absolute;
     display: flex;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    top: -35px;}
 
 .postprofile-contact a {background: var(--darkerbackground);
     width: 35px;
     height: 35px;
     border: var(--border);
     border-radius: 10px;
-    box-shadow: var(--shadow);}
+    box-shadow: var(--shadow);
+margin-top:0px;}
 .postprofile-contact img {
     filter: var(--filter3);
     width: 100%;
