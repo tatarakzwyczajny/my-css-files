@@ -2248,6 +2248,18 @@ width: 35px;
     border: var(--border);
     margin-right: 15px;
 }
+
+.postprofile-contact {    
+	position: absolute;
+    display: flex;
+    flex-wrap: wrap; }
+
+.postprofile-contact a {background: var(--darkerbackground);
+    width: 35px;
+    height: 35px;
+    border: var(--border);
+    border-radius: 10px;
+    box-shadow: var(--shadow);}
 .postprofile-contact img {
     filter: var(--filter3);
     width: 100%;
