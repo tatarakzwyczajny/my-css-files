@@ -12,7 +12,7 @@
   --contrast: #2c3779;
   --bright: #a3a3a3;
   --bright2: #7d7d7d;
-  --urlbody: url(https://i.imgur.com/IDqnGcx.png);
+  --urlbody: url(https://i.imgur.com/IDqnGcx.png); 
   --urlbackground: url(https://i.imgur.com/IDqnGcx.png);
   --border:  1px solid rgba(54, 54, 54, 0.1);
     --filter: grayscale(70%) brightness(81%);
@@ -2272,7 +2272,7 @@ width: 35px;
 }
 
  .topic-date {
-    top: 40px;
+    top: 59px;
     padding: 0px 10px !important;
     border: var(--border) !important;
     right: 20px;
