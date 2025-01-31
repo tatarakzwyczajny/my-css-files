@@ -2163,7 +2163,14 @@ input[type="submit"]:hover, .button:hover, .button1:hover, .button2:hover {
     flex-wrap: wrap;
     margin-bottom: 40px;
 }
-.post::before {content: "";}
+.post::before {content: "";
+	          background: transparent;
+    box-shadow: var(--shadowout);
+    z-index: -9;
+    margin: -10px !important;
+    position: absolute;
+    width: 100%;
+    height: 100%;}
 
 .post-head {
     margin-bottom: none;
@@ -2316,11 +2323,12 @@ margin-top:0px;}
 }
 
 .postprofile {
-    padding: 20px 0px 0px 0px !important;
+     margin: 20px 10px 15px 10px !important;
     flex: 1.2;
     color: #444;
     word-wrap: break-word;
     z-index: 9;
+    padding: 0px;
 }
 
 .postprofile-avatar {
@@ -2331,6 +2339,7 @@ margin-top:0px;}
 		       box-shadow: none !important;}
 
 .postprofile-avatar img {
+	height: 100%;
 	    min-width: 260px;
     max-height: -webkit-fill-available;
 box-shadow: none;
