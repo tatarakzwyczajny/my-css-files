@@ -1600,8 +1600,6 @@ content: "";
   display: none;
 }
 
-.avatarlastpost > .lastpost-infos a > .pagination > a > b, strong {margin:0px !important;}
-
   .stopkaautor2 {
     position: absolute;
     flex-wrap: wrap;
@@ -1922,7 +1920,7 @@ gap: 0px;
     font-size: 0;
 }
 
-.pagination > a > b, strong {margin: 0px 8px;}
+.pagination > a > b, strong {margin: 0px 8px !important;}
 
 .pagination > a {
   margin-top:0px;
