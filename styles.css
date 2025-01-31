@@ -1588,10 +1588,12 @@ content: "";
 }
 
   .stopkaautor {
-    font-family: var(--basicfont);
+       font-family: var(--basicfont);
     width: 100%;
+    font-size: 13px;
     position: relative;
     text-align: left;
+    font-weight: 300;
 }
 
 .stopkaautor img {
