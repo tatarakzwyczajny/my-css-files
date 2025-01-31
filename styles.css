@@ -236,9 +236,9 @@ a.forumtitle:visited {
 }
 
 a.forumtitle:hover {
-  color: var(--bright);
-      text-decoration: none;
- 
+      text-shadow: var(--txtshadow);
+    color: var(--contrast) !important;
+    text-decoration: none;
 }
 
 dd.tytulkat { 
