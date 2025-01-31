@@ -2151,22 +2151,24 @@ input[type="submit"]:hover, .button:hover, .button1:hover, .button2:hover {
 }
 
 .post {
-      background: var(--forabackground) !important;
-    border: 0px;
+	    position: relative;
+       margin-top: 20px !important;
+    background: var(--darkerbackground);
+    border: var(--border);
     border-radius: 10px;
     box-shadow: var(--shadow);
     margin-bottom: 24px;
-      display: flex;
+    display: flex;
     flex-wrap: wrap;
-  margin-bottom: 40px;
+    margin-bottom: 40px;
 }
+.post::before {content: "";}
 
 .post-head {
-     margin-top: -20px;
     margin-bottom: none;
-    background: var(--darkerbackground);
+    background: var(--forabackground);
     border-radius: 10px 10px 00px 0px;
-    border: var(--border);
+    border: 0;
     flex-wrap: wrap;
     display: flex;
     flex: 100%;
@@ -2257,7 +2259,7 @@ width: 35px;
 	position: absolute;
     display: flex;
     flex-wrap: wrap;
-    top: -35px;}
+    top: -18px;}
 
 .postprofile-name {
     font-size: 23px;
