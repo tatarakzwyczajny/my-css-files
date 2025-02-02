@@ -1933,6 +1933,9 @@ gap: 0px;
     padding: 0px 8px;
 }
 
+li.row .pagination > a > b,
+li.row .pagination > a > strong  {margin: 0px !important;}
+
 .topic-actions {
     justify-content: space-between;
     align-items: center;
