@@ -1451,7 +1451,7 @@ li.tematy > dl.icon {
 }
 
 .subkat {
-
+    padding-right: 20px;
   font-size: 0px;
  flex: 100%;
     position: relative;
@@ -1933,8 +1933,8 @@ gap: 0px;
     padding: 0px 8px;
 }
 
-.topics .row .lastpost .pagination > a > b,
-.topics .row .lastpost .pagination > a > strong  {margin: 0px !important;}
+.topics .row .lastpost strong    {margin: 0px  !important;}
+.stopkaautor strong {margin: 0px  !important;}
 
 .topic-actions {
     justify-content: space-between;
@@ -2144,6 +2144,7 @@ box-shadow: 0px 0px 45px 3px rgba(44, 55, 121, 1);
 
 
 .postbody .content {
+	margin-left:10px;
   color: var(--c1);
     position: relative;
     box-shadow: var(--shadow);
@@ -2192,7 +2193,7 @@ box-shadow: 0px 0px 45px 3px rgba(44, 55, 121, 1);
     height: 100%;}
 
 .post-head {
-    margin-bottom: none;
+    margin-bottom: 10px;
     background: var(--forabackground);
     border-radius: 10px 10px 00px 0px;
     border: 0;
@@ -2200,12 +2201,13 @@ box-shadow: 0px 0px 45px 3px rgba(44, 55, 121, 1);
     display: flex;
     flex: 100%;
     padding: 40px 20px 10px;
+    flex-direction: row-reverse;
 }
 
 .ikonyprofile {
-    top: 0;
+    top: 98px;
 width: 35px;
-    right: -40px;
+    left: -40px;
     align-items: center;
     align-content: center;
     position: absolute;
@@ -2220,7 +2222,7 @@ width: 35px;
     align-items: center;
     width: 100%;
     list-style: none;
-    row-gap: 20px;
+    row-gap: 10px;
 }
 
 .profile-icons li:hover {
@@ -2283,23 +2285,57 @@ width: 35px;
 }
 
 .postprofile-contact {    
+	right:10px;
 	position: absolute;
     display: flex;
     flex-wrap: wrap;
     top: -18px;}
 
-.postprofile-name {
-    font-size: 23px;
-    letter-spacing: 1px;
-    font-family: var(--fancyfont);
-    text-transform: uppercase;
-    line-height: 1.125;
-    text-align: center;
+.postprofile-contact a:nth-last-child(1) {
+    margin: 0px;
 }
 
+.postprofile-name {
+    letter-spacing: 1.2px !important;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    top: 29px;
+    right: 10px;
+    height: 35px;
+    box-shadow: var(--shadow);
+    border: var(--border);
+    border-radius: 10px;
+    z-index: 99;
+    position: absolute;
+    padding: 0px 10px;
+    background: var(--darkerbackground);
+    font-size: 16px;
+    font-weight: 350 !important;
+    font-family: var(--basicfont);
+    text-transform: uppercase;
+}
+
+.postprofile-name:hover {
+	-webkit-animation: pulseCTA 1s forwards;
+  animation: pulseCTA 1s forwards;
+}
+
+.postprofile-name::before {
+    content: "";
+    background: transparent;
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    margin: 0px -10px;
+    border-radius: 10px;
+    z-index: -9;
+    box-shadow: var(--shadowout);}
+
  .topic-date {
-    top: 59px;
-	  left: 10px;
+       z-index: 99;
+    top: 29px;
+    left: 10px;
     padding: 0px 10px !important;
     border: var(--border) !important;
     position: absolute;
@@ -2343,7 +2379,7 @@ margin-top:0px;}
 
 .postprofile {
 	    order: 2;
-     margin: 20px 10px 15px 10px !important;
+     margin: 20px 20px 15px 10px !important;
     flex: 1.2;
     color: #444;
     word-wrap: break-word;
