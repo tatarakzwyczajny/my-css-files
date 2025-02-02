@@ -1943,7 +1943,7 @@ li.row .pagination > a > strong  {margin: 0px !important;}
     flex-wrap: wrap;
     display: flex;
     flex: 100%;
-       padding: 10px 0px 50px 0px;
+       padding: 10px 30px;
 }
 
 .pagination span a.pag-img img {margin-top: 0px;
@@ -2122,7 +2122,6 @@ input[type="submit"]:hover, .button:hover, .button1:hover, .button2:hover {
 -moz-box-shadow: 0px 0px 45px 3px rgba(44, 55, 121, 1);
 box-shadow: 0px 0px 45px 3px rgba(44, 55, 121, 1);
     z-index: -9;
-    opacity: 0.8;
     margin: -2%;
     content: "";
     position: absolute;
@@ -2300,9 +2299,9 @@ width: 35px;
 
  .topic-date {
     top: 59px;
+	  left: 10px;
     padding: 0px 10px !important;
     border: var(--border) !important;
-    right: 20px;
     position: absolute;
     color: var(--bright);
     letter-spacing: 0.5px;
