@@ -331,6 +331,11 @@ margin: 10px 0px;
     box-shadow: none;
     margin-bottom: 0px !important;
 }
+
+ul.topiclist.pmlist.bg_none {
+    position: relative;
+    z-index: 9999 !important;
+    background: none;
 }
 
 .rejestracja .inner {
