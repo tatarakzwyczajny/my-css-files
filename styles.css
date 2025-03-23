@@ -340,7 +340,6 @@ margin: 10px 0px;
 
 #privmsgs-menu > li {
 	    min-height: 30px;
-	min-height: 0px;
 	    background-color: var(--b5);
     border-radius: 2px;
     border: var(--border);
@@ -358,7 +357,7 @@ margin: 10px 0px;
 }
 
 #privmsgs-menu > li:hover {
-    color: var(--accentClr);
+	    background: var(--contrast);
   -webkit-animation: pulseCTA 1s forwards;
   animation: pulseCTA 1s forwards;
 }
