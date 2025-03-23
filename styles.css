@@ -334,8 +334,7 @@ margin: 10px 0px;
 
 .prywatne .right-box a {
     flex-wrap: wrap;
-    display: flex
-;
+    display: flex;
     box-shadow: none;
     align-content: center;
     justify-content: center;
@@ -402,12 +401,27 @@ margin: 10px 0px;
 	    font-family: var(--basicfont);
     padding-left: 81px;
 }
+
+.prvmsg .inner .pmlist li.row ul.pmlist dt span {
+	marign: 0px;
+	    font-family: var(--basicfont);
+}
 .prvmsg .inner .pmlist li.row {
 	background: transparent;
 }
 
 .prvmsg .inner .pmlist li.row dl.icon {
 	    filter: var(--filter3);
+	height: 80px;
+}
+
+.prvmsg .inner .pmlist li.row ul.topiclist dd {
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+    height: 100%;
+    padding: 0px;
 }
 
 .prvmsg .inner ul.topiclist li {
