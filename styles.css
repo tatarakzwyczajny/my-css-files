@@ -341,6 +341,12 @@ margin: 10px 0px;
     letter-spacing: 0.5px;
 }
 
+#privmsgs-menu > li:hover {
+    color: var(--accentClr);
+  -webkit-animation: pulseCTA 1s forwards;
+  animation: pulseCTA 1s forwards;
+}
+
 .prywatne {
 	    padding: 2%;
     background: var(--b3);
