@@ -349,6 +349,10 @@ margin: 10px 0px;
 	background: transparent;
 }
 
+.prvmsg .inner .pmlist li.row dl.icon {
+	    filter: var(--filter3);
+}
+
 .prvmsg .inner ul.topiclist li {
     display: block;
 }
