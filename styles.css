@@ -397,7 +397,7 @@ margin: 10px 0px;
     letter-spacing: 0.5px;
 }
 
-.prvmsg .inner .pmlist li.row ul.pmlist dt {
+.prywatne ul.pmlist dt {
 	    filter: var(--filter3);
 	    font-family: var(--basicfont);
     padding-left: 81px;
