@@ -324,6 +324,7 @@ margin: 10px 0px;
 /*prvmsg*/
 
 .prywatne .right-box {
+	    font-size: 0px;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
@@ -397,6 +398,10 @@ margin: 10px 0px;
     letter-spacing: 0.5px;
 }
 
+.prvmsg .inner .pmlist li.row ul.pmlist dt {
+	    font-family: var(--basicfont);
+    padding-left: 81px;
+}
 .prvmsg .inner .pmlist li.row {
 	background: transparent;
 }
