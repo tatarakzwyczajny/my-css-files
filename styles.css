@@ -323,6 +323,14 @@ margin: 10px 0px;
 
 /*prvmsg*/
 
+.prvmsg .inner .pmlist li.row {
+	background: transparent;
+}
+
+.prvmsg .inner ul.topiclist li {
+    display: block;
+}
+
 #privmsgs-menu { 
 	    height: 42px;
 	  align-items: center;
