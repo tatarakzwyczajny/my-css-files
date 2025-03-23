@@ -321,6 +321,17 @@ margin: 10px 0px;
     margin-right: 10px;
 }
 
+/*prvmsg*/
+
+#privmsgs-menu {
+	    width: 100%;
+    float: left;
+    padding: 0 9px;
+    background-color: transparent;
+    box-shadow: none;
+    margin-bottom: 0px !important;
+}
+}
 
 .rejestracja .inner {
     width: 100% !important;}
