@@ -416,10 +416,7 @@ margin: 10px 0px;
 	height: 80px;
 }
 
-.prvmsg .inner .pmlist li.row ul.topiclist dd {
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+.prvmsg .inner .pmlist li.row > ul.topiclist dd {
     display: flex;
     height: 100%;
     padding: 0px;
