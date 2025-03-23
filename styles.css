@@ -160,7 +160,6 @@ background-attachment: fixed;
       border: var(--border);
     background-color: var(--forabackground);
     box-shadow: var(--shadow);
-      border-radius: 1%;
 }
 
 .block {
@@ -276,17 +275,11 @@ margin: 10px 0px;
     justify-content: flex-start;
 }
 .rejestracja dt {
-      width: 200px;
-      background: var(--forabackground);
-    border-radius: 10px;
-    padding: 4%;
+         padding: 4%;
     display: block;
     text-align: justify !important;
     font-size: 12px;
     font-weight: 400;
-    margin-left: -20px;
-    border: var(--border);
-    box-shadow: var(--shadow);
 }
 
 
@@ -330,8 +323,7 @@ margin: 10px 0px;
 
 
 .rejestracja .inner {
-    width: 100% !important;
-padding: 10%;}
+    width: 100% !important;}
 
 #cp-main > .panel.sig { background: var(--forabackground);}
 
@@ -340,7 +332,6 @@ padding: 10%;}
     flex-wrap: wrap;
       box-shadow: var(--shadow);
     margin: 20px;
-    border-radius: 10px;
     background: var(--b3);
     padding: 18px;
 }
