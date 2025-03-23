@@ -323,7 +323,9 @@ margin: 10px 0px;
 
 /*prvmsg*/
 
-.pm-actions-buttons input[type="submit"], .button, .button1, .button2 
+.pm-actions-buttons input[type="submit"].button, 
+.pm-actions-buttons input[type="submit"].button1, 
+.pm-actions-buttons input[type="submit"].button2 
 {
 	box-shadow: none;
 	    align-items: center;
