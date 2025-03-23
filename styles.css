@@ -323,6 +323,24 @@ margin: 10px 0px;
 
 /*prvmsg*/
 
+.pm-actions bottom {
+    padding: 0px !important;
+    margin: 0px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    float: none;
+}
+
+.pm-actions-buttons {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
 .pm-actions-buttons input[type="submit"].button, 
 .pm-actions-buttons input[type="submit"].button1, 
 .pm-actions-buttons input[type="submit"].button2 
