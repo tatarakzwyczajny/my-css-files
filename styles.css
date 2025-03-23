@@ -323,8 +323,7 @@ margin: 10px 0px;
 
 /*prvmsg*/
 
- .sub-header {
-position: absolute;}
+
 
 .prvmsg .inner .pmlist li.row {
 	background: transparent;
@@ -1275,7 +1274,7 @@ animation: pulseCTA 1s forwards;}
 
 .sub-header {
     height: 200px;
-    position: relative;
+    position: absolute;
     text-align: center;
     display: -ms-grid;
     display: grid;
