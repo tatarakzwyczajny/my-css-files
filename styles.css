@@ -2094,7 +2094,7 @@ gap: 0px;
     font-size: 0;
 }
 
-.pagination > a > b, strong {margin: 0px 8px !important;}
+.pagination > a > b, strong {margin: 0px 8px;}
 
 .pagination > a {
   margin-top:0px;
