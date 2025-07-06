@@ -2294,6 +2294,8 @@ input[type="submit"]:hover, .button:hover, .button1:hover, .button2:hover {
 	padding-left:0;
 }
 
+#ptrafic_close {display:none !important;}
+
 
 .postbody .content {
 	margin-left:10px;
