@@ -3203,8 +3203,12 @@ width: 100%;
 
 /* Positionnement tooltip au survol */
 .switcheroo[direction="vertical"] .switcheroo__squircle:hover .switcheroo__popper {
-  opacity: 1;
-  transform: translateY(-50%) scale(1);
+     letter-spacing: 1px;
+    font-weight: 350;
+    font-family: var(--basicfont);
+    font-size: 12px;
+    opacity: 0.5;
+    transform: translateY(-50%) scale(1);
 }
 .switcheroo[direction="horizontal"] .switcheroo__squircle:hover .switcheroo__popper {
   opacity: 1;
