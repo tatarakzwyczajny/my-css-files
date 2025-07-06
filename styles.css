@@ -390,7 +390,7 @@ margin: 10px 0px;
     justify-content: center;
     display: flex;
 }
-.prywatne .pagination > a > b, strong {
+.prywatne > .pagination > a > b, strong {
 	margin: 0px !important;
 }
 
