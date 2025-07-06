@@ -2294,7 +2294,7 @@ input[type="submit"]:hover, .button:hover, .button1:hover, .button2:hover {
 	padding-left:0;
 }
 
-#ptrafic_close {display:none !important;}
+#ptrafic_close, #ptrafic_open {display:none !important;}
 
 
 .postbody .content {
