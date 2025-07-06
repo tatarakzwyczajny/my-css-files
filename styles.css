@@ -1645,7 +1645,7 @@ li.tematy > dl.icon {
     font-family: var(--basicfont);
     font-size: 12px !important;
         background: var(--contrast);
-    flex: auto;
+    flex: inherit;
 }
 
 .subkat a:hover { -webkit-animation: pulseCTA 1s forwards;
