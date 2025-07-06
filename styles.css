@@ -427,7 +427,7 @@ margin: 10px 0px;
 }
 
 #privmsgs-menu { 
-	    height: 42px;
+	    height: 100px;
 	  align-items: center;
   justify-content: center;
     flex-wrap: wrap;
