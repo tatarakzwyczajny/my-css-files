@@ -390,7 +390,9 @@ margin: 10px 0px;
     justify-content: center;
     display: flex;
 }
-
+.prywatne .pagination > a > b, strong {
+	margin: 0px !important;
+}
 .prywatne .pm-actions-buttons input[type="submit"].button, 
 .prywatne .pm-actions-buttons input[type="submit"].button1, 
 .prywatne .pm-actions-buttons input[type="submit"].button2 
@@ -429,7 +431,7 @@ margin: 10px 0px;
 }
 
 .prvmsg .inner .pmlist li.row dl.icon {
-	 
+	 filter: var(--filterinvert2);
 	height: 80px;
 }
 
