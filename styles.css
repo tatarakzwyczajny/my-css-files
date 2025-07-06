@@ -1370,20 +1370,22 @@ border-bottom: none;}
     left: 0;}
 
 .sub-header-path a {
+font-family: var(--fancyfont);
+    font-size: 16px;
+    letter-spacing: 1px;
     flex-wrap: wrap;
     display: flex;
     align-items: center;
     align-content: center;
     top: 15px;
     height: 35px;
-  left: 4%;
+    left: 4%;
     background: var(--forabackground);
     position: relative;
     border-radius: 10px;
     padding: .5% 2%;
     margin-left: 6px;
-    border: var(--border);
-}
+    border: var(--border); }
 
 .sub-header-path a:hover {
   -webkit-animation: pulseCTA 1s forwards;
