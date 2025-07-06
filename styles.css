@@ -534,6 +534,7 @@ ul.topiclist.pmlist.bg_none {
 
 
 .rejestracja > input[type="text"], .inputbox {
+	width: 100%;
 	border-bottom: none !important;
     background-color: transparent;
     color: #444;
@@ -542,9 +543,7 @@ ul.topiclist.pmlist.bg_none {
     padding: 2% !important;
     cursor: text;
     font-size: 1.2rem;
-    padding: 6px !important;
    outline: none;
-      min-height: 60px;
 }
 
 .rejestracja > input[type="text"]:hover, .inputbox:hover {
