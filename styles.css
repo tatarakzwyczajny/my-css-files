@@ -473,10 +473,13 @@ margin: 10px 0px;
     vertical-align: middle;
 	    color: var(--bright2);
     font-weight: 400;
-    font-size: 9px;
-    text-transform: uppercase;
+    font-size: 12px;
     font-family: var(--basicfont);
     letter-spacing: 0.5px;
+}
+
+#privmsgs-menu a:hover {
+color: var(--b2);
 }
 
 #privmsgs-menu > li:hover {
