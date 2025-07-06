@@ -323,6 +323,8 @@ margin: 10px 0px;
 
 /*prvmsg*/
 
+.prywatne .sub-header { display:none;}
+
 .prywatne .right-box {
 	    font-size: 0px;
     align-items: center;
