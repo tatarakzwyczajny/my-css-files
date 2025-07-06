@@ -534,6 +534,7 @@ ul.topiclist.pmlist.bg_none {
 
 
 .rejestracja > input[type="text"], .inputbox {
+	border-bottom: none !important;
     background-color: transparent;
     color: #444;
     border: var(--border);
