@@ -393,6 +393,14 @@ margin: 10px 0px;
 .prywatne .pagination > a > b, strong {
 	margin: 0px !important;
 }
+
+.prywatne .pm-actions-buttons input[type="submit"].button:hover,
+.prywatne .pm-actions-buttons input[type="submit"].button1:hover,
+.prywatne .pm-actions-buttons input[type="submit"].button2:hover {
+    text-transform: none;
+	    background-color: var(--contrast);
+}
+
 .prywatne .pm-actions-buttons input[type="submit"].button, 
 .prywatne .pm-actions-buttons input[type="submit"].button1, 
 .prywatne .pm-actions-buttons input[type="submit"].button2 
