@@ -1304,7 +1304,6 @@ h1.page-title {
 
 .sub-header-info {
     width: 100%;
-    grid-template-columns: 1fr auto 1fr;
     display: grid;
     justify-content: center;
     align-items: center;
@@ -1367,7 +1366,6 @@ animation: pulseCTA 1s forwards;}
 
 .sub-header {
     height: 200px;
-    position: absolute;
     text-align: center;
     display: -ms-grid;
     display: grid;
