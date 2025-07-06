@@ -960,7 +960,11 @@ padding: 2%;}
     height: 150px !important;
     overflow: hidden;}
 
-.profilinfo3 #field_id6 {height:100%;}
+.profilinfo3 #field_id6 {
+	overflow: auto;
+	height:100%;}
+#field_id6 .ajax-profil_valid {
+    width: 20px; }
 
 
 .profilinfo3 #field_id4 {display:none;}
