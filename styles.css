@@ -2741,21 +2741,11 @@ p.fa_like_list a {margin: 0px 5px !important;}
 }
 
 .statistics {
-    height: auto !important;
-    margin-bottom: 20px;
-    position: relative;
-    background: none;
-    padding: 0px;
     width: 100% !important;
-    flex: auto;
-    flex-wrap: wrap;
-    display: flex
-;
 }
 
 .statistics2 {
     height: auto !important;
-    margin-bottom: 20px;
     position: relative;
     background: none;
     padding: 0px;
