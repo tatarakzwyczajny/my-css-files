@@ -2732,11 +2732,11 @@ letter-spacing: 1px;
 
 .statistics strong a {
 	    font-size: 13px;
-    font-family: var(--fancyfont);
+    font-family: var(--basicfont);
     font-weight: 350;
     margin-left: 0px;
 }
-.logged {font:0;}
+.logged {font:0 px;}
 .statistics-item {
 	    width: auto;
     border: none !important;
