@@ -2688,8 +2688,9 @@ p.fa_like_list a {margin: 0px 5px !important;}
     font-size: 12px !important;
     font-weight: 300;}
 .block-footer {display:none;}
+
 .stopka {
-	    height: 250px;
+    height: 250px;
     background: var(--b2);
     flex-wrap: wrap;
     display: flex;
