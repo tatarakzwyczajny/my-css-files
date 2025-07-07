@@ -2729,7 +2729,6 @@ p.fa_like_list a {margin: 0px 5px !important;}
     background: var(--forabackground);
     height: 40px;
     display: flex;
-    position: absolute;
     border: var(--border);
     border-radius: 10px;
     padding: 10px;
