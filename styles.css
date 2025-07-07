@@ -2695,22 +2695,26 @@ p.fa_like_list a {margin: 0px 5px !important;}
 }
 
 .statistics {
-  background: none;
-  padding: 0px;
+    position: absolute;
+    height: 100px;
+    background: none;
+    padding: 0px;
     width: 100%;
     flex: auto;
     flex-wrap: wrap;
     display: flex;
-    color: #FFF;
 }
 
 .statistics-item {
+	    width: auto;
     border: none !important;
     display: flex;
     flex: 20% !important;
     border: var(--border);
     box-shadow: var(--shadow);
     font-size: 0;}
+
+.statistics-item > strong
 
 /*page footer*/
 
