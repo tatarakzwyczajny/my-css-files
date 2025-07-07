@@ -2680,9 +2680,12 @@ p.fa_like_list a {margin: 0px 5px !important;}
 }
 
 /*stopkadol*/
+.dwadziesciacztery {font-size:0;}
+.dwadziesciacztery a {font-family: var(--basicfont);
+    font-size: 12px !important;
+    font-weight: 300;}
 .block-footer {display:none;}
 .stopka {
-       height: 500px;
     background: var(--b2);
     flex-wrap: wrap;
     display: flex;
