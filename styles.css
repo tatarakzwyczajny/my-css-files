@@ -2725,7 +2725,12 @@ p.fa_like_list a {margin: 0px 5px !important;}
 }
 
 .aktuz {
-	    border: var(--border);
+	   box-shadow: var(--shadowout);
+    background: var(--forabackground);
+    height: 40px;
+    display: flex;
+    position: absolute;
+    border: var(--border);
     border-radius: 10px;
     padding: 10px;
     flex: 1;
