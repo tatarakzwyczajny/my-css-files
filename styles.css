@@ -2401,9 +2401,10 @@ input[type="submit"]:hover, .button:hover, .button1:hover, .button2:hover {
 }
 
 .ikonyprofile {
+	    opacity: 0.9;
     top: 82px;
 width: 35px;
-    left: -40px;
+    left: -65px;
     align-items: center;
     align-content: center;
     position: absolute;
@@ -2481,6 +2482,7 @@ width: 35px;
 }
 
 .postprofile-contact {    
+	opacity: 0.8;
 	right:10px;
 	position: absolute;
     display: flex;
