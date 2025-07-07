@@ -2735,12 +2735,11 @@ letter-spacing: 1px;
     font-weight: 350;
     margin-left: 0px;
 }
-
+.logged {font:0;}
 .statistics-item {
 	    width: auto;
     border: none !important;
     display: flex;
-    flex: 20% !important;
     border: var(--border);
     box-shadow: var(--shadow);
     font-size: 0;}
