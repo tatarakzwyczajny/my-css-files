@@ -2881,7 +2881,7 @@ input[type="text"]:hover, .inputbox:hover {animation:none;}
     width: 100%;
     box-shadow: var(--shadow);
  border-radius: 3px;
-    border: var(--border);
+    border: var(--border) !important;
 background: var(--b2);}
 
 
@@ -2913,10 +2913,6 @@ background: var(--b2);}
 }
 
 /*buttons*/ 
-a.sceditor-button.sceditor-button-source {display:none;}
-a.sceditor-button.sceditor-button-embed {display:none;}
-a.sceditor-button.sceditor-button-youtube {display:none;}
-a.sceditor-button.sceditor-button-twemojifa {display:none;}
 div.sceditor-group {border: none !important;}
 .sceditor-container .sceditor-button {
     background-color: var(--contrast);
