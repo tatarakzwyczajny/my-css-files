@@ -2751,8 +2751,14 @@ width: 80%;
 filter: var(--filterinvert2);
 }
 
-.przedst {    display: flex;
+.przedst {
+	    border: var(--border);
+    padding: 5px 10px;
+    border-radius: 10px;
+    background: var(--forabackground);
+    display: flex;
     flex-wrap: wrap;
+    flex: 100%;
 }
 
 .statistics-item a {margin: 0px;}
