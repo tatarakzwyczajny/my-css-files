@@ -2796,7 +2796,7 @@ filter: var(--filterinvert2);
 
 #page-footer .wrap {
          background: var(--footer);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     position: relative;
     display: flex;
