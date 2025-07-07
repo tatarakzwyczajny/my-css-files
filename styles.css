@@ -1417,14 +1417,16 @@ animation: pulseCTA 1s forwards;}
     width: 100%;
 }
 .sub-header-buttons {
+    top: -20px;
+    left: 2%;
     justify-content: end;
     text-align: center;
-    position: relative;
+    position: absolute;
     flex-wrap: wrap;
     align-content: center;
     align-items: center;
     display: flex;
-    flex: 2;
+    flex: 1;
 }
 
 #site-desc {
