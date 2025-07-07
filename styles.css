@@ -2717,6 +2717,7 @@ p.fa_like_list a {margin: 0px 5px !important;}
 }
 
 .stopkareszta {
+	overflow:auto;
   box-shadow: var(--shadowout);
     border-radius: 10px;
     margin-left: 10px;
@@ -2737,7 +2738,6 @@ p.fa_like_list a {margin: 0px 5px !important;}
     border: var(--border);
     border-radius: 10px;
     padding: 10px;
-    flex: 1;
 }
 
 .statistics {
@@ -2797,7 +2797,11 @@ letter-spacing: 1px;
     font-weight: 350;
     margin-left: 0px;
 }
-.logged {font-size:0px;}
+.logged {
+margin-top: -12px;
+    flex: 100%;
+    font-size: 0px;
+}
 .statistics-item {
 	    width: auto;
     border: none !important;
