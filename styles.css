@@ -2696,6 +2696,7 @@ p.fa_like_list a {margin: 0px 5px !important;}
 }
 
 .statistics {
+	margin-bottom: 20px;
       height: 30px !important;
     position: relative;
     background: none;
