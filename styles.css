@@ -2842,6 +2842,11 @@ font-size:0px;}
 
 /*posting*/
 
+.odpowiedzbit {
+	display: block;
+	width: 100%;
+}
+
 .massaging {
     margin-bottom: 20px;
     flex-wrap: wrap;
