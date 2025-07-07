@@ -2322,7 +2322,7 @@ input[type="submit"]:hover, .button:hover, .button1:hover, .button2:hover {
     height: 100%;
     background: var(--darkerbackground); }
 
-.niepatrz > .sub-header { height: auto;}
+.niepatrz > .sub-header { height: 80px;}
 .postbody {
       position: relative;
     margin-left: 0 !important;
