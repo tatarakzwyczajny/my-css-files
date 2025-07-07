@@ -2714,7 +2714,24 @@ p.fa_like_list a {margin: 0px 5px !important;}
     box-shadow: var(--shadow);
     font-size: 0;}
 
-.statistics-item > strong
+.stopkakwadrat {    align-content: center !important;
+    flex-wrap: wrap;
+    display: flex !important;
+    position: relative;
+    border: var(--border);
+    width: 30px;
+    height: 30px;
+    background: var(--forabackground);
+    font-size: 0;
+    padding: 0px;
+    color: #FFF;
+  box-shadow: var(--shadow);
+border-radius: 10px;}
+
+.topics .row .lastpost strong    {margin: 0px  !important;}
+.stopkaautor strong {margin: 0px  !important;}
+
+.quickreply > .h3 {display:none; }
 
 /*page footer*/
 
