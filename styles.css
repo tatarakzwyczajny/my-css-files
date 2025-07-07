@@ -1405,7 +1405,6 @@ animation: pulseCTA 1s forwards;}
 }
 
 .sub-header {
-	position: absolute;
     text-align: center;
     display: -ms-grid;
     display: grid;
