@@ -2689,6 +2689,7 @@ p.fa_like_list a {margin: 0px 5px !important;}
     font-weight: 300;}
 .block-footer {display:none;}
 .stopka {
+	    height: 250px;
     background: var(--b2);
     flex-wrap: wrap;
     display: flex;
@@ -2702,11 +2703,16 @@ p.fa_like_list a {margin: 0px 5px !important;}
 }
 
 .stopkaobrazek {
-      height: 50px;
+ background: var(--footer);
+    background-size: cover;
+    border-radius: 10px 0px 0px 10px;
+    border: var(--border);
+    border-right: none;
     position: relative;
-    flex: 1;
+    flex: 0.8;
     display: flex;
     flex-wrap: wrap;
+    box-shadow: var(--shadowout);
 }
 
 .stopkareszta {
