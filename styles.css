@@ -2706,7 +2706,7 @@ p.fa_like_list a {margin: 0px 5px !important;}
 .stopkaobrazek {
  background: var(--footer);
     background-size: cover;
-    border-radius: 10px 0px 0px 10px;
+    border-radius: 10px;
     border: var(--border);
     border-right: none;
     position: relative;
@@ -2717,9 +2717,14 @@ p.fa_like_list a {margin: 0px 5px !important;}
 }
 
 .stopkareszta {
-    height: 50px;
+  box-shadow: var(--shadowout);
+    border-radius: 10px;
+    margin-left: 10px;
+    height: 100% !important;
+    padding: 10px;
+    border: var(--border);
     position: relative;
-    flex: 2;
+    flex: 1;
     display: flex;
     flex-wrap: wrap;
 }
