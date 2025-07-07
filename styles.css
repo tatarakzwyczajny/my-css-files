@@ -2683,7 +2683,11 @@ p.fa_like_list a {margin: 0px 5px !important;}
 }
 
 /*stopkadol*/
-.dwadziesciacztery {font-size:0;}
+.dwadziesciacztery {
+	text-align: justify;
+    font-size: 0;
+    flex: 100%;
+}
 .dwadziesciacztery a {font-family: var(--basicfont);
     font-size: 12px !important;
     font-weight: 300;}
