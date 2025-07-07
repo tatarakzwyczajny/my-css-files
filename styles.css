@@ -2735,17 +2735,20 @@ p.fa_like_list a {margin: 0px 5px !important;}
 }
 
 .aktuz {
-	   box-shadow: var(--shadowout);
+    box-shadow: var(--shadowout);
     background: var(--forabackground);
     height: 40px;
     display: flex;
     border: var(--border);
     border-radius: 10px;
     padding: 10px;
+    margin: 15px 0px 15px 0px;
 }
 
 .statistics {
+	    display: flex;
     width: 100% !important;
+	background: none;
 }
 
 .statistics2 {
