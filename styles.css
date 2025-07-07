@@ -2680,12 +2680,9 @@ p.fa_like_list a {margin: 0px 5px !important;}
 }
 
 /*stopkadol*/
-
-.statistics-item {
-font-size:0px;}
-
-
 .stopka {
+       height: 500px;
+    background: var(--b2);
     flex-wrap: wrap;
     display: flex;
     border: var(--border);
@@ -2694,7 +2691,8 @@ font-size:0px;}
     margin-bottom: 24px;
     overflow: hidden;
     padding: 18px;
-    font-family: var(--basicfont);}
+    font-family: var(--basicfont);
+}
 
 .statistics {
   background: none;
@@ -2707,11 +2705,12 @@ font-size:0px;}
 }
 
 .statistics-item {
+    border: none !important;
     display: flex;
-    flex: auto;
+    flex: 20% !important;
     border: var(--border);
     box-shadow: var(--shadow);
-  font-size: 0;}
+    font-size: 0;}
 
 /*page footer*/
 
