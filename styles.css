@@ -2380,7 +2380,6 @@ input[type="submit"]:hover, .button:hover, .button1:hover, .button2:hover {
 }
 .post::before {content: "";
 	          background: transparent;
-    box-shadow: var(--shadowout);
     z-index: -9;
     margin: -10px !important;
     position: absolute;
