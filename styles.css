@@ -30,6 +30,7 @@
   --poczatek2: url(https://i.imgur.com/wVeCPcG.png);
    --poczatek3: url(https://i.imgur.com/ljWdR22.png);
   --poczatek4: url(https://i.imgur.com/dGY7Ekp.png);
+	--footer: url(https://i.imgur.com/kdzII7E.png);
   --filtercolor: grayscale(100%) brightness(28%) contrast(92%);
   --b1: #1e1e1e;
   --b2: #141415;
@@ -68,6 +69,7 @@
   --poczatek2: url(https://i.imgur.com/LdcWwjG.png);
   --poczatek3: url(https://i.imgur.com/X6f6lZd.png);
    --poczatek4: url(https://i.imgur.com/D5BQMuW.png);
+	 --footer: url(https://i.imgur.com/OymJpgW.png);
   --filtercolor: sepia(100%);
   --b2: #dbdbdb;
    --b3: #e0e0e0;
@@ -2793,7 +2795,10 @@ filter: var(--filterinvert2);
 
 
 #page-footer .wrap {
-      position: relative;
+         background: var(--footer);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
@@ -2802,14 +2807,13 @@ filter: var(--filterinvert2);
     max-width: 1400px;
     padding: 0 36px;
     width: 100%;
-  height: 300px;
+    height: 400px;
 }
 
 #page-footer .wrap:last-child {
-    position: absolute;
+   position: absolute;
     bottom: 40px;
-    max-height: 20px;
-        font-size: 0px;
+    max-height: 0px;
 }
 
 
