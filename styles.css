@@ -2942,6 +2942,16 @@ div.sceditor-group {border: none !important;}
 div.sceditor-toolbar {background: var(--b3) !important;}
 .sceditor-button.active, .sceditor-button:active, .sceditor-button:hover {    background: var(--b1) !important;}
 
+.sceditor-container iframe, .sceditor-container textarea {
+    text-align: justify;
+    width: 100% !important;
+    background: var(--b2) !important;
+    border: 0;
+    color: var(--bright);
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
 
 /*word count*/
 
