@@ -2684,13 +2684,22 @@ p.fa_like_list a {margin: 0px 5px !important;}
 
 /*stopkadol*/
 .dwadziesciacztery {
-	text-align: justify;
+	box-shadow: var(--shadow);
+    border: var(--border);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: justify;
     font-size: 0;
     flex: 100%;
 }
-.dwadziesciacztery a {font-family: var(--basicfont);
+.dwadziesciacztery a {
+	    font-family: var(--basicfont);
     font-size: 12px !important;
-    font-weight: 300;}
+    letter-spacing: 1px;
+    font-weight: 300;
+		     }
+
+
 .block-footer {display:none;}
 
 .stopka {
