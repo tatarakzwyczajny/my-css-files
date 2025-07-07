@@ -2730,7 +2730,9 @@ p.fa_like_list a {margin: 0px 5px !important;}
     box-shadow: var(--shadow);
     font-size: 0;}
 
-.stopkakwadrat {    align-content: center !important;
+.stopkakwadrat {    
+	    justify-content: center;
+	align-content: center !important;
     flex-wrap: wrap;
     display: flex !important;
     position: relative;
@@ -2743,6 +2745,17 @@ p.fa_like_list a {margin: 0px 5px !important;}
     color: #FFF;
   box-shadow: var(--shadow);
 border-radius: 10px;}
+
+.stopkakwadrat img {
+width: 80%;
+filter: var(--filterinvert2);
+}
+
+.przedst {    display: flex;
+    flex-wrap: wrap;
+  flex: 100%;}
+
+.statistics-item a {margin: 0px;}
 
 .topics .row .lastpost strong    {margin: 0px  !important;}
 .stopkaautor strong {margin: 0px  !important;}
