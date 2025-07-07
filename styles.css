@@ -2680,6 +2680,7 @@ p.fa_like_list a {margin: 0px 5px !important;}
 }
 
 /*stopkadol*/
+.block-footer {display:none;}
 .stopka {
        height: 500px;
     background: var(--b2);
@@ -2713,12 +2714,21 @@ p.fa_like_list a {margin: 0px 5px !important;}
 .statistics-item a {margin: 0px;}
 
 .statistics-item > strong {
-	    font-family: var(--basicfont);
+letter-spacing: 1px;
+    color: var(--bright);
+    font-family: var(--basicfont);
     padding: 0px;
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 14px;
+    font-weight: 350;
     line-height: 29px;
     vertical-align: -3px;
+}
+
+.statistics strong a {
+	    font-size: 13px;
+    font-family: var(--fancyfont);
+    font-weight: 350;
+    margin-left: 0px;
 }
 
 .statistics-item {
@@ -2739,7 +2749,7 @@ p.fa_like_list a {margin: 0px 5px !important;}
     border: var(--border);
     width: 30px;
     height: 30px;
-    background: var(--forabackground);
+    background: var(--contrast);
     font-size: 0;
     padding: 0px;
     color: #FFF;
@@ -2747,18 +2757,19 @@ p.fa_like_list a {margin: 0px 5px !important;}
 border-radius: 10px;}
 
 .stopkakwadrat img {
-width: 80%;
+width: 50%;
 filter: var(--filterinvert2);
 }
 
 .przedst {
-	    border: var(--border);
-    padding: 5px 10px;
+    box-shadow: var(--shadow3);
+    margin-right: 10px;
+    border: var(--border);
+    padding: 2px 10px;
     border-radius: 10px;
     background: var(--forabackground);
     display: flex;
     flex-wrap: wrap;
-    flex: 100%;
 }
 
 .statistics-item a {margin: 0px;}
