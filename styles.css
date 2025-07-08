@@ -2682,7 +2682,15 @@ p.fa_like_list a {margin: 0px 5px !important;}
     }
 }
 
+/*ostatnietematy*/
+.ostematy {
+flex: 0.9;
+	
+}
+
 /*stopkadol*/
+
+
 .dwadziesciacztery {
 	box-shadow: var(--shadow);
     border: var(--border);
