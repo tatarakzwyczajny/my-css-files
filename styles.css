@@ -508,6 +508,7 @@ margin: 10px 0px;
 }
 
 .prywatne {
+	width: 800px;
 	    padding: 2%;
     background: var(--b3);
     border-radius: 10px;}
