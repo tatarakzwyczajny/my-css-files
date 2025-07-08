@@ -495,10 +495,6 @@ margin: 10px 0px;
     letter-spacing: 0.5px;
 }
 
-#privmsgs-menu a:hover {
-color: var(--b2);
-}
-
 #privmsgs-menu > li:hover {
 	    background: var(--contrast);
   -webkit-animation: pulseCTA 1s forwards;
