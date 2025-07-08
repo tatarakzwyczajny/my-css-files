@@ -1410,7 +1410,7 @@ border-bottom: none;}
     left: 0;}
 
 .sub-header-path a {
-font-family: var(--fancyfont);
+font-family: var(--basicfont);
     font-size: 12px;
     letter-spacing: 1px;
     flex-wrap: wrap;
