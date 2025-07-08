@@ -1157,16 +1157,18 @@ padding: 0px;}
     overflow: auto;}
 
 #fa_toolbar #fa_right #notif_list li {
-      color: var(--bright);
-  letter-spacing: 0.5px;
-margin-bottom: 10px;
+      display: flex !important;
+    flex-wrap: wrap;
+    color: var(--bright);
+    letter-spacing: 0.5px;
+    margin-bottom: 10px;
     font-size: 11px !important;
     min-width: 100%;
     padding: 8px 9px !important;
     background: var(--b4);
     border: var(--border);
     box-shadow: var(--shadowout);
-  border-radius: 10px;
+    border-radius: 10px;
 }
 
 #fa_toolbar #fa_right #notif_list li.unread {
