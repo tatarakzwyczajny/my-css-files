@@ -3,6 +3,7 @@
 /*kolorki*/
 
 :root {
+	background: transparent;
     color-scheme: dark;
      --neutral: #FFF
      --accentClr: blue;
@@ -47,6 +48,7 @@
 
 
  [data-color-scheme="light"] {
+	 background: transparent;
   --darkerbackground: #c6c6c6;
   --contrast: #7c8ac3;
     color-scheme: light;
