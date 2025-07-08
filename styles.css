@@ -57,7 +57,7 @@
   --urlbackground: url(https://i.imgur.com/ULX2qUi.png);
   --naglowek: url(https://i.imgur.com/yPoPrZO.png);
   --shadow: none;
-   --shadowout: 0px 0px 45px -23px rgba(66, 68, 90, 1);
+   --shadowout: 1px 0px 3px 0px rgba(66, 68, 90, 1);
   --shadow3: -9px 0px 10px -4px rgba(0,0,0,0.6);
   --border: 1px solid rgba(17, 17, 17, 0.1);
   --separator: black;
@@ -2684,6 +2684,9 @@ p.fa_like_list a {margin: 0px 5px !important;}
 
 /*ostatnietematy*/
 .ostematy {
+	    margin-right: 10px;
+	    border-radius: 10px;
+    overflow: hidden;
 	width:80%;
     flex: 0.9;
     filter: var(--filterinvert);
@@ -2747,7 +2750,7 @@ p.fa_like_list a {margin: 0px 5px !important;}
   box-shadow: var(--shadowout);
     border-radius: 10px;
     margin-left: 10px;
-    height: 100% !important;
+    height: 80% !important;
     padding: 10px;
     border: var(--border);
     position: relative;
