@@ -2702,11 +2702,15 @@ p.fa_like_list a {margin: 0px 5px !important;}
 
 
 .dwadziesciacztery {
-	box-shadow: var(--shadow);
+	flex-wrap: wrap;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: var(--shadow);
     border: var(--border);
     border-radius: 10px;
     padding: 10px;
-    text-align: justify;
+    text-align: left;
     font-size: 0;
     flex: 100%;
 }
@@ -2749,15 +2753,16 @@ p.fa_like_list a {margin: 0px 5px !important;}
 }
 
 .stopkareszta {
-	overflow:auto;
-  box-shadow: var(--shadowout);
+    background: var(--forabackground);
+    overflow: auto;
+    box-shadow: var(--shadowout);
     border-radius: 10px;
     margin-left: 10px;
-    height: 80% !important;
+    height: 100% !important;
     padding: 10px;
     border: var(--border);
     position: relative;
-    flex: 1;
+    flex: 2;
     display: flex;
     flex-wrap: wrap;
 }
