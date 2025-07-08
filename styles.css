@@ -60,7 +60,7 @@
   --urlbackground: url(https://i.imgur.com/ULX2qUi.png);
   --naglowek: url(https://i.imgur.com/yPoPrZO.png);
   --shadow: none;
-   --shadowout: 1px 0px 2px 0px rgba(66, 68, 90, 0.5);
+   --shadowout: 1px 0px 2px 0px rgba(66, 68, 90, 0.2);
   --shadow3: -9px 0px 10px -4px rgba(0,0,0,0.6);
   --border: 1px solid rgba(17, 17, 17, 0.1);
   --separator: black;
@@ -2727,7 +2727,6 @@ p.fa_like_list a {margin: 0px 5px !important;}
     border: var(--border);
     border-radius: 20px;
     box-shadow: var(--shadow);
-    margin-bottom: 24px;
     overflow: hidden;
     padding: 18px;
     font-family: var(--basicfont);
