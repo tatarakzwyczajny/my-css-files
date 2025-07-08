@@ -1222,7 +1222,15 @@ margin-bottom: 10px;
 }
 
 #fa_toolbar #fa_right #notif_list li .content {
-  width:100%;
+  display: flex !important;
+    flex-wrap: wrap;
+    min-height: auto;
+    margin: 0;
+    display: block;
+    overflow: visible;
+    vertical-align: top;
+    color: inherit !important;
+    line-height: inherit !important;
   
 }
 
