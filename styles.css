@@ -2711,7 +2711,7 @@ flex: 0.9;
 .block-footer {display:none;}
 
 .stopka {
-    height: 250px;
+    height: 350px;
     background: var(--b2);
     flex-wrap: wrap;
     display: flex;
