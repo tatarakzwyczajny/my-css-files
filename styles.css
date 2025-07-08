@@ -442,7 +442,11 @@ margin: 10px 0px;
 	    font-family: var(--basicfont);
 }
 .prvmsg .inner .pmlist li.row {
-	background: transparent;
+	background: transparent;    border: var(--border);
+    box-shadow: var(--shadowout);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background: var(--darkerbackground);
 }
 
 .prvmsg .inner .pmlist li.row dl.icon {
