@@ -1165,6 +1165,19 @@ margin-bottom: 10px;
   border-radius: 10px;
 }
 
+#fa_toolbar #fa_right #notif_list li.unread {
+      color: var(--bright);
+  letter-spacing: 0.5px;
+margin-bottom: 10px;
+    font-size: 11px !important;
+    min-width: 100%;
+    padding: 8px 9px !important;
+    background: var(--b4);
+    border: var(--border);
+    box-shadow: var(--shadowout);
+  border-radius: 10px;
+}
+
 #fa_toolbar #fa_right #notif_list li a.delete {
       color: var(--contrast) !important;
     display: flex !important;
