@@ -32,6 +32,7 @@
    --poczatek3: url(https://i.imgur.com/AewnWCo.png);
   --poczatek4: url(https://i.imgur.com/dGY7Ekp.png);
 	--footer: url(https://i.imgur.com/ZaFwRkv.png);
+	--stopkaimg: url(https://i.imgur.com/TJ8dNqh.png);
   --filtercolor: grayscale(100%) brightness(28%) contrast(92%);
   --b1: #1e1e1e;
   --b2: #141415;
@@ -2735,7 +2736,7 @@ p.fa_like_list a {margin: 0px 5px !important;}
 .stopkaobrazek {
 	justify-content: center;
     align-items: center;
- background: var(--footer);
+ background: var(--stopkaimg);
     background-size: cover;
     border-radius: 10px;
     border: var(--border);
