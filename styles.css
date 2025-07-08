@@ -2698,6 +2698,99 @@ p.fa_like_list a {margin: 0px 5px !important;}
     box-shadow: var(--shadowout);
 }
 
+.aktuz:first-of-type {
+      margin: 0px 0px 10px 0px;
+}
+
+.nowewatki {
+         background: var(--forabackground);
+    border-radius: 10px;
+    border: var(--border);
+    box-shadow: var(--shadowout);
+      padding: 10px;
+    margin-right: 10px;
+    flex: 2;
+    flex-direction: column;
+    flex-wrap: wrap;
+    display: flex;
+}
+.mod-recent-info {
+      border-radius: 10px;
+    border: var(--border);
+      z-index: 9;
+    margin-top: -15px !important;
+    padding: 20px 0px 10px 0px;
+  align-items: center;
+      margin: 10px 0px;
+    flex: 100%;
+    font-size: 11px;
+    clear: both;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mod-recent-row + .mod-recent-row {border: none;}
+
+.mod-recent-row {
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.mod-recent-row a {
+      background: var(--darkerbackground);
+    z-index: 999;
+      text-align: center;
+    width: 100%;
+  box-shadow: var(--shadowout);
+    border-radius: 10px;
+    padding: 5px !important;
+    font-size: 14px;
+    font-family: var(--basicfont);
+    font-weight: 400 !important;
+    border: var(--border);
+}
+body.external-module {background: transparent !important;}
+
+.js-marquee-wrapper {        background: transparent;
+    margin-top: 30px !important;
+    animation: none !important;
+}
+
+.js-marquee {padding: 10px;}
+
+.module .h3 {display:none;}
+
+.module {     background: transparent;
+    color: #444;
+    margin-bottom: 24px;
+  padding: 0px;}
+
+.external-module .module {
+      background: transparent;
+    overflow: visible;
+    height: 100%;
+    margin: 0px !important;
+}
+
+#comments_scroll_div:after {
+  box-shadow: none;
+}
+
+#comments_scroll_div {    height: 100%;
+    padding: 0 18px;
+    position: relative;
+  
+}
+
+.marquee {overflow: visible !important;
+    height: 100%;
+}
+
+iframe {
+  height: 100%;
+}
+
 /*stopkadol*/
 
 
