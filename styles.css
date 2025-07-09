@@ -368,25 +368,31 @@ margin: 10px 0px;
 }
 
 .prywatne .right-box a {
- flex-wrap: wrap;
- display: flex;
- box-shadow: none;
- align-content: center;
- justify-content: center;
- min-height: 30px;
- background-color: var(--b5);
- border-radius: 2px;
- border: var(--border);
- margin: 1%;
- min-width: 88px;
- padding: 0.5%;
- text-align: center;
- vertical-align: middle;
- color: var(--bright2);
- font-weight: 400;
- font-size: 12px;
- font-family: var(--basicfont);
- letter-spacing: 0.5px
+    padding: 10px !important;
+    min-height: 30px !important;
+    border-radius: 10px !important;
+    flex-wrap: wrap;
+    display: flex;
+    box-shadow: none;
+    align-content: center;
+    justify-content: center;
+    background-color: var(--b5);
+    border: var(--border);
+    margin: 1%;
+    min-width: 88px;
+    text-align: center;
+    vertical-align: middle;
+    color: var(--bright2);
+    font-weight: 400;
+    font-size: 12px;
+    font-family: var(--basicfont);
+    letter-spacing: 0.5px;
+}
+
+.prywatne .right-box a:hover {
+	background: var(--contrast);
+    -webkit-animation: pulseCTA 1s forwards;
+    animation: pulseCTA 1s forwards;
 }
 
 .pm-actions bottom {
