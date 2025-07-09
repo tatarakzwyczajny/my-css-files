@@ -3217,16 +3217,16 @@ filter: var(--filterinvert2)
 /*buttons*/
 div.sceditor-group {border: none !important}
 .sceditor-container .sceditor-button {
- background-color: var(--contrast);
- border-style: none !important;
- display: flex;
- align-items: center;
- justify-content: center;
- text-indent: 0;
- color: #333;
- border: var(--border);
- margin: 2px;
- height: 35px !important
+    background-color: var(--contrast);
+    border-style: none !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-indent: 0;
+    color: #333;
+    border: var(--border);
+    margin: 2px;
+    height: 25px !important;
 }
 
 .sceditor-button:hover { -webkit-animation: pulseCTA 1s forwards;
@@ -3235,8 +3235,15 @@ div.sceditor-group {border: none !important}
 .sceditor-container .sceditor-button.disabled {
  color: #AAA
 }
-.sceditor-toolbar {padding: 2% !important;
+.sceditor-toolbar {
+	    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+	padding: 2% !important;
  border-bottom: none !important}
+
+
+
 .sceditor-group { padding: 0px !important;
  margin: 0px !important}
 div.sceditor-toolbar {background: var(--b3) !important}
