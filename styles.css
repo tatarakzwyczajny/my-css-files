@@ -1415,7 +1415,7 @@ border-bottom: none}
 .sub-header-path {
  padding-left: 2%;
  border-bottom: var(--border);
- z-index: 999;
+ z-index: 99999;
  align-content: center;
  background: var(--forabackground);
  top: 0;
