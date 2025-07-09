@@ -2041,14 +2041,14 @@ ul.topiclist.topics.bg_none > li.row > dl.icon {
 }
 
 li.row:hover > dd.posts {
-  border: none !important;}
+  border: var(--border) !important;}
 li.row:hover > dd.views {
-  border: none !important;}
+  border: var(--border) !important;}
 
 .postsviews > dd.posts {
       position: relative;
     background: var(--forabackground);
-    border: var(--border);
+    border: var(--border) !important;
     border-radius: 10px;
     box-shadow: var(--shadow);
     min-width: 55px;
@@ -2103,7 +2103,7 @@ dd.lastpost > span.lastpost-inf0s img {
 .postsviews > dd.views  {
   position: relative;
     background: var(--forabackground);
-    border: var(--border);
+    border: var(--border) !important;
     border-radius: 10px;
     box-shadow: var(--shadow);
     min-width: 55px;
