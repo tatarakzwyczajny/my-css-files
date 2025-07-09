@@ -1726,24 +1726,26 @@ li.tematy > dl.icon {
 }
 
 .subkat {
- padding-right: 20px;
- font-size: 0px;
- flex: 100%;
- position: relative;
- flex-wrap: wrap;
- gap: 2px 5px;
- display: flex}
+    width: 100% !important;
+    padding-right: 20px;
+    font-size: 0px;
+    flex: 100%;
+    position: relative;
+    flex-wrap: wrap;
+    gap: 2px 5px;
+    display: flex
+}
 
 .subkat a{
- color: var(--bright);
- padding: 3px 6px 1px;
- text-align: center;
- border-radius: 10px;
- border: var(--border);
- font-family: var(--basicfont);
- font-size: 12px !important;
- background: var(--contrast);
- flex: inherit
+position: relative;
+    color: var(--bright);
+    padding: 3px;
+    text-align: center;
+    border-radius: 10px;
+    border: var(--border);
+    font-family: var(--basicfont);
+    font-size: 12px !important;
+    background: var(--contrast);
 }
 
 .subkat a:hover { -webkit-animation: pulseCTA 1s forwards;
