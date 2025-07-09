@@ -2475,15 +2475,15 @@ input[type="submit"]:hover, .button:hover, .button1:hover, .button2:hover {
  height: 100%}
 
 .post-head {
- margin-bottom: 10px;
-background: var(--forabackground);
- border-radius: 10px 10px 00px 0px;
- border: 0;
- flex-wrap: wrap;
- display: flex;
- flex: 100%;
- padding: 40px 20px 10px;
- flex-direction: row-reverse
+margin-bottom: 10px;
+    background: var(--darkerbackground);
+    border-radius: 10px 10px 00px 0px;
+    border-bottom: var(--border);
+    flex-wrap: wrap;
+    display: flex;
+    flex: 100%;
+    padding: 40px 20px 10px;
+    flex-direction: row-reverse;
 }
 
 .ikonyprofile {
