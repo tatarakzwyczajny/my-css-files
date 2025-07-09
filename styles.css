@@ -988,7 +988,7 @@ padding: 2%}
  overflow: hidden}
 
 .profilinfo3 #field_id6 {
-	overflow: auto;
+	overflow: hidden;
 	height: 100%}
 #field_id6 .ajax-profil_valid {
  width: 20px }
