@@ -56,7 +56,7 @@
     color-scheme: light;
      --neutral: #000;
      --accentClr: red;
-  --forabackground: #c1cbe7;
+  --forabackground: #a4b3e0;
 	 --forabackground2: #8c9dcf;
    --urlbody: url(https://i.imgur.com/6YHkqLP.png);
   --urlbackground: url(https://i.imgur.com/ULX2qUi.png);
@@ -510,10 +510,13 @@ margin: 10px 0px;
 }
 
 .prywatne {
-	margin: 0% 8%;
+margin: 0% 8%;
     width: 86%;
-	    padding: 2%;
-    background: var(--b3);
+    padding: 2%;
+    background: var(--forabackground2);
+    background-image: var(--poczatek2);
+    background-repeat: no-repeat;
+    background-size: contain;
     border-radius: 10px;}
 
 #privmsgs-menu {
