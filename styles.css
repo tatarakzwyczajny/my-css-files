@@ -2249,7 +2249,7 @@ gap: 0px;
 }
 .subtematy {
   position:relative;
-  background: var(--b3);
+  background: var(--forabackground2);
     display: flex;
     border: var(--border);
     border-radius: 20px;
