@@ -14,8 +14,8 @@
  --contrast: #2c3779;
  --bright: #a3a3a3;
  --bright2: #7d7d7d;
- --urlbody: url(https: //i.imgur.com/IDqnGcx.png);
- --urlbackground: url(https: //i.imgur.com/IDqnGcx.png);
+ --urlbody: url(https://i.imgur.com/IDqnGcx.png);
+ --urlbackground: url(https://i.imgur.com/IDqnGcx.png);
  --border: 1px solid rgba(54, 54, 54, 0.1);
  --filter: grayscale(70%) brightness(81%);
  --shadow: 0 0 2px 2px rgba(19, 19, 19, .55), 0 0 2px 2px rgba(19, 19, 19, .55) inset;
@@ -33,7 +33,7 @@
  --poczatek3: url(https://i.imgur.com/qKVkwt1.png);
  --poczatek4: url(https://i.imgur.com/yXlDtMM.png);
 	--footer: url(https://i.imgur.com/ZaFwRkv.png);
-	--stopkaimg: url(https: //i.imgur.com/TJ8dNqh.png);
+	--stopkaimg: url(https://i.imgur.com/TJ8dNqh.png);
  --filtercolor: grayscale(100%) brightness(28%) contrast(92%);
  --b1: #1e1e1e;
  --b2: #141415;
@@ -58,9 +58,9 @@
  --accentClr: red;
  --forabackground: #a4b3e0;
 	 --forabackground2: #8c9dcf;
- --urlbody: url(https: //i.imgur.com/6YHkqLP.png);
- --urlbackground: url(https: //i.imgur.com/ULX2qUi.png);
- --naglowek: url(https: //i.imgur.com/yPoPrZO.png);
+ --urlbody: url(https://i.imgur.com/6YHkqLP.png);
+ --urlbackground: url(https://i.imgur.com/ULX2qUi.png);
+ --naglowek: url(https://i.imgur.com/yPoPrZO.png);
  --shadow: inset 0px 0px 24px -13px rgba(66, 68, 90, 0.2);
  --shadowout: 1px 0px 2px 0px rgba(66, 68, 90, 0.2);
  --shadow3: -9px 0px 10px -4px rgba(0,0,0,0.6);
@@ -74,8 +74,8 @@
  --poczatek2: url(https://i.imgur.com/LdcWwjG.png);
  --poczatek3: url(https://i.imgur.com/X6f6lZd.png);
  --poczatek4: url(https://i.imgur.com/gKzVMqe.png);
-	 --footer: url(https: //i.imgur.com/x5Tvwyu.png);
-	 --stopkaimg: url(https: //i.imgur.com/Z8ryRff.png);
+	 --footer: url(https://i.imgur.com/x5Tvwyu.png);
+	 --stopkaimg: url(https://i.imgur.com/Z8ryRff.png);
  --filtercolor: sepia(100%);
  --b2: #c6cbe5;
  --b3: #c6cbe5;
