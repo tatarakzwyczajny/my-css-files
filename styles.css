@@ -609,7 +609,7 @@ dl#field_id:nth-of-type(2) {display: none}
  top: 5px;
  z-index: 99}
 .profilinfo5 {
-background: var(--b3);
+    background: var(--forabackground);
  box-shadow: var(--shadowout);
  border: var(--border);
  border-radius: 10px;
@@ -687,7 +687,7 @@ background: var(--b3);
 .profilinfo7 {
  height: 60px;
  box-shadow: var(--shadowout);
- background: var(--b3);
+     background: var(--forabackground);
  border-radius: 10px;
  border: var(--border);
  margin: 0px 10px;
@@ -834,7 +834,7 @@ background: var(--b3);
 
 .profilinfo4 dl.details dt {display: none}
 .profilinfo4 dl.details dd {
- background: var(--b3);
+background: var(--forabackground);
  border: var(--border);
  border-radius: 10px;
  width: 100% !important;
@@ -946,7 +946,7 @@ margin: 0px 10px 40px 10px;
 padding: 0px}
 .profilinfo {
  box-shadow: var(--shadow);
- background: var(--b3);
+     background: var(--forabackground);
  align-items: center;
  display: flex;
  flex-wrap: wrap;
@@ -1034,7 +1034,7 @@ display: flex;
  background: yellow !important}
 
 .profilpod {
- background: var(--forabackground);
+ background: var(--forabackground2);
  width: 96%;
  margin-left: 3%;
  position: relative;
@@ -1058,7 +1058,6 @@ display: flex;
 
 .profilpod h1.page-title {
  border-radius: 10px 10px 0px 0px;
- background: var(--forabackground);
  position: relative;
  align-items: center;
  display: flex;
