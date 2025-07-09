@@ -2684,6 +2684,7 @@ box-shadow: none;
  display: flex;
  flex-wrap: wrap
 }
+.likesbutton:first-of-type {margin-bottom: 10px;}
 
 .rep-nb {
  border-radius: none;
