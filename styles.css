@@ -51,7 +51,7 @@
 
  [data-color-scheme="light"] {
 	 background: transparent;
-  --darkerbackground: #dad9db;
+  --darkerbackground: #7c8ac3;
   --contrast: #7c8ac3;
     color-scheme: light;
      --neutral: #000;
@@ -2851,7 +2851,7 @@ iframe {
 
 .stopka {
     height: 350px;
-    background: var(--b2);
+       background: var(--forabackground2);
     flex-wrap: wrap;
     display: flex;
     border: var(--border);
