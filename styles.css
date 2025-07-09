@@ -2434,6 +2434,7 @@ input[type="submit"]:hover, .button:hover, .button1:hover, .button2:hover {
 }
 
 .postbody .content::before {
+	z-index: -9;
  border-radius: 10px;
  content: "";
  box-shadow: var(--shadowout);
