@@ -61,7 +61,7 @@
  --urlbody: url(https: //i.imgur.com/6YHkqLP.png);
  --urlbackground: url(https: //i.imgur.com/ULX2qUi.png);
  --naglowek: url(https: //i.imgur.com/yPoPrZO.png);
- --shadow: none;
+ --shadow: inset 0px 0px 24px -13px rgba(66, 68, 90, 1);
  --shadowout: 1px 0px 2px 0px rgba(66, 68, 90, 0.2);
  --shadow3: -9px 0px 10px -4px rgba(0,0,0,0.6);
  --border: 1px solid rgba(17, 17, 17, 0.1);
@@ -85,7 +85,6 @@
  --filter2: none;
  --notif: url(https: //i.imgur.com/DXXcFwi.png);
  --filter3: none
-
  }
 
 /*kolorki switcher*/
@@ -2423,7 +2422,7 @@ input[type="submit"]:hover, .button:hover, .button1:hover, .button2:hover {
 	 margin: 0px 10px 0px 30px;
 	 position: relative;
  margin-top: 20px !important;
- background: var(--darkerbackground);
+ background: var(--forabackground);
  border: var(--border);
  border-radius: 10px;
  box-shadow: var(--shadow);
