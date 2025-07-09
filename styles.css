@@ -3211,84 +3211,8 @@ filter: var(--filterinvert2)
  margin-bottom: .5em;
  padding-bottom: .5em}
 
-/*posting*/
-
-.odpowiedzbit {
-	 background: var(--b2);
-	display: block;
-	width: 850px
-}
-
-.massaging {
- margin-bottom: 20px;
- flex-wrap: wrap;
- border: var(--border);
- box-shadow: var(--shadow);
- display: flex;
- padding: 2%;
- background: var(--b3);
- border-radius: 20px
-}
-
-.massaging > fieldset.fields1 {
- width: 100%;
- background-color: transparent
-}
-
-.massaging > fieldset.fields1 dd {
- background-color: transparent;
- display: flex;
- flex-wrap: wrap;
- flex: 100%;
- min-width: inherit;
-margin: 0px !important}
-
-#message-box {
- margin: 0px;
- width: 100%
-}
-
-.message-edition {
- width: 100% !important;
- display: flex;
- flex: 100% !important}
-input[type="text"]:hover, .inputbox:hover {animation: none}
-
-.massaging > fieldset.fields1 dd > input.medium, select.medium{
- margin: 0px;
- width: 100%;
- box-shadow: var(--shadow);
- border-radius: 3px;
- border: var(--border) !important;
-background: var(--b2)}
 
 
-#message-box textarea {
- font-size: 12px !important;
- position: relative;
- box-shadow: var(--shadow);
- border: var(--border);
- background: var(--b3) !important;
- color: #444;
- font-family: 'Roboto', sans-serif;
- width: 100% !important
-}
-
-#message-box {border-style: none !important}
-
-#message-box textarea::before {
- position: absolute;
- content: "";
- width: 100%;
- height: 100%;
- box-shadow: var(--shadowout)
-}
-
-#message-box .sceditor-container {
- border: 0px !important;
- border-color: none !important;
- border-style: none !important
-}
 
 /*buttons*/
 div.sceditor-group {border: none !important}
