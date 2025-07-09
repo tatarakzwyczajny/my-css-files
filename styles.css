@@ -447,7 +447,7 @@ margin: 0% 8%;
  background: var(--forabackground2);
  background-image: var(--poczatek2);
  background-repeat: no-repeat;
- background-size: contain;
+ background-size: cover;
  border-radius: 10px}
 
 #privmsgs-menu {
