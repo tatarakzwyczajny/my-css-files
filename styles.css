@@ -2742,7 +2742,8 @@ p.fa_like_list a {    padding: 2px 10px;
     border: var(--border);
     box-shadow: var(--shadowout);}
 
-p.fa_like_list a:hover {-webkit-animation: pulseCTA 1s forwards;
+p.fa_like_list a:hover {background: var(--contrast);
+			-webkit-animation: pulseCTA 1s forwards;
  animation: pulseCTA 1s forwards}
 
 .rep-button.fa_liked, .rep-button.fa_liked:hover, .rep-button.fa_liked:focus {background-color: var(--b4)}
