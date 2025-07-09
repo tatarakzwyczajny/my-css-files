@@ -2693,7 +2693,6 @@ box-shadow: none;
  display: flex;
  flex-wrap: wrap
 }
-.likesbutton:first-of-type {margin-bottom: 10px;}
 
 .rep-nb {
  border-radius: none;
@@ -2703,6 +2702,9 @@ box-shadow: none;
  vertical-align: 1px;
  background: none
 }
+
+.likesbutton .rep-button:first-of-type {margin-bottom: 10px;}
+
 
 .rep-button, .rep-button:focus, .rep-button:active {
  width: 50px;
