@@ -2732,10 +2732,7 @@ opacity: 0.7;
     letter-spacing: 0.5px;
     color: var(--bright);
     display: flex;}
-p.fa_like_list:hover {
-	    color: var(--bright);
-    background: var(--contrast) !important;
-	    color: var(--neutral);}
+
 
 
 p.fa_like_list a {    padding: 2px 10px;
