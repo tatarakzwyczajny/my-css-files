@@ -575,10 +575,7 @@ ul.topiclist.pmlist.bg_none {
  outline: none
 }
 
-.rejestracja > input[type="text"]:hover, .inputbox:hover {
--webkit-animation: pulseCTA 1s forwards;
- animation: pulseCTA 1s forwards
-}
+
 
 input[type="text"]:focus, .inputbox:focus {
  border: 1px solid var(--contrast);
@@ -1405,11 +1402,6 @@ h1.page-title {
  border: var(--border);
  padding: 10%;
  background: var(--forabackground)}
-
-input[type="text"]:hover, .inputbox:hover {
- -webkit-animation: pulseCTA 1s forwards;
-animation: pulseCTA 1s forwards;
-border-bottom: none}
 
 .sub-header-path {
  padding-left: 2%;
