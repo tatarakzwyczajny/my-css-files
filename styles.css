@@ -2747,7 +2747,7 @@ p.fa_like_list a:hover {background: var(--contrast);
  align-items: center
 }
 .mod-recent-row a {
- background: var(--darkerbackground);
+ background: transparent !important;
  z-index: 999;
  text-align: center;
  width: 100%;
