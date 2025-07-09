@@ -3388,7 +3388,7 @@ button.toggleSwitcheroo {
  height: 35px !important;
  background-color: var(--forabackground);
  cursor: pointer;
- z-index: 999;
+ z-index: 99999;
  border-radius: 5px;
  padding: 0px !important;
  font-size: 18px
