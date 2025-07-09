@@ -2689,7 +2689,7 @@ box-shadow: none;
 .likesbutton {
  margin-top: 10px;
  justify-content: end;
- flex-direction: column;
+ flex-direction: row;
  align-content: center;
  align-items: center;
  display: flex;
@@ -2705,7 +2705,6 @@ box-shadow: none;
  background: none
 }
 
-.likesbutton .rep-button:first-of-type {margin-bottom: 10px;}
 
 
 .rep-button, .rep-button:focus, .rep-button:active {
@@ -2730,6 +2729,7 @@ color: var(--contrast)
 }
 
 p.fa_like_list {
+	margin-top: 50px;
 	    justify-content: center;
 	    align-items: center;
 opacity: 0.7;
