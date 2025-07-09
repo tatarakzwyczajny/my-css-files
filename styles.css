@@ -8,6 +8,7 @@
      --neutral: #FFF
      --accentClr: blue;
   --forabackground: #141414;
+	--forabackground2: #141414;
   --darkerbackground: #121212;
   --naglowek: url(https://i.imgur.com/IeeIvve.png);
   --contrast: #2c3779;
@@ -56,6 +57,7 @@
      --neutral: #000;
      --accentClr: red;
   --forabackground: #c1cbe7;
+	 --forabackground2: #8c9dcf;
    --urlbody: url(https://i.imgur.com/6YHkqLP.png);
   --urlbackground: url(https://i.imgur.com/ULX2qUi.png);
   --naglowek: url(https://i.imgur.com/yPoPrZO.png);
@@ -1557,7 +1559,7 @@ ul.forums {background-color: transparent;}
   position:relative;
   overflow:hidden;
       box-shadow: var(--shadow);
-  background-color: var(--forabackground);
+  background-color: var(--forabackground2);
 transition: 1s;}
 
 .forabg:hover .header {
