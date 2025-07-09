@@ -372,7 +372,7 @@ margin: 10px 0px;
     border-radius: 10px !important;
     flex-wrap: wrap;
     display: flex;
-    box-shadow: none;
+   box-shadow: var(--shadow);
     align-content: center;
     justify-content: center;
     background-color: var(--b5);
@@ -429,11 +429,11 @@ margin: 10px 0px;
 {
     padding: 10px;
     border-radius: 10px;
-    box-shadow: none;
+        box-shadow: var(--shadow);
     align-items: center;
     justify-content: center;
     min-height: 30px;
-    background-color: var(--b5);=
+    background-color: var(--b5);
     border: var(--border);
     margin: 1%;
     min-width: 88px;
