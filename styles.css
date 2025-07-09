@@ -2733,9 +2733,7 @@ opacity: 0.7;
 p.fa_like_list:hover {
 	    color: var(--bright);
     background: var(--contrast) !important;
-	    color: var(--neutral);
--webkit-animation: pulseCTA 1s forwards;
- animation: pulseCTA 1s forwards}
+	    color: var(--neutral);}
 
 
 p.fa_like_list a {    padding: 2px 10px;
@@ -2744,6 +2742,9 @@ p.fa_like_list a {    padding: 2px 10px;
     border-radius: 5px;
     border: var(--border);
     box-shadow: var(--shadowout);}
+
+p.fa_like_list a:hover {-webkit-animation: pulseCTA 1s forwards;
+ animation: pulseCTA 1s forwards}
 
 .rep-button.fa_liked, .rep-button.fa_liked:hover, .rep-button.fa_liked:focus {background-color: var(--b4)}
 .rep-button.fa_disliked, .rep-button.fa_disliked:hover, .rep-button.fa_disliked:focus {background-color: var(--b4)}
