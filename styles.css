@@ -2746,6 +2746,7 @@ p.fa_like_list a:hover {background: var(--contrast);
  flex-wrap: wrap;
  align-items: center
 }
+
 .mod-recent-row a {
  background: transparent !important;
  z-index: 999;
@@ -2759,6 +2760,7 @@ p.fa_like_list a:hover {background: var(--contrast);
  font-weight: 400 !important;
  border: var(--border)
 }
+
 body.external-module {background: transparent !important}
 
 .js-marquee-wrapper { background: transparent;
