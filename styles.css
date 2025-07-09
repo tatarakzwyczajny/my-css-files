@@ -2708,7 +2708,7 @@ p.fa_like_list a {margin: 0px 5px !important;}
     opacity: 0.6;
     border-radius: 10px !important;
     width: 1px;
-    background-color: #202020;
+    background-color: var(--contrast);
     border: var(--border);
 }
 /* telefon*/
