@@ -1341,7 +1341,7 @@ font-family: var(--basicfont);
  display: flex;
  align-items: center;
  align-content: center;
- top: 15px;
+ top: 18px;
  height: 35px;
  left: 60px;
  background: var(--forabackground);
