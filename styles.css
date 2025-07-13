@@ -3205,7 +3205,7 @@ background: var(--b3);
 /*SWITCHEROO*/
 
 #switcheroo { top: 7%;
- left: 1.8%}
+ left: 40px;}
 
 button.toggleSwitcheroo > .fa-solid {
  color: var(--bright);
