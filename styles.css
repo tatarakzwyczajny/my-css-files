@@ -2484,7 +2484,7 @@ input[type="submit"]:hover, .button:hover, .button1:hover, .button2:hover {
 
 .post-head {
 margin-bottom: 10px;
-    background: var(--darkerbackground);
+    background: var(--poczatek2);
     border-radius: 10px 10px 00px 0px;
     border-bottom: var(--border);
     flex-wrap: wrap;
