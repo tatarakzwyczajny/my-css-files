@@ -2991,7 +2991,12 @@ filter: var(--filterinvert2)
 /*recent topics*/
 
 .ostematy {
- width: 100%}
+     background: var(--forabackground2);
+    box-shadow: var(--shadowout);
+    border-radius: 10px;
+    border: var(--border);
+    height: 80%;
+    width: 100%;}
 
 
 /*page footer*/
