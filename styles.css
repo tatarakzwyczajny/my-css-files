@@ -1247,9 +1247,6 @@ content: ""
  position: fixed;
  align-items: center;
  background: var(--forabackground);
- border-top: var(--border);
- border-right: var(--border);
- box-shadow: var(--shadow);
      width: calc(100% - var(--width) - var(--width));
     left: var(--width);
  height: 30px;
