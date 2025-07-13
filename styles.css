@@ -1220,7 +1220,7 @@ align-content: center !important;
     display: flex;
     flex-wrap: wrap;
     top: 15px;
-    left: 91% !important;
+        left: calc(100% - 90px);
     position: fixed !important;
     width: 35px !important;
     background-color: transparent;
