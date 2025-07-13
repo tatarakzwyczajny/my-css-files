@@ -2913,7 +2913,7 @@ p.fa_like_list a:hover {background: var(--contrast);
 }
 
 .statistics strong a span {margin: 0px;
-		   color: var(--bright3);}
+		   color: var(--bright3) !important;}
 
 .statistics-item > strong {
 letter-spacing: 1px;
