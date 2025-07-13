@@ -2205,18 +2205,21 @@ gap: 0px;
 .pagination > a > b, strong {margin: 0px 8px}
 
 .pagination > a {
-	color: var(--bright2);
- margin-top: 0px;
- height: 35px;
- border-radius: 10px;
- display: flex;
- flex-wrap: wrap;
- float:right;
- font-size: 1.3rem;
- background: var(--b2);
- align-content: center;
- margin-right: 8px;
- padding: 0px 8px
+    box-shadow: var(--shadowout);
+    color: var(--bright2);
+    margin-top: 0px;
+    height: 35px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background: var(--b2);
+    align-content: center;
+    margin-right: 8px;
+    padding: 0px 8px;
 }
 
 .topics .row .lastpost strong {margin: 0px !important}
