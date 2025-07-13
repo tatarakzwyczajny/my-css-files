@@ -2906,17 +2906,19 @@ iframe {
 
 
 .dwadziesciacztery {
-	flex-wrap: wrap;
- display: flex;
- justify-content: flex-start;
- align-items: center;
- box-shadow: var(--shadow);
- border: var(--border);
- border-radius: 10px;
- padding: 10px;
- text-align:left;
- font-size: 0;
- flex: 100%
+	    text-align: justify !important;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: var(--shadow);
+    border: var(--border);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: left;
+    font-size: 0;
+
 }
 .dwadziesciacztery a {
 	 font-family: var(--basicfont);
@@ -2967,8 +2969,6 @@ iframe {
  border: var(--border);
  position: relative;
  flex: 2;
- display: flex;
- flex-wrap: wrap
 }
 
 .aktuz {
