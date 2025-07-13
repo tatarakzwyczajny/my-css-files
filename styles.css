@@ -75,6 +75,102 @@ background-attachment: fixed;
  width: 100%
 }
 
+/*linki*/
+
+a {cursor: cell;}
+
+/*sub-head*/
+
+#lewo {
+      position: fixed;
+    display: fix;
+    background: var(--forabackground);
+    left: 0px;
+    top: 0;
+    width: 30px !important;
+    height: 100% !important;
+    z-index: 9999 !important;
+}
+
+#prawo {
+      position: fixed;
+    display: fix;
+    background: var(--forabackground);
+    right: 0px;
+    top: 0;
+    width: 30px !important;
+    height: 100% !important;
+    z-index: 9999 !important;
+}
+
+.border1 {
+    border-right: 1px solid var(--contrast2);
+    height: calc(100% - var(--width) - var(--width) + 2px);
+    width: 0px;
+    position: absolute;
+    right: 0px;
+    top: calc(var(--width) - 1px);
+}
+
+#prawo .border1 {
+      left: 0px;
+    z-index: 999 !important;
+}
+
+.border2 {
+width: calc(100%);
+    border-bottom: 1px solid var(--contrast2);
+      height: calc(100% + 1px);
+      position: absolute;
+    right: 0px;
+}
+
+.navbar .border2 {
+  border-top: 1px solid var(--contrast2);
+  border-bottom: none;
+}
+
+#hide {
+      cursor: cell;
+  font-size:0px;
+    border: var(--border);
+    background: var(--forabackground);
+    border-radius: 10px;
+    height: 35px;
+    width: 35px;
+    padding: 10px;
+    left: 48%;
+    top: 35px;
+    display: flex;
+    position: fixed;
+    transition: 2s;
+    z-index: 999;
+      justify-content: center;
+    align-items: center;
+}
+
+#hide:hover {
+background: none;
+    animation: 1s ease 0s 1 normal forwards running pulseCTA;
+}
+
+.hidecont {
+   opacity: 1;
+  visibility: visible;
+  transition: opacity 3s ease, visibility 3s ease;
+}
+
+.hidecont.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.fa-eye:before {
+    color: black;
+    font-size: 20px !important;
+filter: var(--filterinvert2);}
+
+
 /*zaloguj page*/
 
 #main.zaloguj {display: flex}
