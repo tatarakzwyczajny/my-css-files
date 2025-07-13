@@ -2464,6 +2464,9 @@ input[type="submit"]:hover, .button:hover, .button1:hover, .button2:hover {
 .post:nth-child(odd) .postprofile {
     order: 3 !important;
 }
+.post:nth-child(odd) .postprofile {
+    order: 3 !important;
+}
 
 .post {
 	 margin: 0px 10px 0px 30px;
@@ -2497,6 +2500,8 @@ margin-bottom: 10px;
     padding: 40px 20px 10px;
     flex-direction: row-reverse;
 }
+
+fieldset.jumpbox {display:none;}
 
 .ikonyprofile {
 	 opacity: 0.9;
