@@ -34,7 +34,7 @@
 }
 
 [data-theme-controls] {
- right: 40%;
+ right: 40px;
  display: flex;
  align-items: center;
  width: 35px;
