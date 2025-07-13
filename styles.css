@@ -3190,9 +3190,104 @@ background: var(--b3);
 
 /*usmieszki pod postami*/
 
-#smiley-box iframe, .smile-status-box iframe {
- height: 180px
+
+#smiley-box iframe, .smile-status-box iframe {background:transparent !important;}
+.sceditor-group a {color:black;}
+.odpowiedzbit {
+    box-shadow: var(--shadowout);
+    border-radius: 10px;
+    border: var(--border);
+    padding: 20px;
+    background: var(--b2);
+    display: block;
+    width: 900px;
 }
+
+.odpowiedzbit input[type="text"], .inputbox {
+      border: var(--border) !important;
+    border-radius: 10px !important;
+    background-color: transparent;
+    color: #444;
+    cursor: text !important;
+    font-size: 12px !important;
+}
+
+.massaging {
+ margin-bottom: 20px;
+ flex-wrap: wrap;
+ border: var(--border);
+ box-shadow: var(--shadow);
+ display: flex;
+ padding: 2%;
+ background: var(--b3);
+ border-radius: 20px
+}
+
+.massaging > fieldset.fields1 {
+ width: 100%;
+ background-color: transparent
+}
+
+.massaging > fieldset.fields1 dd {
+ background-color: transparent;
+ display: flex;
+ flex-wrap: wrap;
+ flex: 100%;
+ min-width: inherit;
+margin: 0px !important}
+
+#message-box {
+ margin: 0px;
+ width: 100%
+}
+
+.message-edition {
+ width: 100% !important;
+ display: flex;
+ flex: 100% !important}
+
+
+.massaging > fieldset.fields1 dd > input.medium, select.medium{
+ margin: 0px;
+ width: 100%;
+ box-shadow: var(--shadow);
+ border-radius: 3px;
+ border: var(--border) !important;
+background: var(--b2)}
+
+
+#message-box textarea {
+ font-size: 12px !important;
+ position: relative;
+ box-shadow: var(--shadow);
+ border: var(--border);
+ background: var(--b3) !important;
+ color: #444;
+ font-family: 'Roboto', sans-serif;
+ width: 100% !important
+}
+
+#message-box {border-style: none !important}
+
+#message-box textarea::before {
+ position: absolute;
+ content: "";
+ width: 100%;
+ height: 100%;
+ box-shadow: var(--shadowout)
+}
+
+#message-box .sceditor-container {
+ border: 0px !important;
+ border-color: none !important;
+ border-style: none !important
+}
+
+#smiley-box iframe, .smile-status-box iframe {background:transparent !important;}
+.sceditor-group a {color:black;}
+.sceditor-button-youtube {display: none !important;}
+.sceditor-button-embed {display: none !important;}
+.sceditor-button-twemojifa {display: none !important;}
 
 #sce_smilies_body {padding: 2%}
 
