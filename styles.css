@@ -1220,7 +1220,7 @@ margin-bottom: 10px;
  align-items: center;
  justify-content: center;
  padding: 0;
- flex: 1;
+ flex: 0.2;
  text-align: center;
  border: var(--border);
  border-radius: 3px;
@@ -1246,7 +1246,9 @@ margin-bottom: 10px;
 #fa_toolbar #fa_right #notif_list li .contentText a {
  color: var(--contrast) !important}
 
-#fa_toolbar #fa_right #notif_list li .contentText {width: auto}
+#fa_toolbar #fa_right #notif_list li .contentText {
+	flex: 2;
+	width: auto}
 
 #fa_toolbar #fa_right #notif_list li hr {
  display: none
