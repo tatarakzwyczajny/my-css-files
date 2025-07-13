@@ -28,7 +28,7 @@
 }
 
 .color-scheme-toggle:hover {
- color: var(--accentClr);
+ color: var(--contrast);
  -webkit-animation: pulseCTA 1s forwards;
  animation: pulseCTA 1s forwards
 }
