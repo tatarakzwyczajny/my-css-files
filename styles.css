@@ -3209,6 +3209,20 @@ body#sce_smilies_body {
     width: 900px;
 }
 
+.odpowiedzbit dt label {
+	    text-align: center;
+    letter-spacing: 1px;
+    color: var(--bright);
+    box-shadow: var(--shadow);
+    padding: 5px;
+    border-radius: 10px;
+    font-family: var(--basicfont);
+    background: var(--forabackground2);
+    display: block;
+    font-weight: 500;
+    margin-top: 8px;
+}
+
 .odpowiedzbit input[type="text"], .inputbox {
       border: var(--border) !important;
     border-radius: 10px !important;
@@ -3222,7 +3236,7 @@ body#sce_smilies_body {
  margin-bottom: 20px;
  flex-wrap: wrap;
  border: var(--border);
- box-shadow: var(--shadow);
+ box-shadow: var(--shadowout);
  display: flex;
  padding: 2%;
  background: var(--b3);
