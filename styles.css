@@ -1250,7 +1250,8 @@ content: ""
  border-top: var(--border);
  border-right: var(--border);
  box-shadow: var(--shadow);
- width: 100%;
+     width: calc(100% - var(--width) - var(--width));
+    left: var(--width);
  height: 30px;
  padding-left: 2%;
  padding-right: 2%;
