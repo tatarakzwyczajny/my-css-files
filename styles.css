@@ -34,7 +34,7 @@
 }
 
 [data-theme-controls] {
- right: 1.3%;
+ right: 40%;
  display: flex;
  align-items: center;
  width: 35px;
@@ -1343,12 +1343,11 @@ font-family: var(--basicfont);
  align-content: center;
  top: 15px;
  height: 35px;
- left: 4%;
+ left: 60px;
  background: var(--forabackground);
  position: relative;
  border-radius: 10px;
  padding: .5% 2%;
- margin-left: 6px;
  border: var(--border) }
 
 .sub-header-path a:hover {
@@ -3220,14 +3219,14 @@ button.toggleSwitcheroo {
  text-align: center;
  box-shadow: var(--shadow);
  border: var(--border);
- top: 12px;
+top: 15px;
  left: 40px;
  position: fixed;
  display: flex;
  width: 35px !important;
  height: 35px !important;
  background-color: var(--forabackground);
- cursor: pointer;
+ cursor: cell;
  z-index: 99999;
  border-radius: 5px;
  padding: 0px !important;
