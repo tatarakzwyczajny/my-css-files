@@ -1219,17 +1219,15 @@ align-content: center !important;
 #fa_toolbar {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row-reverse;
     top: 15px;
-    right: 1;
+    left: 91% !important;
     position: fixed !important;
     width: 35px !important;
-    left: -20px !important;
     background-color: transparent;
     color: #FFF;
     font-family: 'Roboto', sans-serif;
     font-size: 1.3rem;
-    z-index: 999;
+    z-index: 99;
     padding: 0px !important;
 }
 
