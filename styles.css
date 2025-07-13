@@ -3014,17 +3014,18 @@ iframe {
  margin-left: 10px !important
 }
 
-.statistics-item a {margin: 0px}
+.statistics strong a span {margin: 0px;
+		   color: var(--bright3);}
 
 .statistics-item > strong {
 letter-spacing: 1px;
- color: var(--bright);
- font-family: var(--basicfont);
- padding: 0px;
- font-size: 14px;
- font-weight: 350;
- line-height: 29px;
- vertical-align: -3px
+    color: var(--bright3);
+    font-family: var(--basicfont);
+    padding: 0px;
+    font-size: 14px;
+    font-weight: 350;
+    line-height: 29px;
+    vertical-align: -3px;
 }
 
 .statistics strong a {
@@ -3039,12 +3040,16 @@ margin-top: -12px;
  font-size: 0px
 }
 .statistics-item {
-	 width: auto;
- border: none !important;
- display: flex;
- border: var(--border);
- box-shadow: var(--shadow);
- font-size: 0}
+color: var;
+    background: var(--contrast);
+    border-radius: 10px;
+    margin-left: 10px;
+    border: var(--border);
+    width: auto;
+    display: flex;
+    box-shadow: var(--shadow);
+    font-size: 0;
+}
 
 .stopkakwadrat {
 	 justify-content: center;
