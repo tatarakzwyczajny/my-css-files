@@ -2797,7 +2797,6 @@ p.fa_like_list a:hover {background: var(--contrast);
 
 /*ostatnietematy*/
 .ostematy {
- padding: 10px;
 	 width: 100% !important;
 	 border-radius: 10px;
  overflow: hidden;
@@ -2848,17 +2847,15 @@ p.fa_like_list a:hover {background: var(--contrast);
 }
 
 .mod-recent-row a {
- background: transparent !important;
- z-index: 999;
- text-align: center;
- width: 100%;
- box-shadow: var(--shadowout);
- border-radius: 10px;
- padding: 5px !important;
- font-size: 14px;
- font-family: var(--basicfont);
- font-weight: 400 !important;
- border: var(--border)
+    color: var(--contrast);
+    background: transparent !important;
+    z-index: 999;
+    width: 100%;
+    border-radius: 10px;
+    padding: 5px !important;
+    font-size: 14px;
+    font-family: var(--basicfont);
+    font-weight: 400 !important;
 }
 
 body.external-module {background: transparent !important}
