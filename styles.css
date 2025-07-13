@@ -1267,19 +1267,6 @@ margin-bottom: 10px;
 
 }
 
-
-
-#fa_toolbar #fa_right #notif_list li a.delete {
- padding: 0px;
- flex: 1;
- /* width: 0px; */
- /* height: 0px; */
- text-align: center;
- color: #FF4F42;
- background: transparent none no-repeat -274px 50%;
- float:right
-}
-
 #fa_notifications:hover {
  -webkit-animation: pulseCTA 1s forwards;
  animation: pulseCTA 1s forwards
