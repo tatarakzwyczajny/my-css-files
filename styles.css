@@ -1063,7 +1063,7 @@ padding: 0px}
  box-shadow: var(--shadow)}
 
 #fa_toolbar #fa_right #notif_list {
- height: auto;
+ height: 500px;
  border-radius: 10px !important;
  padding: 15px;
  box-shadow: var(--shadow);
