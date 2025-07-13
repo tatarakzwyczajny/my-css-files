@@ -2871,6 +2871,13 @@ iframe {
 }
 
 .aktuz {
+	color: var(--bright);
+	    font-family: 'Roboto';
+    font-size: 11px !important;
+    font-weight: 450;
+    letter-spacing: 2px;
+    margin-top: 0 !important;
+    text-transform: uppercase;
  box-shadow: var(--shadowout);
  background: var(--forabackground);
  height: 40px;
