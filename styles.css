@@ -1250,10 +1250,9 @@ content: ""
      width: calc(100% - var(--width) - var(--width));
     left: var(--width);
  height: 30px;
- padding-left: 2%;
- padding-right: 2%;
+ padding-left: 10px;
  display: flex;
- column-gap: 1%;
+ column-gap: 10px;
  flex-wrap: wrap;
  text-align: center;
  justify-content: start;
@@ -1320,7 +1319,6 @@ h1.page-title {
  background: var(--forabackground)}
 
 .sub-header-path {
-padding-left: 2%;
     border-bottom: var(--border);
     z-index: 99999;
     align-content: center;
@@ -3223,7 +3221,7 @@ button.toggleSwitcheroo {
  box-shadow: var(--shadow);
  border: var(--border);
  top: 12px;
- left: 2%;
+ left: 40px;
  position: fixed;
  display: flex;
  width: 35px !important;
