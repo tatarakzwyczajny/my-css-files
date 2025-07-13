@@ -3293,7 +3293,7 @@ border: none !important
  display: grid;
  place-items: center;
  background-color: var(--grey);
- width: 90px;
+ width: 80px;
  border-radius: 10%;
  cursor: pointer;
  transition: border-radius 128ms var(--ease)
