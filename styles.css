@@ -2359,6 +2359,11 @@ input[type="submit"]:hover, .button:hover, .button1:hover, .button2:hover {
  line-height: 24px !important
 }
 
+/*kolejnosc postow*/
+.post:nth-child(odd) .postprofile {
+    order: 3 !important;
+}
+
 .post {
 	 margin: 0px 10px 0px 30px;
 	 position: relative;
@@ -3190,6 +3195,9 @@ background: var(--b3);
 
 /*usmieszki pod postami*/
 
+body#sce_smilies_body {
+    background: transparent !important;
+}
 
 #smiley-box iframe, .smile-status-box iframe {background:transparent !important;}
 .sceditor-group a {color:black;}
