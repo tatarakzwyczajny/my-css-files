@@ -1322,20 +1322,20 @@ h1.page-title {
  background: var(--forabackground)}
 
 .sub-header-path {
- padding-left: 2%;
- border-bottom: var(--border);
- z-index: 99999;
- align-content: center;
- background: var(--forabackground);
- top: 0;
- position: fixed;
- flex-wrap: wrap;
- font-size: 0;
- width: 100%;
- display: flex;
- font-size: 0;
- height: 30px;
- left: 0}
+padding-left: 2%;
+    border-bottom: var(--border);
+    z-index: 99999;
+    align-content: center;
+    background: var(--forabackground);
+    top: 0;
+    position: fixed;
+    flex-wrap: wrap;
+    font-size: 0;
+    width: calc(100% - var(--width) - var(--width));
+    left: var(--width);
+    display: flex;
+    font-size: 0;
+    height: 30px;}
 
 .sub-header-path a {
 font-family: var(--basicfont);
