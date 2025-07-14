@@ -2715,7 +2715,8 @@ input[type="submit"]:hover, .button:hover, .button1:hover, .button2:hover {
 }
 
 .postbody .content div {
- line-height: 24px !important
+ line-height: 24px !important;
+	transition: 1s all;
 }
 
 /*kolejnosc postow*/
