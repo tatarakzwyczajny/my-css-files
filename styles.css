@@ -1697,21 +1697,23 @@ h1.page-title {
     height: 25px;}
 
 .sub-header-path a {
-font-family: var(--basicfont);
- font-size: 12px;
- letter-spacing: 1px;
- flex-wrap: wrap;
- display: flex;
- align-items: center;
- align-content: center;
- top: 18px;
- height: 35px;
- left: 60px;
- background: var(--forabackground);
- position: relative;
- border-radius: 10px;
- padding: .5% 2%;
- border: var(--border) }
+    justify-content: center;
+    min-width: 80px;
+    font-family: var(--basicfont);
+    font-size: 12px;
+    letter-spacing: 1px;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    top: 18px;
+    height: 35px;
+    left: 60px;
+    background: var(--forabackground);
+    position: relative;
+    border-radius: 10px;
+    padding: .5% 2%;
+    border: var(--border); }
 
 .sub-header-path a:hover {
  -webkit-animation: pulseCTA 1s forwards;
