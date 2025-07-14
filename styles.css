@@ -2468,9 +2468,7 @@ gap: 0px;
  font-size: 0
 }
 
-.dwadziesciacztery .pagination > a > b, strong {
-color: none !important;
-}
+.dwadziesciacztery strong {color: unset !important;}
 
 .pagination > a > b, strong {
 	    color: var(--bright2);
