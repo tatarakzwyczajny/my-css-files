@@ -210,14 +210,6 @@ table.forumline {
 }
 
 /*czcionki*/
-input[type="submit"]:link, input[type="submit"]:visited, input[type="submit"]:active, input[type="submit"]:hover, .button:link, .button:visited, .button:active, .button:hover, .button1:link, .button1:visited, .button1:active, .button1:hover, .button2:link, .button2:visited, .button2:active, .button2:hover
-{ color: var(--bright2);
- font-weight: 400;
- font-size: 9px;
- text-transform: uppercase;
- font-family: var(--basicfont);
- letter-spacing: 0.5px
-}
 
 #fa_toolbar a:hover { text-decoration: none}
 .post h2.topic-title a {width: 100%}
