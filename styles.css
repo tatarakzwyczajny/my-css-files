@@ -154,19 +154,7 @@ background: none;
     animation: 1s ease 0s 1 normal forwards running pulseCTA;
 }
 
-.hidecont {
- max-height: 0;
-  opacity: 0;
-  overflow: hidden;
-  transform: translateY(-20px);
-  transition: all 0.5s ease;
-}
 
-.hidecont.visible {
-   max-height: 500px; /* dopasuj do potrzeb */
-  opacity: 1;
-  transform: translateY(0);
-}
 
 .fa-eye:before {
     color: black;
