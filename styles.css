@@ -2783,6 +2783,7 @@ box-shadow: var(--shadowout);
  height: 100%}
 
 .post-head {
+	    height: 80px;
 margin-bottom: 10px;
     background: var(--poczatek2);
     border-radius: 10px 10px 00px 0px;
@@ -2797,7 +2798,7 @@ margin-bottom: 10px;
 fieldset.jumpbox {display:none;}
 
 .ikonyprofile {
-    top: 29px;
+    top: 59px;
     position: absolute;
     align-items: center;
     align-content: center;
@@ -2920,7 +2921,7 @@ fieldset.jumpbox {display:none;}
 
  .topic-date {
  z-index: 99;
- top: 29px;
+ top: 59px;
  left: 10px;
  padding: 0px 10px !important;
  border: var(--border) !important;
