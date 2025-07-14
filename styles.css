@@ -130,6 +130,39 @@ width: calc(100%);
   border-bottom: none;
 }
 
+/*buttony gora dol*/
+#scroll {
+    left: 40px;
+    row-gap: 10px;
+    top: calc(50% - 80px);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    display: flex;
+    position: fixed;
+    z-index: 999;
+}
+
+#scroll button {
+      width: 35px;
+    border-radius: 10px;
+    border: var(--border);
+    box-shadow: var(--shadowout);
+    background: var(--forabackground);
+  height: 35px;}
+
+#scroll button img {width: 50%;
+    filter: var(--filterinvert2);}
+
+
+#scroll button:hover {
+ -webkit-animation: pulseCTA 1s forwards;
+ animation: pulseCTA 1s forwards
+}
+
+/*button hide oko*/
+
 #hide {
       cursor: cell;
   font-size:0px;
