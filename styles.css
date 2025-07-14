@@ -3135,7 +3135,8 @@ filter: var(--filterinvert2)
 /*buttons*/
 div.sceditor-group {border: none !important}
 .sceditor-container .sceditor-button {
-    background-color: var(--contrast);
+box-shadow: none !important;
+    background-color: var(--contrast) !important;
     border-style: none !important;
     display: flex;
     align-items: center;
@@ -3165,7 +3166,10 @@ div.sceditor-group {border: none !important}
 .sceditor-group { padding: 0px !important;
  margin: 0px !important}
 div.sceditor-toolbar {background: var(--b3) !important}
-.sceditor-button.active, .sceditor-button:active, .sceditor-button:hover { background: var(--b1) !important}
+.sceditor-button.active, .sceditor-button:active, .sceditor-button:hover 
+{     background: var(--contrast) !important;
+-webkit-animation: pulseCTA 1s forwards;
+ animation: pulseCTA 1s forwards}
 
 .sceditor-container iframe, .sceditor-container textarea {
  text-align: justify;
@@ -3200,14 +3204,18 @@ body#sce_smilies_body {
 #smiley-box iframe, .smile-status-box iframe {background:transparent !important;}
 .sceditor-group a {color:black;}
 .odpowiedzbit {
+     justify-content: center;
     row-gap: 30px;
-    justify-content: center;
     display: flex;
     flex-wrap: wrap;
+    background-image: var(--poczatek2);
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: var(--shadowout);
     border-radius: 10px;
     border: var(--border);
     padding: 20px;
-    background: var(--b2);
+    background-color: var(--b2);
     width: 850px;
 }
 
