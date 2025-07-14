@@ -529,6 +529,7 @@ box-shadow: var(--shadowout);}
 }
 
 .tytul {
+	z-index: 99;
     box-shadow: var(--shadowout);
     position: absolute;
     background: var(--forabackground);
@@ -3558,7 +3559,7 @@ body#sce_smilies_body {
     border-radius: 10px;
     border: var(--border);
     padding: 20px;
-    background-color: var(--b2);
+    background-color: var(--darkerbackground);
     width: 850px;
 }
 .odpowiedzbit #preview .postbody .content {margin-left: 0px;}
