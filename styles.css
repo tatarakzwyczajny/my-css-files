@@ -1542,6 +1542,7 @@ margin-bottom: 10px;
 }
 #fa_right {float:left !important}
 #fa_right #fa_notifications {
+	    justify-content: center;
 align-content: center !important;
     flex-wrap: wrap;
     display: flex !important;
