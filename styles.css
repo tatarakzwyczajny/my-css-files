@@ -3937,15 +3937,15 @@ width: 100%;
 
 /* Fond de l'afficage connexion */
 .monomer-overlay {
- position: fixed;
- z-index: 999;
- top: 0;
- left: 0;
- opacity: 0;
- width: 100%;
- height: 100%;
- transition: 0.2s opacity ease;
- background: rgba(255, 255, 255, 0.02)
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    opacity: 0.5 !important;
+    width: 100%;
+    height: 100%;
+    transition: 0.2s opacity ease;
+    background: var(--darkerbackground2);
 }
 
 /* Boîte de connexion */
