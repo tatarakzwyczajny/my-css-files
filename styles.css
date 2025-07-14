@@ -2460,9 +2460,10 @@ gap: 0px;
  font-size: 0
 }
 
-.pagination > a > b, strong {margin: 0px 8px}
+.pagination > a > b, strong {margin: 0px 2px}
 
 .pagination > a {
+    font-family: var(--basicfont);
     box-shadow: var(--shadowout);
     color: var(--bright2);
     margin-top: 0px;
@@ -2472,8 +2473,6 @@ gap: 0px;
     flex-wrap: wrap;
     float: right;
     font-size: 12px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
     background: var(--b2);
     align-content: center;
     margin-right: 8px;
@@ -2484,13 +2483,14 @@ gap: 0px;
 .stopkaautor strong {margin: 0px !important}
 
 .topic-actions {
- justify-content: space-between;
- align-items: center;
- width: 100%;
- flex-wrap: wrap;
- display: flex;
- flex: 100%;
- padding: 10px 30px
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    flex: 100%;
+    padding: 0px 30px;
+    margin-top: 40px;
 }
 
 .pagination span a.pag-img img {margin-top: 0px;
@@ -2754,7 +2754,7 @@ input[type="submit"]:hover, .button:hover, .button1:hover, .button2:hover {
 }
 
 .post {
-	 margin: 0px 10px 0px 30px;
+	 margin: 0px 30px;
 	 position: relative;
  margin-top: 20px !important;
  background: var(--forabackground);
