@@ -2662,7 +2662,7 @@ input[type="submit"]:hover, .button:hover, .button1:hover, .button2:hover {
 }
 
 .niepatrz::before {
-
+box-shadow: var(--shadowout);
  border: var(--border);
  border-radius: 10px;
  z-index: -9;
