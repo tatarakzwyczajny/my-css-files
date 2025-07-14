@@ -2627,6 +2627,7 @@ input[type="submit"]:hover, .button:hover, .button1:hover, .button2:hover {
  margin-top: 10px !important
 }
 .topic-actions .pagination {
+	    margin-bottom: 15px;
  flex: 1;
  display: flex;
  flex-wrap: wrap;
