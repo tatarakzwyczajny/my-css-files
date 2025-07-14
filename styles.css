@@ -2933,6 +2933,12 @@ fieldset.jumpbox {display:none;}
  background: var(--forabackground)
 }
 
+ .topic-date:hover {
+background: var(--contrast);
+			-webkit-animation: pulseCTA 1s forwards;
+ animation: pulseCTA 1s forwards
+ }
+
 .postprofile-contact a {
 	 align-items: center;
  justify-content: center;
