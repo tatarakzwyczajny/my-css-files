@@ -3317,7 +3317,16 @@ margin: 0px !important}
 
 #sce_smilies_body {padding: 2%}
 
-#smiley-box, .smile-status-box {width: 100%}
+#smiley-box, .smile-status-box {
+	    margin-bottom: 10px;
+overflow: auto;
+    box-shadow: var(--shadowout);
+    border-radius: 10px;
+    padding: 10px;
+    border: var(--border);
+    width: 100%;
+    height: 120px;
+}
 
 #sceditor_smilies {
  border: none !important;
