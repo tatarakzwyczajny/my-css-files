@@ -2765,7 +2765,6 @@ input[type="submit"]:hover, .button:hover, .button1:hover, .button2:hover {
  margin-bottom: 24px;
  display: flex;
  flex-wrap: wrap;
- margin-bottom: 40px
 }
 .post::before {content: "";
 	 background: transparent;
