@@ -2467,7 +2467,9 @@ gap: 0px;
  font-size: 0
 }
 
-.pagination > a > b, strong {margin: 0px 2px}
+.pagination > a > b, strong {
+	    color: var(--bright2);
+	margin: 0px 2px}
 
 .pagination > a {
     font-family: var(--basicfont);
