@@ -2686,13 +2686,14 @@ input[type="submit"]:hover, .button:hover, .button1:hover, .button2:hover {
 }
 
 .controls {
-      column-gap: 10px;
-  position: absolute;
-    left: 25%;
+    column-gap: 10px;
+    position: absolute;
+    left: 360px;
     flex-direction: row;
     display: flex;
-  flex-wrap: wrap;
-    top: 29px;}
+    flex-wrap: wrap;
+    top: -18px;
+}
 
 .controls button {
       border-radius: 10px;
