@@ -1556,15 +1556,15 @@ align-content: center !important;
 }
 
 #fa_notifications::before {
-	    filter: var(--filterinvert2);
- position: absolute !important;
- content: "";
- background: var(--notif);
- width: 80%;
- margin: 10% !important;
- height: 90%;
- background-size: contain;
- background-repeat: no-repeat
+    filter: var(--filterinvert2);
+    position: absolute !important;
+    content: "";
+    background: var(--notif);
+    width: 60%;
+    margin: 20% !important;
+    height: 70%;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 #fa_hide {display: none !important}
@@ -3475,6 +3475,9 @@ div.sceditor-toolbar {background: var(--b3) !important}
  font-family: Verdana, Arial, Helvetica, sans-serif;
  font-size: 13px
 }
+
+.niepatrz .sceditor-container iframe, .sceditor-container textarea {
+color: var(--bright2);}
 
 
 /*word count*/
