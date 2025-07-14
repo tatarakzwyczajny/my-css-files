@@ -87,7 +87,7 @@ a {cursor: cell;}
     background: var(--forabackground);
     left: 0px;
     top: 0;
-    width: 30px !important;
+    width: 25px !important;
     height: 100% !important;
     z-index: 9999 !important;
 }
@@ -98,7 +98,7 @@ a {cursor: cell;}
     background: var(--forabackground);
     right: 0px;
     top: 0;
-    width: 30px !important;
+    width: 25px !important;
     height: 100% !important;
     z-index: 9999 !important;
 }
