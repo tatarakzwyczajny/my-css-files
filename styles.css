@@ -3727,6 +3727,103 @@ overflow: auto;
  padding: 2%
 }
 
+
+/*podglad wiadomosci*/
+.odpowiedzbit #preview .postbody .content {margin-left: 0px;}
+.odpowiedzbit #preview .postbody {padding: 20px !important;}
+
+.niepatrz .sceditor-container iframe, .sceditor-container textarea {
+color: var(--bright2) !important;}
+.quickreply {padding: 30px;}
+
+.sceditor-button-mention div {
+    background: url(https://i.imgur.com/JeoQ0Kl.png);
+    background-size: contain;
+}
+
+.statistics .statistics-item > strong {
+      letter-spacing: 1px;
+    color: var(--bright3);
+    font-family: var(--basicfont);
+    padding: 0px;
+    font-size: 14px;
+    font-weight: 350;
+    line-height: 29px;
+    vertical-align: -3px;
+    margin: 0px 10px !important;
+
+}
+
+
+form[name="smilies_categ"] select[name="categ"]{font-size: 0px;
+border: none;
+display:none;}
+form[name="jumpbox"] {display:none;}
+
+   .podgladmsg {
+     justify-content: center;
+    align-items: center;
+    width: 850px;
+    background-color: var(--darkerbackground2);
+    background-image: var(--poczatek);
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-wrap: wrap;
+    display: flex;
+    border-radius: 10px;
+    border: var(--border);
+    padding: 2%;
+    box-shadow: var(--shadow);
+}
+
+.podgladmsg  .prywatna1 {width: 100%;}
+
+input[type="submit"]:link, input[type="submit"]:visited, input[type="submit"]:active, input[type="submit"]:hover, .button:link, .button:visited, .button:active, .button:hover, .button1:link, .button1:visited, .button1:active, .button1:hover, .button2:link, .button2:visited, .button2:active, .button2:hover
+{color: var(--bright2);
+}
+
+fieldset dl:hover dt label {
+    color: var(--bright2);
+}
+
+
+.hidecont {
+  transition: all 0.5s ease;
+}
+
+.hidecont.hide {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.controls {
+      column-gap: 10px;
+  position: absolute;
+    left: 25%;
+    flex-direction: row;
+    display: flex;
+  flex-wrap: wrap;
+    top: 29px;}
+
+.controls button {
+      border-radius: 10px;
+    border: var(--border);
+    box-shadow: var(--shadow);
+    width: 35px;
+    height: 35px;
+    background-color: var(--forabackground);
+    cursor: pointer;
+}
+
+.controls button:hover {
+   -webkit-animation: pulseCTA 1s forwards;
+ animation: pulseCTA 1s forwards
+}
+
+.controls button i {
+      filter: var(--filter3);
+  font-size: 20px !important;}
+
 /*error msg*/
 p.rightside {
     position: relative;
