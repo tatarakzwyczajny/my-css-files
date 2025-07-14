@@ -183,7 +183,6 @@ width: calc(100%);
 }
 
 #hide:hover {
-background: none;
     animation: 1s ease 0s 1 normal forwards running pulseCTA;
 }
 
