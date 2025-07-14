@@ -1428,15 +1428,14 @@ padding: 0px}
  box-shadow: var(--shadow)}
 
 #fa_toolbar #fa_right #notif_list {
-    height: 500px;
+     height: 500px;
     border-radius: 10px !important;
     padding: 15px;
     box-shadow: var(--shadow);
     background: var(--forabackground);
     border: var(--border);
-    position: fixed;
+    position: absolute;
     margin-top: 20px;
-    margin-left: 91.4%;
 }
 
 #fa_toolbar #fa_right #notif_list::before{
