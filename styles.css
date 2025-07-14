@@ -2798,6 +2798,11 @@ fieldset.jumpbox {display:none;}
     flex-wrap: wrap;
 }
 
+.ikonyprofile .profile-icons i {
+    font-size: 20px;
+    color: var(--bright);
+}
+
 .profile-icons li:hover {
  -webkit-animation: pulseCTA 1s forwards;
  animation: pulseCTA 1s forwards
@@ -2814,7 +2819,7 @@ fieldset.jumpbox {display:none;}
     align-content: center;
     justify-content: center;
     width: 35px !important;
-    height: 35px;
+    height: 35px !important;
     float: left;
     margin: 0px;
 }
@@ -3502,6 +3507,9 @@ body#sce_smilies_body {
     background-color: var(--b2);
     width: 850px;
 }
+.odpowiedzbit #preview .postbody .content {margin-left: 0px;}
+.odpowiedzbit #preview .postbody {padding: 20px !important;}
+
 
 .odpowiedzbit dt label {
 	    text-align: center;
