@@ -3224,9 +3224,11 @@ body#sce_smilies_body {
 }
 
 .odpowiedzbit input[type="text"], .inputbox {
-      border: var(--border) !important;
+	margin-bottom: 15px !important;
+      box-shadow: var(--shadowout);
+    border: var(--border) !important;
     border-radius: 10px !important;
-    background-color: transparent;
+    background-color: var(--forabackground);
     color: #444;
     cursor: text !important;
     font-size: 12px !important;
@@ -3268,12 +3270,14 @@ margin: 0px !important}
 
 
 .massaging > fieldset.fields1 dd > input.medium, select.medium{
- margin: 0px;
- width: 100%;
- box-shadow: var(--shadow);
- border-radius: 3px;
- border: var(--border) !important;
-background: var(--b2)}
+    margin-top: 20px !important;
+    margin: 0px;
+    width: 100%;
+    box-shadow: var(--shadowout);
+    border-radius: 3px;
+    border: var(--border) !important;
+    background: var(--forabackground);
+}
 
 
 #message-box textarea {
