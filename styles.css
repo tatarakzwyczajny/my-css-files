@@ -3043,22 +3043,22 @@ color: var(--contrast)
 }
 
 p.fa_like_list {
-	margin-top: 50px;
-	    justify-content: center;
-	    align-items: center;
-opacity: 0.7;
+	    width: 100%;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.7;
     margin-left: 10px;
-    box-shadow: var(--shadow);
-    border: var(--border);
+    border: none !important;
     border-radius: 10px;
     padding: 10px;
     flex-wrap: wrap;
-    background: var(--forabackground2);
     margin-top: 20px;
     font-size: 13px !important;
     letter-spacing: 0.5px;
     color: var(--bright);
-    display: flex;}
+    display: flex;
+}
 
 
 
