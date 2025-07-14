@@ -3490,7 +3490,8 @@ body#sce_smilies_body {
     background: transparent !important;
 }
 
-#smiley-box iframe, .smile-status-box iframe {background:transparent !important;}
+#smiley-box iframe, .smile-status-box iframe {background:transparent !important;
+					         height: auto;}
 .sceditor-group a {color:black;}
 .odpowiedzbit {
      justify-content: center;
