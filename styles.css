@@ -2762,6 +2762,8 @@ box-shadow: var(--shadowout);
     order: 3 !important;
 }
 
+.poster-list {display:none;}
+
 .post {
 	 margin: 0px 30px;
 	 position: relative;
