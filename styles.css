@@ -1603,7 +1603,7 @@ content: ""
  background: var(--forabackground);
      width: calc(100% - var(--width) - var(--width));
     left: var(--width);
- height: 30px;
+ height: 25px;
  padding-left: 10px;
  display: flex;
  column-gap: 10px;
@@ -1685,7 +1685,7 @@ h1.page-title {
     left: var(--width);
     display: flex;
     font-size: 0;
-    height: 30px;}
+    height: 25px;}
 
 .sub-header-path a {
 font-family: var(--basicfont);
