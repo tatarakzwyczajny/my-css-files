@@ -2825,6 +2825,13 @@ fieldset.jumpbox {display:none;}
     margin: 0px;
 }
 
+.post-head .profile-icons {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    row-gap: 10px !important;
+}
+
 .post-head .profile-icons a, .post-head .profile-icons span {
  display: flex;
  flex-wrap: wrap;
