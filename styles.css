@@ -1556,6 +1556,7 @@ align-content: center !important;
 }
 
 #fa_notifications::before {
+	    filter: var(--filterinvert2);
  position: absolute !important;
  content: "";
  background: var(--notif);
