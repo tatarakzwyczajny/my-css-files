@@ -104,7 +104,7 @@ a {cursor: cell;}
 }
 
 .border1 {
-    border-right: 1px solid var(--contrast2);
+    border-right: 1px solid rgba(54, 54, 54, 0.1));
     height: calc(100% - var(--width) - var(--width) + 2px);
     width: 0px;
     position: absolute;
@@ -119,14 +119,14 @@ a {cursor: cell;}
 
 .border2 {
 width: calc(100%);
-    border-bottom: 1px solid var(--contrast2);
+    border-bottom: 1px solid rgba(54, 54, 54, 0.1);
       height: calc(100% + 1px);
       position: absolute;
     right: 0px;
 }
 
 .navbar .border2 {
-  border-top: 1px solid var(--contrast2);
+  border-top: 1px solid rgba(54, 54, 54, 0.1);
   border-bottom: none;
 }
 
