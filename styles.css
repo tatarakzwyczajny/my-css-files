@@ -2788,25 +2788,13 @@ margin-bottom: 10px;
 fieldset.jumpbox {display:none;}
 
 .ikonyprofile {
-	 opacity: 0.9;
- top: 82px;
-width: 35px;
- left: -65px;
- align-items: center;
- align-content: center;
- position: absolute;
- display: flex;
- flex-wrap: wrap;
- z-index: 99}
-
-.post-head .profile-icons {
- flex-direction: column;
- display: inline-flex;
- flex-wrap: wrap;
- align-items: center;
- width: 100%;
- list-style: none;
- row-gap: 10px
+    top: 29px;
+    position: absolute;
+    left: 350px;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .profile-icons li:hover {
@@ -2815,19 +2803,19 @@ width: 35px;
 }
 
 .profile-icons li {
- box-shadow: var(--shadow);
- border-radius: 10px;
- border: var(--border);
- background: var(--forabackground);
- display: flex;
- flex-wrap: wrap;
- align-items: center;
- align-content: center;
- justify-content: center;
- width: 100%;
- height: 35px;
- float:left;
- margin: 0px
+    box-shadow: var(--shadow);
+    border-radius: 10px;
+    border: var(--border);
+    background: var(--forabackground);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 35px !important;
+    height: 35px;
+    float: left;
+    margin: 0px;
 }
 
 .post-head .profile-icons a, .post-head .profile-icons span {
