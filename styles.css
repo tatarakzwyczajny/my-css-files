@@ -559,7 +559,6 @@ box-shadow: var(--shadowout);}
     width: 30%;
 }
 
-#smilies_header {display: none!important}
 
 #preview .h3 {display:none;}
 
@@ -3639,7 +3638,7 @@ overflow: auto;
  background-image: none !important
 }
 
-#smilies_header {display: none !important}
+#smilies_header {display: none !important;}
 
 .maspanel {
  padding: 2%
