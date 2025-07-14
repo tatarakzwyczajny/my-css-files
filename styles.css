@@ -961,6 +961,19 @@ dl#field_id:nth-of-type(2) {display: none}
  font-size: 14px
 }
 
+.profilinfo5 {
+ height: 60px;
+ box-shadow: var(--shadowout);
+     background: var(--forabackground);
+ border-radius: 10px;
+ border: var(--border);
+ margin: 0px 10px;
+ z-index: 999;
+ flex-wrap: wrap;
+ display: flex;
+ position: relative
+}
+
 .profilinfo7 {
  height: 60px;
  box-shadow: var(--shadowout);
