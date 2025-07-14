@@ -2797,6 +2797,14 @@ blockquote {
     position: relative;
 }
 
+blockquote cite {
+    font-family: var(--fancyfont);
+    font-size: 13px !important;
+    font-style: normal;
+    font-weight: 500;
+    display: block;
+}
+
 .post::before {content: "";
 	 background: transparent;
  z-index: -9;
