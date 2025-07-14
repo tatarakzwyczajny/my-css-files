@@ -3200,12 +3200,14 @@ body#sce_smilies_body {
 #smiley-box iframe, .smile-status-box iframe {background:transparent !important;}
 .sceditor-group a {color:black;}
 .odpowiedzbit {
-    box-shadow: var(--shadowout);
+    row-gap: 30px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
     border-radius: 10px;
     border: var(--border);
     padding: 20px;
     background: var(--b2);
-    display: block;
     width: 850px;
 }
 
