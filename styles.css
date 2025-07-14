@@ -3958,16 +3958,20 @@ width: 100%;
  width: 80%;
  transition: .2s opacity ease;
  transform: translate(-50%, -50%);
- border-radius: 5px;
- background: var(--forabackground);
- border: var(--border)
 }
 
 /* Formulaire */
 .switcheroo__form {
- padding: 48px;
- background: var(--b2);
- border-radius: 5px
+    flex-direction: column;
+    flex-wrap: wrap;
+    display: flex;
+    font-family: var(--basicfont) !important;
+    box-shadow: var(--shadowout);
+    padding: 30px;
+    background: var(--forabackground2);
+    border-radius: 10px;
+    border: var(--border);
+    overflow: hidden;
 }
 
 /* Champs à remplir */
@@ -3980,38 +3984,51 @@ width: 100%;
 
 /* Nom du champs */
 .switcheroo__form-label {
- margin-bottom: 8px;
- font-size: 14px;
- font-weight: 400
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 11px !important;
+    background: var(--darkerbackground);
+    padding: 1% 2%;
+    border-radius: 10px;
+    border: var(--border);
+    box-shadow: var(--shadowout);
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--bright2);
 }
 
 /* Zone de texte */
 .switcheroo__form-input {
- padding: 6px !important;
- font-size: 16px;
- border-radius: 4px;
- width: 100%;
- background-color: var(--light);
- border: var(--border)!important;
- border-bottom: 3px solid var(--greyer)!important;
- color: var(--text);
- cursor: text
+    padding: 6px !important;
+    font-size: 16px;
+    border-radius: 10px;
+    width: 100%;
+    height: 40px;
+    background-color: var(--forabackground2) !important;
+    border: var(--border) !important;
+    border-bottom: 3px solid var(--greyer) !important;
+    color: var(--text);
+    cursor: cell;
 }
 
 /* Bouton de connexion */
 .switcheroo__form-button {
- font-family: 'Roboto';
- font-size: 13px !important;
- border-radius: 4px;
- padding: 3%;
- border: var(--border);
- outline: none;
- box-shadow: var(--shadow);
- font-size: 14px;
- align-self: flex-end;
- background-color: var(--forabackground);
- border: var(--border);
- cursor: pointer
+     text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: var(--bright2);
+    font-size: 11px !important;
+    border-radius: 10px;
+    padding: 2% 4%;
+    border: var(--border);
+    outline: none;
+    box-shadow: var(--shadow);
+    font-size: 14px;
+    align-self: flex-end;
+    background-color: var(--forabackground);
+    border: var(--border);
+    cursor: cell !important;
 }
 
 .switcheroo__form-button:hover {
