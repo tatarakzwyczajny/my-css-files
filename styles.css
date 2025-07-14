@@ -884,28 +884,20 @@ input[type="text"]:focus-visible,
 
 dl#field_id:nth-of-type(2) {display: none}
 .lastv {
- color: var(--b1);
- right: -40px;
- height: 50px;
- width: 200px;
- display: flex;
- flex-wrap: wrap;
- position: absolute;
- top: 5px;
- z-index: 99}
-.profilinfo5 {
-    background: var(--forabackground);
- box-shadow: var(--shadowout);
- border: var(--border);
- border-radius: 10px;
- margin: 40px 10px 10px 10px;
- position: relative;
- z-index: 99;
- flex-wrap: wrap;
- display: flex;
- align-content: center;
- height: 60px;
- border-bottom: var(--border)
+     color: var(--bright2) !important;
+    box-shadow: var(--shadowout);
+    border: var(--border);
+    border-radius: 10px;
+    padding: 10px;
+    background: var(--b2);
+    color: var(--b1);
+    right: -40px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    right: 10px;
+    top: -20px;
+    z-index: 99;
 }
 
 .profilinfo5 dl.details dd {
