@@ -2898,10 +2898,6 @@ fieldset.jumpbox {display:none;}
     font-family: var(--basicfont);
 }
 
-.postprofile-name:hover {
-	-webkit-animation: pulseCTA 1s forwards;
- animation: pulseCTA 1s forwards
-}
 
 .postprofile-name::before {
  content: "";
