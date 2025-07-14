@@ -2791,7 +2791,6 @@ fieldset.jumpbox {display:none;}
 .ikonyprofile {
     top: 29px;
     position: absolute;
-    left: 330px;
     align-items: center;
     align-content: center;
     display: flex;
@@ -2881,24 +2880,23 @@ fieldset.jumpbox {display:none;}
 }
 
 .postprofile-name {
- letter-spacing: 1.2px !important;
- display: flex;
- flex-wrap: wrap;
- align-content: center;
- top: 29px;
- right: 10px;
- height: 35px;
- box-shadow: var(--shadow);
- border: var(--border);
- border-radius: 10px;
- z-index: 99;
- position: absolute;
- padding: 0px 10px;
- background: var(--darkerbackground);
- font-size: 16px;
- font-weight: 350 !important;
- font-family: var(--basicfont);
- text-transform: uppercase
+    letter-spacing: 1.2px !important;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    top: -18px;
+    left: 10px;
+    width: 740px;
+    height: 35px;
+    box-shadow: var(--shadow);
+    border: var(--border);
+    border-radius: 10px;
+    z-index: 99;
+    position: absolute;
+    padding: 0px 10px;
+    background: var(--darkerbackground);
+    font-size: 16px;
+    font-family: var(--basicfont);
 }
 
 .postprofile-name:hover {
