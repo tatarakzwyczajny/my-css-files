@@ -168,10 +168,12 @@ filter: var(--filterinvert2);}
 
 /*ogólne*/
 .panel {
- position: relative;
- border: var(--border);
- background-color: var(--forabackground);
- box-shadow: var(--shadow)
+    border-radius: 10px;
+    font-family: var(--basicfont);
+    position: relative;
+    border: var(--border);
+    background-color: var(--forabackground);
+    box-shadow: var(--shadow);
 }
 
 .block {
@@ -1433,7 +1435,7 @@ padding: 0px}
  box-shadow: var(--shadow)}
 
 #fa_toolbar #fa_right #notif_list {
-     height: 500px;
+     max-height: 500px;
     border-radius: 10px !important;
     padding: 15px;
     box-shadow: var(--shadow);
