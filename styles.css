@@ -155,14 +155,17 @@ background: none;
 }
 
 .hidecont {
-   opacity: 1;
-  visibility: visible;
-  transition: opacity 3s ease, visibility 3s ease;
+ max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transform: translateY(-20px);
+  transition: all 0.5s ease;
 }
 
-.hidecont.hidden {
-  opacity: 0;
-  visibility: hidden;
+.hidecont.visible {
+   max-height: 500px; /* dopasuj do potrzeb */
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .fa-eye:before {
