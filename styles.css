@@ -3666,7 +3666,7 @@ button.toggleSwitcheroo {
  text-align: center;
  box-shadow: var(--shadow);
  border: var(--border);
-top: 15px;
+top: 12px;
  left: 40px;
  position: fixed;
  display: flex;
