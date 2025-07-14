@@ -334,6 +334,292 @@ margin: 10px 0px;
  margin-right: 10px
 }
 
+/*PMmsg*/
+hr {border-top: none;}
+
+.prvmsg em {
+  font-style: normal;
+      color: var(--bright);
+}
+.prvmsg a.topictitle {
+      font-family: 'Roboto';
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    text-decoration: none;
+    display: inline-block;
+    word-break: break-word;
+}
+
+.prvmsg strong {
+  margin: 0px !important;
+      color: var(--bright);
+}
+.pamiec .postbody {font-family: var(--basicfont);
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+    margin-left: 0 !important;
+    flex: 3;
+    color: #444;
+    float: none;
+    font-size: 1.2rem;
+    margin-left: 211px;
+  box-shadow: var(--shadowout);}
+.pamiec p.author > img {display:none;}
+.pamiec .postbody .h3, .introduction .h3 {display:none;}
+.pamiec {        opacity: 0.3;
+  width: 85%;}
+.pamiec .postprofile {display:none;}
+.pamiec h2 {display:none !important;}
+.poslaniec {
+  margin-top: 20px;
+  overflow:hidden;
+  border-radius: 10px;
+    box-shadow: var(--shadowout);
+    border: var(--border);
+    background: var(--darkerbackground);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 300px;
+}
+
+.poslaniec1 {    flex: 2;
+    background: url(https://i.imgur.com/au0b4yH.png);
+    background-size: contain;
+    height: 100px;
+  background-repeat: no-repeat;}
+
+.poslaniec2 {    font-family: var(--basicfont);
+    letter-spacing: 1px;
+    font-weight: 350;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  flex: 3;}
+
+form[action="/privmsg?folder=inbox"] {
+  width: 100%;
+}
+.cytuj {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+    border-radius: 10px;
+    width: 26px;
+    height: 26px;
+    background: var(--contrast);
+    border: var(--border);
+box-shadow: var(--shadowout);}
+
+.cytuj img {width: 70%;}
+
+.PMmsg {
+    background-image: var(--poczatek);
+    background-repeat: no-repeat;
+    background-color: var(--forabackground2);
+    background-size: contain;
+    width: 850px;
+    border: var(--border);
+    box-shadow: var(--shadowout);
+    border-radius: 10px;
+    /* background: var(--forabackground2); */
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+.PMmsg .topic-actions {
+  justify-content: center;}
+
+.PMmsg .topic-actions a {
+      width: 300px !important;
+    background: var(--b5);
+    font-family: var(--basicfont);
+    letter-spacing: 1px;
+}
+
+.PMmsg .topic-actions a:hover {
+  background: var(--contrast);
+}
+
+.PMmsg input[type="submit"], .button, .button1, .button2 {align-items: center;
+    justify-content: center;
+    display: flex;
+    min-height: 30px;
+    background-color: var(--b5);
+    border-radius: 2px;
+    border: var(--border);
+    margin: 1%;
+    min-width: 88px;
+    padding: 0.5%;
+    text-align: center;
+    vertical-align: middle;
+    color: var(--bright2);
+    font-weight: 400;
+    font-size: 12px;
+    font-family: var(--basicfont);
+  letter-spacing: 0.5px;}
+
+.drobiazgi {
+      padding: 10px;
+      font-family: var(--fancyfont);
+    font-size: 14px;
+    text-transform: lowercase;
+    letter-spacing: 1px;
+}
+
+.prywatna1 {
+      height: 390px;
+      margin: 20px;
+      justify-content: center;
+      overflow: hidden;
+         box-shadow: var(--shadowout);
+    border: var(--border);
+    border-radius: 10px;
+    background: var(--darkerbackground);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.prywatna1 .postprofile-contact
+{    
+      height: 70px;
+  position: relative;
+    display: flex;
+    right: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    top: -18px;
+    justify-content: center;
+    margin: 10px;
+}
+
+.prywatna1 .postprofile-avatar {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.prywatnetresc {
+     width: 100%;
+    font-weight: 320;
+    font-size: 14px;
+    text-align: justify;
+    font-family: var(--basicfont);
+        padding: 60px 20px 20px 20px;
+    overflow: auto;
+    height: 270px;
+    background: var(--darkerbackground);
+    margin: 10px;
+    border-radius: 10px;
+    border: var(--border);
+    box-shadow: var(--shadowout);
+}
+
+.tresc {
+  line-height: 1.5;
+    background: var(--forabackground);
+    margin: 10px;
+    border-radius: 10px;
+    border: var(--border);
+    box-sizing: var(--shadowout);
+    padding: 20px;
+}
+
+.tytul {
+    box-shadow: var(--shadowout);
+    position: absolute;
+    background: var(--forabackground);
+    color: var(--linkcolor);
+    margin: 35px 10px 0px 10px;
+    border-radius: 10px;
+    border: var(--border);
+    box-sizing: var(--shadowout);
+    padding: 10px;
+}
+
+#postingbox dd .select button:hover, .selectHover {
+    filter: var(--filterinvert2);
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background-color: transparent !important;
+}
+
+#postingbox dd .select button:hover, .selectHover img {width: 80px;}
+#postingbox .fields1 dl dd select[name="usergroup"] {
+  padding: 10px !important;
+    box-shadow: var(--shadowout);
+    background: var(--forabackground);
+    width: auto;
+    border-radius: 10px;
+    border: var(--border);
+    width: 30%;
+}
+
+#smilies_header {display: none!important}
+
+#preview .h3 {display:none;}
+
+.panelDICE {    box-shadow: var(--shadowout);
+    border: var(--border);
+    border-radius: 10px;
+    background: var(--forabackground);
+  padding: 20px;}
+
+.panelDICE h3 {display:none}
+#list_dice {margin:0px;
+align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+    letter-spacing: 1px;
+    font-family: var(--basicfont);
+    font-size: 14px;}
+
+#list_dice select {
+box-shadow: var(--shadow);
+    background-color: var(--darkerbackground);
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 9px;
+    vertical-align: middle;
+    margin: 0px 10px;
+    border: var(--border);
+    color: var(--bright2);
+}
+
+#list_dice input[type="text"], .inputbox {
+box-shadow: var(--shadow);
+    background-color: var(--darkerbackground);
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 9px;
+    vertical-align: middle;
+    margin: 0px 10px;
+    border: var(--border);
+    color: var(--bright2);
+  margin: 0px !important;
+}
+
+.mojpanel {    margin-top: 10px;
+    box-shadow: var(--shadowout);
+    border: var(--border);
+    border-radius: 10px;
+    background: var(--forabackground);
+  padding: 20px;}
+
 /*prvmsg*/
 
 .button-round[class^="ion-"]:before {display: none}
