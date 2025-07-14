@@ -459,7 +459,7 @@ box-shadow: var(--shadowout);}
   letter-spacing: 0.5px;}
 
 .drobiazgi {
-      padding: 10px;
+        padding: 5px 10px;
       font-family: var(--fancyfont);
     font-size: 14px;
     text-transform: lowercase;
