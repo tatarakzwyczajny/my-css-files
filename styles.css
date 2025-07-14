@@ -3692,6 +3692,57 @@ overflow: auto;
  padding: 2%
 }
 
+/*error msg*/
+p.rightside {
+    position: relative;
+    top: 10px;
+    bottom: 80px;
+    box-shadow: var(--shadow);
+    border: var(--border);
+    border-radius: 10px;
+    padding: 1%;
+    background: var(--forabackground2);
+    letter-spacing: 1px;
+    font-size: 11px;
+    font-family: var(--basicfont);
+    float: right;
+}
+
+#msgg .panel.msgdie-panel {
+    width: 100%;
+    /* margin-top: 40px; */
+    background-color: var(--darkerbackground);
+    box-shadow: var(--shadowout);
+    color: #444;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    /* padding: 2%; */
+    border: var(--border);
+    position: relative;
+}
+
+#msgg .poslaniec1 {
+      background: url(https://i.imgur.com/MQfWQ0r.png);
+      background-size: contain;
+    height: 100px;
+    background-repeat: no-repeat;
+}
+
+#msgg {    justify-content: center;
+    row-gap: 10px !important;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: var(--shadowout);
+    border: var(--border);
+    border-radius: 10px;
+    padding: 10px;
+    background-color: var(--darkerbackground2);
+    background-image: var(--poczatek2);
+    background-size: cover;
+  background-repeat: no-repeat;}
+
 /*SWITCHEROO*/
 
 #switcheroo { top: 7%;
