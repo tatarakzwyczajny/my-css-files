@@ -2782,6 +2782,21 @@ box-shadow: var(--shadowout);
  display: flex;
  flex-wrap: wrap;
 }
+
+blockquote {
+    z-index: 9;
+    background-color: var(--darkerbackground);
+    /* border-color: rgba(0, 0, 0, 0.1); */
+    border-radius: 10px;
+    border: var(--border);
+    border-width: 1px 1px 1px 6px;
+    font-size: 1.2rem;
+    margin: 0 9px;
+    overflow: hidden;
+    padding: 18px;
+    position: relative;
+}
+
 .post::before {content: "";
 	 background: transparent;
  z-index: -9;
