@@ -723,7 +723,7 @@ box-shadow: var(--shadow);
     vertical-align: middle;
     color: var(--bright2);
     font-weight: 400;
-    font-size: 12px;
+    font-size: 11px;
     font-family: var(--basicfont);
     letter-spacing: 0.5px;
 }
