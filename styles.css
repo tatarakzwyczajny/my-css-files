@@ -289,9 +289,7 @@ a:hover {
  color: var(--contrast)
 }
 
-a:visited {
- color: var(--bright)
-}
+
 
 /*rejestracja*/
 .rejestracja .panel.row3 { }
@@ -377,6 +375,10 @@ hr {border-top: none;}
     text-decoration: none;
     display: inline-block;
     word-break: break-word;
+}
+
+a.topictitle {
+    color: var(--bright2);
 }
 
 .prvmsg strong {
