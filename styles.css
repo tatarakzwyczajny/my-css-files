@@ -2953,6 +2953,19 @@ blockquote {
     position: relative;
 }
 
+dl.codebox {
+    z-index: 9;
+    background-color: var(--darkerbackground);
+    /* border-color: rgba(0, 0, 0, 0.1); */
+    border-radius: 10px;
+    border: var(--border);
+    border-width: 1px 1px 1px 6px;
+    font-size: 1.2rem;
+    margin: 0 9px;
+    overflow: hidden;
+    padding: 18px;
+    position: relative;}
+
 blockquote cite {
     font-family: var(--fancyfont);
     font-size: 13px !important;
@@ -2960,6 +2973,15 @@ blockquote cite {
     font-weight: 500;
     display: block;
 }
+
+dl.codebox dt {
+    font-family: var(--fancyfont) !important;
+    font-size: 13px !important;
+    font-style: normal;
+    font-weight: 500;
+    display: block;
+    border-bottom: none;
+    margin-bottom: 0px;}
 
 .post::before {content: "";
 	 background: transparent;
