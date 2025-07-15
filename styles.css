@@ -2988,7 +2988,7 @@ fieldset.jumpbox {display:none;}
  position: absolute;
  color: var(--bright);
  letter-spacing: 0.5px;
- font-weight: 350;
+     font-weight: 500 !important;
  font-family: var(--basicfont);
  height: 35px;
  display: flex;
@@ -2998,7 +2998,6 @@ fieldset.jumpbox {display:none;}
  padding: 0px 10px;
  border-radius: 10px;
  box-shadow: var(--shadow);
- text-transform: uppercase;
  background: var(--forabackground)
 }
 
