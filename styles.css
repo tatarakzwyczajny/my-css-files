@@ -2641,6 +2641,26 @@ input[type="submit"], .button, .button1, .button2 {
  transition: 1s
 }
 
+.topic-actions.bottom .topic-actions-buttons > a, .topic-actions.bottom .topic-actions-buttons > span {
+    color: var(--bright2);
+    background-color: var(--forabackground);
+    border: var(--border);
+    border-radius: 10px;
+    box-shadow: var(--shadowout);
+    display: inline-block;
+    font-weight: 500;
+    overflow: hidden;
+    padding: 9px 18px;
+    position: relative;
+    text-decoration: none;
+    vertical-align: middle;
+    width: auto !important;
+    transition: 1s;
+    font-family: var(--basicfont);
+    letter-spacing: 1px;
+    font-size: 11px;
+}
+
 input[type="submit"]:hover, .button:hover, .button1:hover, .button2:hover {
  background-color: var(--contrast);
  -webkit-animation: pulseCTA 1s forwards;
