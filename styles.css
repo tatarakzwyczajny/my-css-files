@@ -3556,7 +3556,14 @@ box-shadow: none !important;
 
 .sceditor-group { padding: 0px !important;
  margin: 0px !important}
-div.sceditor-toolbar {background: var(--b3) !important}
+
+div.sceditor-toolbar {
+	    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+	background: var(--b3) !important}
+
 .sceditor-button.active, .sceditor-button:active, .sceditor-button:hover 
 {     background: var(--contrast) !important;
 -webkit-animation: pulseCTA 1s forwards;
