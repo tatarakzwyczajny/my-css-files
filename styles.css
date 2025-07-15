@@ -4428,6 +4428,15 @@ width: 100%;
     transition: 0.2s opacity ease;
 }
 
+.monomer-overlay.monomer-open::before {
+    content: '';
+    opacity: 0.5;
+    background: var(--darkerbackground2);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
 /* Boîte de connexion */
 .monomer-modal {
  position: fixed;
