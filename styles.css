@@ -78,6 +78,9 @@ background-attachment: fixed;
 /*linki*/
 
 a {cursor: cell;}
+a:visited {
+    color: var(--bright2);
+}
 
 /*sub-head*/
 
