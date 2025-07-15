@@ -1446,6 +1446,18 @@ padding: 0px}
     box-shadow: var(--shadowout);
 }
 
+.awards_block.simple {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    column-gap: 10px !important;
+    justify-content: center;
+    max-height: 200px;
+    overflow: hidden auto;
+    padding: 0px;
+    text-align: center;
+}
+
 .awards_block_simple_wrapper {
 	padding: 10px;
     display: block;
@@ -1459,8 +1471,8 @@ div.award {
     filter: var(--filterinvert2);
     display: inline-block;
     position: relative;
-    width: 45px;
-    height: 45px;
+    width: 35px;
+    height: 35px;
     background-image: var(--award-image);
     border-radius: 5px;
     background-position: center;
