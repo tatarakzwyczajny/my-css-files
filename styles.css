@@ -197,25 +197,7 @@ filter: var(--filterinvert2);}
 
 
 /*zaloguj page*/
-#main.zaloguj fieldset.fields1.left.fld_connexion {
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
 
-#main.zaloguj {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-}
-
-#main.zaloguj p:first-child {
-    display: none;
-}
-
-#main.zaloguj .panel {
-    padding: 20px !important;
-}
 
 /*ogólne*/
 .panel {
