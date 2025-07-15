@@ -2440,6 +2440,15 @@ h2.topic-title.hierarchy a:hover {
  left: 5px
 }
 
+.topic-description {
+    font-weight: 100;
+    margin-left: 5px;
+    font-size: 11px;
+    letter-spacing: 1px;
+    font-family: var(--basicfont);
+    word-break: break-word;
+}
+
 ul.topiclist.topics.bg_none {padding: 2%}
 ul.topiclist.topics.bg_none > li.row {
  padding-bottom: 2%;
