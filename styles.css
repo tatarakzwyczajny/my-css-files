@@ -1508,6 +1508,18 @@ font-family: var(--basicfont);
     box-shadow: var(--shadowout);
 }
 
+.notif_award {
+    opacity: 0.7;
+    filter: var(--filterinvert2);
+    background-image: var(--award-image);
+    background-position: center;
+    background-size: cover;
+    float: left;
+    height: 25px;
+    margin: 0 7px 0 0;
+    width: 26px;
+}
+
 
 /*tooltip*/
 
