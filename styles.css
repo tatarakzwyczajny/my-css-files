@@ -2409,21 +2409,22 @@ font-size: 12px;
 
 
 .tematy:hover dd.kwadracik {
- border-radius: 10px;
- opacity: 1;
- font-family: var(--basicfont);
- font-weight: 100;
- color: var(--forabackground);
- display: flex !important;
- flex-wrap: wrap;
- justify-content: center;
- align-items: center;
- position: relative;
- width: 35px;
- height: 35px;
- z-index: 999;
- padding: 0 !important;
- background: var(--bright)}
+    border-radius: 10px;
+    opacity: 1;
+    font-family: var(--basicfont) !important;
+    font-weight: 500;
+    background: var(--forabackground);
+    border: var(--border);
+    box-shadow: var(--shadow3);
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 35px;
+    height: 35px;
+    z-index: 999;
+    padding: 0 !important;}
 
 /*go to page form*/
 
