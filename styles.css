@@ -1977,23 +1977,25 @@ animation: pulseCTA 1s forwards}
 }
 
 #site-desc {
- transition: 1s !important;
- width: 100%;
- display: flex;
- justify-content: center;
- align-items: center;
- font-family: 'Poiret One';
- opacity: 0.3;
- color: var(--f1) !important;
- font-size: 90px;
- position: absolute;
- letter-spacing: 15px;
- text-align:right;
- clear: both;
- text-align: center;
- position: absolute;
- top: 60%;
- left: 0
+transition: 1s !important;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poiret One';
+    opacity: 0.3;
+    color: var(--f1) !important;
+    font-size: 90px;
+    position: absolute;
+    letter-spacing: 15px;
+    text-align: right;
+    clear: both;
+    text-align: center;
+    position: absolute;
+    top: 25%;
+    height: 700px;
+    left: 0;
+    z-index: 9;
 }
 
 .headerbar {
