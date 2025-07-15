@@ -1520,7 +1520,7 @@ font-family: var(--basicfont);
     width: 26px;
 }
 
-dl.left-box details2 {
+.left-box details2 {
     letter-spacing: 1px;
     box-shadow: var(--shadowout);
     border: var(--border);
