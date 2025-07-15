@@ -3745,12 +3745,12 @@ body#sce_smilies_body {
 }
 
 .odpowiedzbit input[type="text"], .inputbox {
-	margin-bottom: 15px !important;
-      box-shadow: var(--shadowout);
+    margin-bottom: 15px !important;
+    box-shadow: var(--shadowout);
     border: var(--border) !important;
     border-radius: 10px !important;
-    background-color: var(--forabackground);
-    color: #444;
+    background-color: var(--b1);
+    color: var(--bright);
     cursor: text !important;
     font-size: 12px !important;
 }
