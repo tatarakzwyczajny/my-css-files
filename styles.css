@@ -3027,6 +3027,8 @@ fieldset.jumpbox {display:none;}
  background: var(--forabackground)
 }
 
+.topic-date a {color: var(--bright2);}
+
  .topic-date:hover {
 background: var(--contrast);
 			-webkit-animation: pulseCTA 1s forwards;
