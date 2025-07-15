@@ -4419,6 +4419,7 @@ width: 100%;
 
 /* Fond de l'afficage connexion */
 .monomer-overlay {
+	display:none;
     position: fixed;
     z-index: 999;
     top: 0;
