@@ -2981,7 +2981,7 @@ fieldset.jumpbox {display:none;}
  .topic-date {
  z-index: 99;
  top: 59px;
- left: 10px;
+ left: 70px;
  padding: 0px 10px !important;
  border: var(--border) !important;
  position: absolute;
