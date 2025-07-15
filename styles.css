@@ -1469,6 +1469,32 @@ div.award {
     scroll-snap-align: center;
 }
 
+.award_tooltiptext {
+font-family: var(--basicfont);
+    font-size: 11px;
+    letter-spacing: 1px;
+    visibility: collapse;
+    pointer-events: none;
+    font-weight: 200;
+    line-height: 16px;
+    position: absolute;
+    width: 170px;
+    top: 20px;
+    transform: translate(-30%, -50%);
+    background-color: var(--darkerbackground2);
+    color: var(--bright2);
+    text-align: center;
+    padding: 8px;
+    border-radius: 10px;
+    border: var(--border);
+    z-index: 6;
+    opacity: 0;
+    word-break: break-word;
+    white-space: normal;
+    transition: opacity 1s;
+    box-shadow: var(--shadowout);
+}
+
 
 /*tooltip*/
 
