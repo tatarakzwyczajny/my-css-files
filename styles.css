@@ -1454,6 +1454,7 @@ padding: 0px}
 }
 
 div.award { 
+	border: none !important;
 	opacity:0.8;
     filter: var(--filterinvert2);
     display: inline-block;
