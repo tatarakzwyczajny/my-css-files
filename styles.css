@@ -597,10 +597,9 @@ opacity: 0.7;
 /* body */
 #modernbb { margin-top: 0px !important}
 html, body {
-
  font-family: var(--basicfont)
  transition: 1.5s;
- background-image: var(--urlbackground);
+ background: var(--darkerbackground);
 background-attachment: fixed;
  background-repeat: no-repeat;
  background-size: cover;
