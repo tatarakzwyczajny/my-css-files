@@ -398,8 +398,10 @@ a.topictitle {
   box-shadow: var(--shadowout);}
 .pamiec p.author > img {display:none;}
 .pamiec .postbody .h3, .introduction .h3 {display:none;}
-.pamiec {        opacity: 0.3;
+.pamiec {        opacity: 0.6;
   width: 85%;}
+.pamiec h3, .h3 {display:none}
+.pamiec .postbody .content {margin-left: 0px;}
 .pamiec .postprofile {display:none;}
 .pamiec h2 {display:none !important;}
 .poslaniec {
