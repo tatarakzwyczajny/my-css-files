@@ -2629,7 +2629,7 @@ input[type="submit"], .button, .button1, .button2 {
  background-color: var(--forabackground);
  border: var(--border);
  border-radius: 10px;
- box-shadow: var(--shadow);
+ box-shadow: var(--shadowout);
  display: inline-block;
  font-weight: 500;
  overflow: hidden;
@@ -2739,7 +2739,7 @@ box-shadow: var(--shadowout);
 .controls button {
       border-radius: 10px;
     border: var(--border);
-    box-shadow: var(--shadow);
+    box-shadow: var(--shadowout);
     width: 35px;
     height: 35px;
     background-color: var(--forabackground);
@@ -2959,7 +2959,7 @@ fieldset.jumpbox {display:none;}
     left: 10px;
     width: 740px;
     height: 35px;
-    box-shadow: var(--shadow);
+    box-shadow: var(--shadowout);
     border: var(--border);
     border-radius: 10px;
     z-index: 99;
@@ -3019,7 +3019,7 @@ background: var(--contrast);
  height: 35px;
  border: var(--border);
  border-radius: 10px;
- box-shadow: var(--shadow);
+ box-shadow: var(--shadowout);
 margin-top: 0px}
 .postprofile-contact img {
  filter: var(--filter3);
