@@ -1520,6 +1520,22 @@ font-family: var(--basicfont);
     width: 26px;
 }
 
+dl.left-box details2 {
+    letter-spacing: 1px;
+    box-shadow: var(--shadowout);
+    border: var(--border);
+    border-radius: 10px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    background: var(--darkerbackground2);
+    flex-wrap: wrap;
+    display: flex;
+    width: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 
 /*tooltip*/
 
