@@ -1,6 +1,4 @@
 /*kolorki*/
-
-
 .ion-edit:before {content: ""}
 .is-sticky#headerbar-top {display: none}
 
@@ -289,7 +287,60 @@ a:hover {
  color: var(--contrast)
 }
 
+.pamiec h3, .h3 {display:none}
+.pamiec .postbody .content {margin-left: 0px;}
 
+/*wyszukiwanie postów*/
+
+.informacje a {
+  color: var(--contrast) !important;}
+
+.informacje a:hover {
+      text-shadow: var(--txtshadow);
+    color: var(--contrast) !important;
+}
+
+.informacje .pagination > a > b, strong {
+     color: var(--bright);
+}
+
+.informacje .pagination > a > b, strong:hover {
+     color: var(--contrast);
+}
+
+
+.trescin {    color: var(--bright2);
+    text-align: justify;
+  padding: 10px;}
+
+.wyszukiwarkapostow {padding: 30px 10px;}
+
+.tresci {    box-shadow: var(--shadowout);
+    border: var(--border);
+    border-radius: 10px;
+    background: var(--forabackground);
+    margin: 10px 0px;
+  padding: 10px;}
+
+.wokoloinformacje {    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  column-gap: 10px;}
+
+.informacje {
+      color: var(--bright2);
+  box-shadow: var(--shadowout);
+    border-radius: 10px;
+    border: var(--border);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 35px;
+    max-height: 35px;
+    padding: 0px 10px;
+  background: var(--darkerbackground2);
+}
 
 /*rejestracja*/
 .rejestracja .panel.row3 { }
