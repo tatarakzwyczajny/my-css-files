@@ -3851,8 +3851,7 @@ fieldset dl:hover dt label {
 
 /*error msg*/
 p.rightside {
-    position: relative;
-    top: 10px;
+    position: absolute;
     bottom: 80px;
     box-shadow: var(--shadow);
     border: var(--border);
