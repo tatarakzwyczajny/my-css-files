@@ -76,14 +76,14 @@ label {
 }
 
 .wy1 {
- color: var(--bright2);
+    color: var(--bright2);
     padding: 5px 10px;
     border-radius: 10px;
     border: var(--border);
     text-transform: lowercase;
     background: var(--forabackground2);
-    position: absolute;
     margin-top: -35px;
+    margin-bottom: 20px;
 }
 
 .wyszukuz {
