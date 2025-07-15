@@ -1345,9 +1345,6 @@ padding: 2%}
 .profilav dd {
  border-right: none}
 
-
-
-
 .profilinfo dl {
 display: flex;
  flex-wrap: wrap;
@@ -1437,6 +1434,40 @@ padding: 0px}
  filter: var(--filter3);
  width: 100%;
  height: 100%}
+
+.awards {
+	    margin: 10px;
+    flex-wrap: wrap;
+    display: flex;
+    border-radius: 10px;
+    font-family: var(--basicfont);
+    position: relative;
+    border: var(--border);
+    background-color: var(--forabackground);
+    box-shadow: var(--shadowout);
+}
+
+.awards_block_simple_wrapper {
+	padding: 10px;
+    display: block;
+    float: left;
+    width: 100%;
+}
+
+div.award { 
+    filter: var(--filterinvert2);
+    display: inline-block;
+    position: relative;
+    width: 45px;
+    height: 45px;
+    background-image: var(--award-image);
+    border-radius: 5px;
+    background-position: center;
+    margin: 3px;
+    background-size: cover;
+    flex-shrink: 0;
+    scroll-snap-align: center;
+}
 
 
 /*tooltip*/
