@@ -3851,17 +3851,7 @@ fieldset dl:hover dt label {
 
 /*error msg*/
 p.rightside {
-    position: absolute;
-    bottom: 80px;
-    box-shadow: var(--shadow);
-    border: var(--border);
-    border-radius: 10px;
-    padding: 1%;
-    background: var(--forabackground2);
-    letter-spacing: 1px;
-    font-size: 11px;
-    font-family: var(--basicfont);
-    float: right;
+ display:none;
 }
 
 #msgg .panel.msgdie-panel {
@@ -3893,9 +3883,9 @@ p.rightside {
     box-shadow: var(--shadowout);
     border: var(--border);
     border-radius: 10px;
-    padding: 10px;
+    padding: 90px 10px 10px 10px;
     background-color: var(--darkerbackground2);
-    background-image: var(--poczatek2);
+    background-image: var(--poczatek5);
     background-size: cover;
   background-repeat: no-repeat;}
 
