@@ -2718,7 +2718,10 @@ box-shadow: var(--shadowout);
  position: absolute;
  width: 100%;
  height: 100%;
- background: var(--darkerbackground) }
+    background-color: var(--darkerbackground);
+    background-image: var(--poczatek5);
+    background-size: 100%;
+    background-repeat: no-repeat;}
 
 .niepatrz > .sub-header { height: 0px}
 .postbody {
