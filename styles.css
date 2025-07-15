@@ -3787,6 +3787,7 @@ fieldset dl:hover dt label {
 }
 
 .controls {
+	left:30px;
       column-gap: 10px;
   position: absolute;
     flex-direction: row;
