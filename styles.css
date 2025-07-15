@@ -1470,7 +1470,7 @@ div.award {
     scroll-snap-align: center;
 }
 
-.award_tooltiptext {
+span.award_tooltiptext {
 font-family: var(--basicfont);
     font-size: 11px;
     letter-spacing: 1px;
