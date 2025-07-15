@@ -651,6 +651,12 @@ box-shadow: var(--shadow);
     background: var(--forabackground);
   padding: 20px;}
 
+.mojpanel .odpowiedzbit dt label {
+	    text-transform: lowercase;
+padding: 0px !important;
+	    background: transparent !important;
+}
+
 /*prvmsg*/
 
 .button-round[class^="ion-"]:before {display: none}
