@@ -1525,6 +1525,7 @@ font-family: var(--basicfont);
  box-shadow: var(--shadow)}
 
 #fa_toolbar #fa_right #notif_list {
+	min-height: 500px;
      max-height: 500px;
     border-radius: 10px !important;
     padding: 15px;
