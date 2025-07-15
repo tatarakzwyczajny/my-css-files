@@ -1523,8 +1523,11 @@ font-family: var(--basicfont);
     width: 26px;
 }
 
-.left-box details2 {
-    letter-spacing: 1px;
+li.footer-home {display:none;}
+dl.left-box.details2 {
+      text-transform: lowercase;
+      width: fit-content !important;
+   letter-spacing: 1px;
     box-shadow: var(--shadowout);
     border: var(--border);
     border-radius: 10px;
@@ -1534,7 +1537,6 @@ font-family: var(--basicfont);
     background: var(--darkerbackground2);
     flex-wrap: wrap;
     display: flex;
-    width: auto;
     margin-top: 10px;
     margin-bottom: 10px;
 }
