@@ -2626,6 +2626,9 @@ box-shadow: var(--shadowout);
 .subtematy > #page-desc {display: none}
 
 input[type="submit"], .button, .button1, .button2 {
+	    letter-spacing: 1px;
+    font-family: var(--basicfont);
+    color: var(--bright2) !important;
  background-color: var(--forabackground);
  border: var(--border);
  border-radius: 10px;
