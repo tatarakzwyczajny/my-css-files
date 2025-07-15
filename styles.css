@@ -5052,8 +5052,8 @@ width: 100%;
 
 /* Bouton de connexion */
 .switcheroo__form-button {
-     text-transform: uppercase;
-    font-weight: 600;
+    text-transform: lowercase;
+    font-weight: 200;
     letter-spacing: 1px;
     color: var(--bright2);
     font-size: 11px !important;
