@@ -2364,6 +2364,42 @@ font-size: 12px;
  padding: 0 !important;
  background: var(--bright)}
 
+/*go to page form*/
+
+form[name="go_page"] .thHead {
+  font-weight: 400;
+    font-size: 11px;
+    padding: 9px 18px;
+}
+
+form[name="go_page"] .row1:hover{
+     background: var(--forabackground2); 
+}
+form[name="go_page"] .row1 {
+     background: var(--forabackground2); 
+}
+
+form[name="go_page"] {
+  font-family: var(--basicfont);
+    background: var(--forabackground2);
+    border-radius: 10px;
+    border: var(--border);
+    box-shadow: var(--shadowout);
+    overflow: hidden;
+    letter-spacing: 1px;
+    text-transform: lowercase;
+}
+
+form[name="go_page"] input[type="text"], .inputbox {
+      padding: 10px 0px !important;
+    font-size: 11px !important;
+    box-shadow: var(--shadow) !important;
+    border-radius: 10px !important;
+    margin-bottom: 10px !important;
+    border: var(--border) !important;
+    background-color: var(--contrast); !important;
+    color: var(--bright2) !important;
+}
 
 
 /*nowe posty*/
@@ -2633,7 +2669,7 @@ gap: 0px;
     flex-wrap: wrap;
     float: right;
     font-size: 12px;
-    background: var(--b2);
+        background: var(--forabackground2);
     align-content: center;
     margin-right: 8px;
     padding: 0px 8px;
