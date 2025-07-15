@@ -2857,6 +2857,7 @@ blockquote cite {
 fieldset.jumpbox {display:none;}
 
 .ikonyprofile {
+	height: 35px;
     top: 59px;
     position: absolute;
     align-items: center;
