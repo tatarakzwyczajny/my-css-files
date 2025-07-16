@@ -4356,7 +4356,6 @@ body#sce_smilies_body {
 }
 
 .odpowiedzbit input[type="text"], .inputbox {
-    margin-bottom: 15px !important;
     box-shadow: var(--shadowout);
     border: var(--border) !important;
     border-radius: 10px !important;
