@@ -4474,6 +4474,7 @@ overflow: auto;
 /*podglad wiadomosci*/
 .odpowiedzbit #preview .postbody .content {margin-left: 0px;}
 .odpowiedzbit #preview .postbody {padding: 20px !important;}
+.odpowiedzbit #preview .inner {width: 100%;}
 
 .niepatrz .sceditor-container iframe, .sceditor-container textarea {
 color: var(--bright2) !important;}
