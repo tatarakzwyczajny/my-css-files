@@ -1425,10 +1425,26 @@ ul.topiclist.pmlist.bg_none {
 
 .rejestracja #cp-main .panel .poslaniec {
     margin: 20px 0px !important;
+	    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: var(--shadowout);
+    border: var(--border);
+    background: var(--darkerbackground);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 310px;
 }
 
 .rejestracja #cp-main .panel .poslaniec1 {
-    background: url(https://i.imgur.com/BDhitNo.png);}
+    background: url(https://i.imgur.com/BDhitNo.png);
+    background-size: 100%;
+    height: 100%;}
+
+.rejestracja #cp-main .panel .poslaniec2 {
+	text-align: justify;
+	    text-transform: math-auto;
+}
 
 
 .rejestracja > input[type="text"], .inputbox {
