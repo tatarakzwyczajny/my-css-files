@@ -940,22 +940,25 @@ margin: 10px 0px;
 
 
 #tabs ul a:hover {
+	 color: var(--bright2) !important;
  border: 0px !important;
  color: var(--contrast);
 -webkit-animation: pulseCTA 1s forwards;
  animation: pulseCTA 1s forwards}
+
 #tabs ul li {
- border-radius: 5px;
- background: var(--forabackground);
- display: inline-block;
- font-size: 1.3rem;
- font-weight: 400;
- margin: 0;
- padding: 0;
- border: var(--border);
- box-shadow: var(--shadow);
- margin-right: 10px
+    color: var(--bright2) !important;
+    background: var(--darkerbackground) !important;
+    border: var(--border) !important;
+    border-radius: 10px !important;
+    box-shadow: var(--shadowout) !important;
+    font-family: var(--basicfont) !important;
+    font-size: 11px !important;
+    letter-spacing: 1px !important;
 }
+
+#tabs ul .activetab a {
+	border-color: none !important;}
 
 /*PMmsg*/
 hr {border-top: none;}
