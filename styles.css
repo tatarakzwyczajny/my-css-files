@@ -125,6 +125,7 @@ label {
 }
 
 .memberkarta {
+	z-index: 9;
     margin-top: 265px;
     width: 30px;
     height: 30px;
