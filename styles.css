@@ -101,7 +101,8 @@ label {
 }
 
 
-.memberlist {    
+.memberlist {  
+	z-index: 9;
     max-width: 19%;
     border-radius: 10px;
     background: var(--forabackground2);
