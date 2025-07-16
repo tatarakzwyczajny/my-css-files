@@ -1501,8 +1501,8 @@ dl#field_id:nth-of-type(2) {display: none}
 .profilinfo5 #field_id4 {display: none}
 .profilinfo5 #field_id3 {display: none}
 .profilinfo5 #field_id2 {display: none}
-.profilinfo5 #field_id-9 {display: none}
-.profilinfo5 #field_id-9 {display: none}
+.profilinfo5 #field_id9 {display: none}
+.profilinfo5 #field_id9 {display: none}
 .profilinfo5 #field_id-8 {display: none}
 .profilinfo5 #field_id1 {display: none}
 .profilinfo5 #field_id6 {display: none}
@@ -1650,8 +1650,8 @@ dl#field_id:nth-of-type(2) {display: none}
 .profilinfo6 #field_id4 {display: none}
 .profilinfo6 #field_id3 {display: none}
 .profilinfo6 #field_id2 {display: none}
-.profilinfo6 #field_id-9 {display: none}
-.profilinfo6 #field_id-9 {display: none}
+.profilinfo6 #field_id9 {display: none}
+.profilinfo6 #field_id9 {display: none}
 .profilinfo6 #field_id-8 {display: none}
 .profilinfo6 #field_id1 {display: none}
 .profilinfo6 #field_id6 {display: none}
@@ -1665,8 +1665,8 @@ dl#field_id:nth-of-type(2) {display: none}
 .profilinfo7 #field_id4 {display: none}
 .profilinfo7 #field_id3 {display: none}
 .profilinfo7 #field_id2 {display: none}
-.profilinfo7 #field_id-9 {display: none}
-.profilinfo7 #field_id-9 {display: none}
+.profilinfo7 #field_id9 {display: none}
+.profilinfo7 #field_id9 {display: none}
 .profilinfo7 #field_id-8 {display: none}
 .profilinfo7 #field_id1 {display: none}
 .profilinfo7 #field_id6 {display: none}
@@ -1748,8 +1748,8 @@ margin-top: 2px;
 }
 
 .profilinfo4 #field_id5 {width: 100% !important}
-.profilinfo4 #field_id-9 {width: 100% !important}
-.profilinfo4 #field_id-9 input[type="text"], .inputbox {
+.profilinfo4 #field_id9 {width: 100% !important}
+.profilinfo4 #field_id9 input[type="text"], .inputbox {
 	 width: 100% !important
 }
 .profilinfo4 #field_id4 {display: none}
@@ -1823,7 +1823,7 @@ padding: 0px}
 .profilinfo1 {flex: 1;
 padding: 2%}
 
-.profilinfo1 #field_id-9 {display: none}
+.profilinfo1 #field_id9 {display: none}
 .profilinfo1 #field_id-8 {display: none}
 .profilinfo1 #field_id1 {display: none}
 .profilinfo1 #field_id-6 {display: none}
@@ -1841,7 +1841,7 @@ padding: 2%}
 .profilinfo2 #field_id4 {display: none}
 .profilinfo2 #field_id3 {display: none}
 .profilinfo2 #field_id2 {display: none}
-.profilinfo2 #field_id-9 {display: none}
+.profilinfo2 #field_id9 {display: none}
 .profilinfo2 #field_id-6 {display: none}
 .profilinfo2 #field_id-13 {display: none}
 .profilinfo2 #field_id6 {display: none}
@@ -1864,10 +1864,9 @@ padding: 2%}
 .profilinfo3 #field_id4 {display: none}
 .profilinfo3 #field_id3 {display: none}
 .profilinfo3 #field_id2 {display: none}
-.profilinfo3 #field_id-9 {display: none}
+.profilinfo3 #field_id9 {display: none}
 .profilinfo3 #field_id-6 {display: none}
 .profilinfo3 #field_id-13 {display: none}
-.profilinfo3 #field_id-9 {display: none}
 .profilinfo3 #field_id-8 {display: none}
 .profilinfo3 #field_id1 {display: none}
 .profilinfo3 #field_id-6 {display: none}
@@ -1899,7 +1898,7 @@ display: flex;
 
 .profilpod {
  background: var(--forabackground2);
- width: 96%;
+ width: 850px;
  margin-left: 3%;
  position: relative;
  box-shadow: var(--shadow);
