@@ -752,9 +752,7 @@ filter: var(--filterinvert2);}
     border-radius: 10px;
     font-family: var(--basicfont);
     position: relative;
-    border: var(--border);
     background-color: var(--forabackground);
-    box-shadow: var(--shadow);
 }
 
 .block {
