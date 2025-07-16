@@ -112,7 +112,8 @@ label {
     overflow: hidden;
 }
 
-.memberav img {width: 100%;}
+.memberav img {width: 100%;
+	      filter: var(--filter2);}
 
 .memberavinfo {
       box-shadow: var(--shadowout);
