@@ -1414,6 +1414,7 @@ ul.topiclist.pmlist.bg_none {
 #cp-main > .panel.sig { background: var(--forabackground)}
 
 .rejestracja #cp-main .panel {
+	justify-content: center;
  display: flex;
  flex-wrap: wrap;
  box-shadow: var(--shadow);
@@ -1421,6 +1422,13 @@ ul.topiclist.pmlist.bg_none {
  background: var(--forabackground2);
  padding: 18px
 }
+
+.rejestracja #cp-main .panel .poslaniec {
+    margin: 20px 0px !important;
+}
+
+.rejestracja #cp-main .panel .poslaniec1 {
+    background: url(https://i.imgur.com/BDhitNo.png);}
 
 
 .rejestracja > input[type="text"], .inputbox {
