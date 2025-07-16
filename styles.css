@@ -3873,7 +3873,9 @@ p.fa_like_list a {    padding: 2px 10px;
     border: var(--border);
     box-shadow: var(--shadowout);}
 
-p.fa_like_list a:hover {background: var(--contrast);
+p.fa_like_list a:hover {
+	color: var(--bright2);
+	background: var(--contrast);
 			-webkit-animation: pulseCTA 1s forwards;
  animation: pulseCTA 1s forwards}
 
