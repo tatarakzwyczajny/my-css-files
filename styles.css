@@ -2533,6 +2533,7 @@ font-size: 30px !important;
  border: none
 }
 .linklist.top a {
+ color: var(--darkerbackground);
  display: flex;
  width: 40px;
  height: 40px;
