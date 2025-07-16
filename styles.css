@@ -851,7 +851,7 @@ a:hover {
 }
 
 .informacje .pagination > a > b, strong:hover {
-     color: var(--contrast);
+     color: var(--bright2);
 }
 
 
