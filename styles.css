@@ -399,8 +399,7 @@ color: var(--bright2);
 }
 
 #mojetematyrez {
-      width: 90%;
-    margin: 0% 5%;
+      width: 800px;
     padding: 100px 10px 10px 10px;
     border-radius: 10px;
     box-shadow: var(--shadow);
