@@ -2373,6 +2373,7 @@ h1.page-title {
     height: 25px;}
 
 .sub-header-path a {
+	color: var(--bright2);
     justify-content: center;
     min-width: 80px;
     font-family: var(--basicfont);
