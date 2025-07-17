@@ -4037,6 +4037,7 @@ p.fa_like_list a:hover {
 
 
 .statistics strong {
+	color: var(--bright3);
 	 font-size: 13px !important;
  font-weight: 400;
  margin-left: 10px !important
