@@ -3010,6 +3010,9 @@ font-size: 30px !important;
  padding-bottom: 6px;
  border: none
 }
+
+.linklist li {margin: 0px !important;}
+
 .linklist.top a {
  color: var(--darkerbackground);
  display: flex;
