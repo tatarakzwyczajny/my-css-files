@@ -3077,22 +3077,22 @@ transition: 1s}
  background-image: var(--poczatek)
 }
 
-.forabg:nth-of-type(1)::before {
+.forabg:nth-child(1)::before {
  background-image: var(--poczatek2);
  margin-top: -100px
 }
 
-.forabg:nth-of-type(2)::before {
+.forabg:nth-child(2)::before {
  background-image: var(--poczatek3);
  margin-top: -100px
 }
 
-.forabg:nth-of-type(3)::before {
+.forabg:nth-child(3)::before {
  background-image: var(--poczatek4);
  margin-top: -80px
 }
 
-.forabg:nth-of-type(4)::before {
+.forabg:nth-child(4)::before {
  background-image: var(--poczatek5);
  margin-top: -100px
 }
