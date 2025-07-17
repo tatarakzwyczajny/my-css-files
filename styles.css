@@ -1480,6 +1480,485 @@ input[type="text"]:focus-visible,
  outline: none
 }
 
+.hidecont {
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.4s ease;
+  }
+
+  .hidecont.visible {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+#page-body {
+    display: flex;
+    flex-wrap: wrap;
+  justify-content: center;}
+
+/*emblemat*/
+#nowyavatar img {
+    border-radius: 10px;
+    border: var(--border);
+    box-shadow: var(--shadowout);
+  margin: 0px 10px;}
+
+
+#nowyavatar input.inputbox, select.inputbox {
+      background: var(--forabackground) !important;
+}
+
+#nowyavatar fieldset dd {
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+    padding: 10px;
+    background: var(--darkerbackground2);
+    width: 100%;
+    margin-left: 0px !important;
+    border-radius: 10px;
+    border: var(--border);
+    box-shadow: var(--shadowout);
+}
+
+
+#nowyavatar dt label {
+    font-weight: 300 !important;
+    padding: 0px !important;
+    margin: 0px !important;
+  text-align: justify; }
+
+#nowyavatar fieldset dt {
+    width: 100%;
+    border: var(--border);
+    box-shadow: var(--shadowout);
+    border-radius: 10px;
+    margin: 10px 0px;
+    text-align: justify;
+    padding: 10px !important;
+    background: var(--forabackground);
+    align-items: center;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  float: left;}
+
+#nowyavatar fieldset dd {
+    width: 100%;
+  margin-left: 0px !important;}
+
+/* rejestracja mała */
+
+.error {
+    background-color: var(--darkerbackground2);
+    border: var(--border);
+    color: var(--bright2) !important;
+    border-radius: 10px;
+    box-shadow: var(--shadowout);
+    padding: 18px;
+  position: relative;}
+
+.error span {color: var(--bright2) !important;}
+
+#pwd_bad {
+  position: absolute;
+  right: 20px;
+    right: 20px;
+    justify-content: center;
+    border: var(--border);
+    box-shadow: var(--shadow);
+    border-radius: 10px;
+    width: 90px;
+}
+
+#pwd_middle {
+    position: absolute;
+  right: 20px;
+    right: 20px;
+    justify-content: center;
+    border: var(--border);
+    box-shadow: var(--shadow);
+    border-radius: 10px;
+    width: 90px;
+}
+
+#pwd_good {
+    position: absolute;
+  right: 20px;
+    right: 20px;
+    justify-content: center;
+    border: var(--border);
+    box-shadow: var(--shadow);
+    border-radius: 10px;
+    width: 90px;
+}
+
+input#wantsnews {
+    width: 100%;
+    margin-top: -30px;
+}
+
+fieldset dl:last-of-type dd {
+    margin: 0px !important;
+}
+
+#cp-main .panel fieldset dd label {
+      font-size: 11px;
+    margin: 5px 0px;
+    width: 100%;
+    color: var(--bright2);
+    font-family: var(--basicfont);
+}
+
+#cp-main .panel p {
+    box-sizing: var(--shadow);
+    border: var(--border);
+    border-radius: 10px;
+    padding: 5px 0px;
+    text-align: center;
+    background: var(--darkerbackground2);
+    font-family: var(--basicfont);
+    font-size: 12px !important;
+    color: var(--bright2);
+    letter-spacing: 1px;
+    font-size: 1.1em;
+}
+
+#cp-main dt label {
+    font-family: var(--basicfont);
+    text-transform: lowercase;
+    letter-spacing: 1px;
+    font-weight: 500 !important;
+    font-size: 12px;
+}
+
+#cp-main input#username_reg {
+    background: var(--forabackground);
+}
+#cp-main input#email,input#password_reg {
+    background: var(--forabackground);
+}
+
+#content-main #main .panel.row3 {
+  background-color: var(--darkerbackground2);
+    background-image: var(--poczatek5);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+    #content-main #main  {min-width: 500px;
+margin-bottom: 24px;}
+
+#cp-main .panel {
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
+    box-shadow: none !important;
+    background: transparent;
+}
+
+#cp-main h1 {
+    box-shadow: var(--shadow);
+    border: var(--border);
+    color: var(--bright2) !important;
+    margin: 10px 10px !important;
+    padding: 10px 0px !important;
+    border-radius: 10px;
+    text-align: center;
+  background: var(--darkerbackground);}
+
+/*ikonki tabs*/
+
+#tabs ul a:hover span {
+    color: var(--bright2);
+}
+
+#tabs ul a span {
+      color: var(--bright2);
+}
+.ikonkitabs {
+  display: flex
+;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    flex-direction: row;
+  row-gap: 10px;}
+
+.ikonkitabs #tabs ul
+{
+     margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    column-gap: 10px !important; 
+}
+
+#tabs ul li {
+    font-size: 11.5px !important;
+    letter-spacing: 0.2px;
+    text-transform: lowercase;
+    font-family: var(--basicfont);
+    box-shadow: var(--shadowout);
+    background: var(--darkerbackground2);
+    border-radius: 10px;
+    border: var(--border);
+    display: inline-block;
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+#tabs ul li:hover {
+  -webkit-animation: pulseCTA 1s forwards;
+ animation: pulseCTA 1s forwards
+}
+
+#tabs ul a:hover {
+      border: none !important;
+}
+
+#tabs ul .activetab a {
+  border: none !important;}
+
+/*signature*/
+
+#signature {    width: 800px !important;}
+
+#signature fieldset.submit-buttons {padding: 0px !important;
+    margin: 0px !important;}
+
+#signature .page-title {display: none;}
+#signature .panel.row3 {
+     box-shadow: var(--shadowout) !important;
+    border: var(--border) !important;
+    background-color: var(--darkerbackground2);
+    background-image: var(--poczatek5);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 10px 20px 0px 20px;
+}
+#signature .panel {
+    padding-bottom: 0px !important;
+    margin: 0px !important;
+    border: none !important;
+    box-shadow: none !important;
+    background: transparent;
+  border: none !important; }
+
+
+/*rejestracja obok*/
+#signature .panel {border: none !important;}
+
+
+#cp-main dt label {font-weight: 300 !important;
+    font-size: 12px;}
+
+#cp-main span {
+      text-align: justify;
+    font-size: 12px;
+    font-weight: 350;
+    font-style: normal;
+}
+
+#cp-main .panel.sig {
+    box-shadow: var(--shadow);
+    border: var(--border);
+    border-radius: 10px;
+    margin: 10px;
+    background-color: transparent;
+}
+
+
+
+/*rejestracja*/
+
+#main-content .msgdie-panel p a {
+    text-decoration: none;
+    background: var(--forabackground);
+    padding: 2px 5px;
+    margin: 1px;
+    border-radius: 10px;
+    border: var(--border);
+    box-shadow: var(--shadowout);
+    text-transform: lowercase;
+}
+
+#main-content .msgdie-panel p a:hover {
+     -webkit-animation: pulseCTA 1s forwards;
+ animation: pulseCTA 1s forwards
+}
+
+input#autologin.radio { filter: var(--filterinvert2);}
+.okolorej dd span {
+      text-align: justify;
+    opacity: 0.7;
+    width: 100%;
+    color: var(--bright2) !important;
+    padding: 5px 5px;
+    margin: 10px 0px;
+    background: var(--darkerbackground2);
+    border-radius: 10px;
+    font-size: 11px;
+    font-style: normal;
+    font-family: var(--basicfont);
+    letter-spacing: 0px;
+}
+
+.rejestracja {width:800px;}
+
+.rejestracja fieldset dd {
+      height: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    display: flex;
+    margin-left: 40%;
+    vertical-align: top;
+    margin-bottom: 3px;
+}
+.okolorej span{
+     color: var(--bright2) !important;
+    padding-left: 10px; 
+}
+.rejestracja fieldset dt {
+      align-items: center;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    width: 40%;
+}
+.rejestracja input.inputbox, select.inputbox {
+    padding: 10px 20px !important;
+    margin: 0px !important;
+}
+
+.rejestracja form[name="go_page"] input[type="text"], .inputbox {
+  margin: 0px;}
+
+.rejestracja .odpowiedzbit input[type="text"], .inputbox {margin: 0px;}
+
+.okolorej {    
+      margin-bottom: 10px;
+  width: 100%;
+    border-radius: 10px;
+    border: var(--border);
+    display: flex;
+    flex-wrap: wrap;
+    background: var(--forabackground);
+  padding: 5px;}
+
+.okolorej dl {    width: 100%;
+padding: 0px;}
+
+.rejestracja .panel {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: var(--poczatek5);
+    background-color: var(--darkerbackground2);
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: lowercase;
+    font-family: var(--basicfont);
+    color: var(--bright2);
+    border: var(--border);
+    border-radius: 10px !important;
+    margin-top: 10px;
+    box-shadow: var(--shadowout);
+}
+/* wiecej smilies */
+
+#smilies_categ {
+display: none !important;
+}
+
+
+
+/*strona z zaloguj*/
+
+#main.zaloguj .panel:nth-of-type(1) {
+    background-image: var(--poczatek5);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#main.zaloguj input[type="text"], .inputbox {
+  background-color: var(--forabackground2);}
+
+#main.zaloguj .show_hide_pwd {
+      filter: var(--filterinvert2);
+}
+
+#main.zaloguj {
+    width: 500px;
+}
+
+#main.zaloguj label[for="autologin"] {
+    font-size: 11px;
+    width: 80%;
+}
+
+#main.zaloguj fieldset.fields1 dd {
+align-items: center;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-left: 0px;
+    border-left-width: 0px;
+}
+
+#main.zaloguj fieldset dd {
+   margin-left: 0px; }
+
+#main.zaloguj .password-container {width:100%;}
+
+#main.zaloguj label {
+  width:100%;
+  margin: 0px 10px 10px 0px;
+    background: var(--darkerbackground2);
+    padding: 10px;
+    border-radius: 10px;
+    border: var(--border);
+    box-shadow: var(--shadowout);
+    color: var(--bright2);
+    text-transform: lowercase;
+    font-family: var(--basicfont);
+    font-size: 12px;
+  letter-spacing: 1px;}
+
+#like_popup, #inactive_popup {
+    color: var(--bright2);
+    border-radius: 10px;
+    border: var(--border) !important;
+    box-shadow: var(--shadowout);
+    font-family: var(--basicfont);
+    font-size: 12px;
+    letter-spacing: 1px;
+    background: var(--darkerbackground2);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+#main.zaloguj .panel fieldset  
+{
+    width: 100%;
+  margin-bottom: 18px;}
+
+#main.zaloguj p:first-child {
+    display: none;
+}
+
+.panel:nth-child(4) {
+    display: none;
+}
+
 
 /* PROFIL */
 
