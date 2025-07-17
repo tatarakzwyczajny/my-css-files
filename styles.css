@@ -1432,6 +1432,7 @@ ul.topiclist.pmlist.bg_none {
     flex-wrap: wrap;
     flex-direction: row;
     width: 310px;
+	min-height: 110px;
 }
 
 .rejestracja #cp-main .panel .poslaniec1 {
