@@ -3003,12 +3003,13 @@ font-size: 30px !important;
  cursor: pointer}
 
 .linklist.top {
- align-content: center;
- justify-content: center;
- display: flex;
- flex-wrap: wrap;
- padding-bottom: 6px;
- border: none
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10px;
+    padding-bottom: 6px;
+    border: none;
 }
 
 .linklist li {margin: 0px !important;}
