@@ -1,5 +1,322 @@
 /*kolorki*/
 
+/*ankieta post*/
+.option_voters_list {
+    margin-top: 20px;
+    letter-spacing: 1px;
+    font-family: var(--basicfont);
+    font-weight: 400;
+    background: var(--detale);
+    border-radius: 10px;
+    padding: 2px 10px;
+    border: var(--border);
+}
+
+label[for="modif_topic_title"] {
+    margin: 10px 0px;
+}
+
+.ankieta fieldset dl:last-of-type dd {
+      margin: 15px 0px 0px 0px !important;
+}
+
+.ankieta dd {
+    column-gap: 10px;
+    justify-content: center;
+    display: flex
+;
+}
+
+.ankieta dd label {
+  margin: 0px !important;
+}
+
+.ankieta input.tiny {
+  margin-bottom: 10px;
+  width: 95%;
+}
+
+.ankieta fieldset dl:hover dt label {
+  color: var(--detale);
+}
+
+.ankieta span.italic {
+    color: var(--bright2);
+    font-family: var(--basicfont) !important;
+    font-style: normal !important;
+  letter-spacing: 1px; }
+
+.ankieta hr.dashed {display: none;}
+
+.ankieta input[type="text"], .inputbox {
+      background-color: var(--b4);
+}
+
+.ankieta textarea.inputbox {
+      border: var(--border) !important;
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
+.ankieta dt label {margin: 0px !important;}
+.ankieta {
+    border-radius: 10px;
+    border: var(--border);
+    box-shadow: var(--shadowout);
+    margin: 10px 0px;
+    padding: 10px;
+}
+.ankieta .inner {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.ankieta dt {flex:100%;}
+
+.ankieta fieldset dl {
+    box-shadow: var(--shadow3);
+    border: var(--border);
+    margin: 10px 0px;
+    border-radius: 10px;
+    padding: 20px !important;
+    background: var(--darkerbackground2);
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex
+    ;}
+
+.ankieta fieldset dd {
+      color: var(--bright2);
+    font-family: var(--basicfont);
+  flex: 100%;
+    margin: 15px 0px 0px 0px;
+    padding: 0px;}
+
+/*poll*/
+
+.poster-list .poster:nth-child(1) {
+  width: 40px;}
+
+.poster-list .poster:nth-child(2) {
+    width: 40px;
+  transform: none;}
+.poster-list .poster:nth-child(3) {
+    width: 40px;
+  transform: none;}
+.poster-list .poster:nth-child(4) {
+    width: 40px;
+  transform: none;}
+.poster-list .poster:nth-child(5) {
+    width: 40px;
+  transform: none;}
+.poster-list .poster:nth-child(6) {
+    width: 40px;
+  transform: none;}
+
+
+#poll-panel dt label {
+  text-align: justify !important;
+    margin: 0px !important;
+    display: block;
+    font-weight: 500;
+    padding: 10px !important;
+}
+#poll-panel .poll-bar-desc {
+      font-weight: 700;
+      color: var(--bright2);
+}
+
+#poll-panel .polls .poster-list {
+    align-items: center;
+    flex-wrap: wrap;
+    flex: 100%;
+    display: flex;
+    margin-left: 0px;
+    column-gap: 10px;
+margin-left: 0px; 
+}
+
+#poll-panel .poster-list .poster:before {
+    height: 40px;
+    width: 40px;
+    background: var(--poster-avatar);
+    border: var(--border);
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center center;
+    filter: grayscale(.3);
+}
+
+#poll-panel dd.poll-bar {
+      flex: 100% !important;
+}
+
+#poll-panel .poll-bar-bar {
+          background-color: var(--detale);
+}
+
+#poll-panel .poll-bar {
+  background-color: var(--darkerbackground2);
+}
+
+#poll-panel{display: block;}
+#poll-form {
+      margin-bottom: 70px !important;
+}
+
+#poll-panel .content h2, .panel h2 {
+      font-family: var(--fancyfont) !important;
+    font-size: 22px !important;
+    border: none !important;
+    color: var(--bright2);
+      text-align: justify;
+}
+
+#poll-panel strong {    background: var(--darkerbackground);
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: var(--border);
+    box-shadow: var(--shadow2);
+    font-weight: 400;
+  color: var(--bright2) !important;}
+
+#poll-panel strong a {
+  color: var(--bright2) !important;
+}
+
+#poll-panel strong:hover { -webkit-animation: pulseCTA 1s ease-in-out forwards;
+animation: pulseCTA 1s ease-in-out forwards;}
+
+#poll-panel {
+    box-shadow: var(--shadow3);
+    border: var(--border);
+    background: var(--darkerbackground2);
+    width: 60% !important;
+    margin-left: 20%;
+    background-image: var(--poczatek);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+
+#poll-panel  h2 {
+      width: 100%;
+    display: block;
+    font-family: var(--fancyfont);
+    color: var(--bright2);
+    font-size: 23px;
+    border: 0px !important;
+}
+
+#poll-panel  fieldset.polls dl {
+color: var(--bright2);
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0px !important;
+    border-radius: 10px;
+    padding: 10px !important;
+    background: var(--forabackground2) !important;
+    width: 100% !important;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#poll-panel  fieldset.polls dt {
+  flex: 3;}
+
+#poll-panel fieldset.polls dd {
+      align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0px !important;
+    flex: 100%;
+    padding: 0px !important;
+}
+
+#poll-panel   dd input, dd textarea {
+    filter: var(--filterinvert2);
+    margin: 0px !important;
+}
+
+#poll-panel  .content p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--darkerbackground);
+    border-radius: 10px;
+    border: var(--border);
+    box-shadow: var(--shadow3);
+    height: 35px !important;
+    width: 35px !important;
+    right: 0px;
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    margin-bottom: 0px !important;
+    line-height: 1.4em;
+}
+
+#poll-panel fieldset.polls dl:nth-last-of-type(-n+3) dd {flex: 100% !important;}
+#poll-panel .panel fieldset (margin: 0px important!;)
+
+
+/*tooltip ment*/
+
+.mentiontag:link, .mentiontag:visited {
+    background: var(--darkerbackground2) !important;
+    padding: 5px 10px;
+    color: var(--bright2);
+    border: var(--border);
+    box-shadow: var(--shadow);
+}
+
+
+/*regulamin*/
+
+.regulamin {
+    box-shadow: var(--shadowout);
+    border-radius: 10px;
+    border: var(--border);
+    background: var(--forabackground2);
+    text-align: justify;
+    color: var(--bright2);
+    padding: 10px 60px;
+    font-family: var(--basicfont);
+}
+
+.regulamin .poslaniec1 {
+  background: url(https://i.imgur.com/BDhitNo.png);
+      background-size: 100%;
+}
+
+.regulamin .poslaniec {
+      margin-left: 222px;
+  margin-bottom: 20px;
+}
+
+
+.regulamin strong {
+      color: var(--detale);
+  margin: 0px !important;
+      font-weight: 400;
+}
+
+.regulamin strong:hover {
+  color: var(--detale);
+}
+
+.regulamin h {
+      text-transform: lowercase;
+    font-family: var(--fancyfont);
+    font-size: 28px;}
+
+.regulamin p {    margin: 0px !important;
+    padding: 0px 50px;
+    font-size: 14px;}
+
+/*SLIDEEER*/
 .ion-edit:before {content: ""}
 .is-sticky#headerbar-top {display: none}
 
