@@ -2155,12 +2155,22 @@ box-shadow: var(--shadow);
   margin: 0px !important;
 }
 
-.mojpanel {    margin-top: 10px;
+.mojpanel {   font-family: var(--basicfont);
+    letter-spacing: 1px;
+    margin-top: 10px;
     box-shadow: var(--shadowout);
     border: var(--border);
     border-radius: 10px;
     background: var(--forabackground);
-  padding: 20px;}
+    padding: 20px;
+	  }
+
+mojpanel label {
+    font-size: 12px;
+    color: var(--bright2);
+    cursor: pointer;
+    margin-right: 18px;
+}
 
 .mojpanel .odpowiedzbit dt label {
 	    text-transform: lowercase;
