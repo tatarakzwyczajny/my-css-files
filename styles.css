@@ -2165,6 +2165,26 @@ box-shadow: var(--shadow);
     padding: 20px;
 	  }
 
+.mojpanel fieldset.fields1 {
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.mojpanel label {
+	    flex: 100%;
+	border-radius: 10px;
+    box-shadow: var(--shadow3);
+    border: var(--border);
+    margin: 2px;
+    padding: 5px 10px;
+    background: var(--darkerbackground2);
+    color: var(--bright2);
+    cursor: pointer;
+    margin-right: 18px;}
+
 .mojpanel br {
     display: none;
 }
