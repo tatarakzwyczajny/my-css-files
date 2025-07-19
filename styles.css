@@ -2541,6 +2541,7 @@ input[type="text"]:focus-visible,
 /* rejestracja mała */
 
 .error {
+	    min-width: 100%;
     background-color: var(--darkerbackground2);
     border: var(--border);
     color: var(--bright2) !important;
