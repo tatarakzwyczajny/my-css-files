@@ -2165,6 +2165,10 @@ box-shadow: var(--shadow);
     padding: 20px;
 	  }
 
+.mojpanel br {
+    display: none;
+}
+
 mojpanel label {
     font-size: 12px;
     color: var(--bright2);
