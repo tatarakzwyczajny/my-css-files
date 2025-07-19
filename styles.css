@@ -3094,7 +3094,7 @@ transition: 1s}
 
 .forabg:nth-child(4)::before {
  background-image: var(--poczatek5);
- margin-top: -100px
+ margin-top: -20px
 }
 
 .forabg:hover {
