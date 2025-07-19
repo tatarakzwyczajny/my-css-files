@@ -931,6 +931,8 @@ pointer-events: none;
     color: var(--bright2);
   font-family: var(--basicfont);}
 
+.ramkaslider p a {color: var(--bright2)}
+
 .ramkaslider strong {    font-style: italic;
     color: var(--detale);
     font-family: var(--fancyfont);
