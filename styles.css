@@ -2144,7 +2144,7 @@ a:hover {
 }
 
 .informacje .pagination > a > b, strong {
-     color: var(--bright);
+     color: var(--strong);
 }
 
 .informacje .pagination > a > b, strong:hover {
