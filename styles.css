@@ -5507,8 +5507,15 @@ fieldset.jumpbox {display:none;}
 .profile-icons a:hover, .profile-icons a.selected, .profile-icons span:hover, .profile-icons span.selected {background: none !important;
  color: var(--bright)}
 
-.edited-message { font-family: var(--fancyfont);
- color: var(--c1)}
+.edited-message {
+	    font-size: 11px;
+    letter-spacing: 1px;
+    font-style: italic;
+    color: var(--bright2) !important;
+    text-align: center;
+    font-family: var(--basicfont);
+    opacity: 0.7;
+		}
 
 .fa_like_div {
  flex: 100%;
