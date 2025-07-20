@@ -3109,9 +3109,11 @@ margin-bottom: 24px;}
 /*rejestracja*/
 
 #main-content .msgdie-panel p a {
+    font-size: 12px;
+    font-family: var(--basicfont);
+    padding: 5px 10px !important;
     text-decoration: none;
     background: var(--forabackground);
-    padding: 2px 5px;
     margin: 1px;
     border-radius: 10px;
     border: var(--border);
@@ -6435,6 +6437,8 @@ p.rightside {
     /* padding: 2%; */
     border: var(--border);
     position: relative;
+	    font-family: var(--basicfont);
+    color: var(--bright);
 }
 
 #msgg .poslaniec1 {
