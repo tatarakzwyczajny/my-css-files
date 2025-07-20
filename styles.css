@@ -3166,6 +3166,7 @@ input#autologin.radio { filter: var(--filterinvert2);}
     width: 40%;
 }
 .rejestracja input.inputbox, select.inputbox {
+	border-radius: 0px !important;
     padding: 10px 20px !important;
     margin: 0px !important;
 }
