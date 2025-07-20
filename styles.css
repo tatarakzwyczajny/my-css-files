@@ -666,8 +666,8 @@ grid-row-gap: 10px;
 }
 
 .animate .slajdtresc1 {
-      -webkit-animation: slideright 1s forwards;
-          animation: slideright 1s forwards;
+      -webkit-animation: slidebottom 1s forwards;
+          animation: slidebottom 1s forwards;
 }
 
 .slajdtresc1 span {
