@@ -5301,7 +5301,8 @@ box-shadow: var(--shadowout);
 }
 
 .postbody a {
-color: var(--linki);
+letter-spacing: 1px;
+    color: #5367dd;
 }
 
 .controls button {
