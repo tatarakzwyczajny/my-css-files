@@ -6224,7 +6224,7 @@ body#sce_smilies_body {
 .odpowiedzbit input[type="text"], .inputbox {
     box-shadow: var(--shadowout);
     border: var(--border) !important;
-    border-radius: 10px !important;
+    border-radius: 0px !important;
        background-color: var(--forabackground2);
     color: var(--bright);
     cursor: text !important;
