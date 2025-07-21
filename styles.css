@@ -5372,9 +5372,8 @@ letter-spacing: 1px;
 .poster-list {display:none;}
 
 .post {
-	 margin: 0px 30px;
+    margin: 20px 30px 30px 30px;
 	 position: relative;
- margin-top: 20px !important;
  background: var(--forabackground);
  border: var(--border);
  border-radius: 0px;
