@@ -5444,7 +5444,6 @@ dl.codebox dt {
     height: 80px;
     margin-bottom: 10px;
     background: var(--darkerbackground2);
-    border-radius: 10px 10px 00px 0px;
     border-bottom: var(--border);
     flex-wrap: wrap;
     display: flex;
