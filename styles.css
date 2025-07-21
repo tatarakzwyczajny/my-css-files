@@ -5343,7 +5343,6 @@ letter-spacing: 1px;
  background: var(--b4);
  padding: 20px;
  border: var(--border);
- border-radius: 10px
 }
 
 .postbody .content::before {
