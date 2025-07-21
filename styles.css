@@ -4249,7 +4249,9 @@ animation: pulseCTA 1s forwards}
  width: 100%
 }
 
-.niepatrz .sub-header-buttons { margin-top: -9px;
+.niepatrz .sub-header-buttons { 
+	z-index: 99;
+	margin-top: -9px;
  width: 100%;
  top: -20px;
  justify-content: start;
