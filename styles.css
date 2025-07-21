@@ -3059,6 +3059,7 @@ margin-bottom: 24px;}
 /*signature*/
 
 #signature {    width: 800px !important;}
+#signature #smiley-box {display: none !important;}
 
 #signature fieldset.submit-buttons {padding: 0px !important;
     margin: 0px !important;}
