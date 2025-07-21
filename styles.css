@@ -2732,6 +2732,7 @@ padding: 0px !important;
 }
 
 ul.topiclist.pmlist.bg_none {
+	min-width: 653px !important;
  position: relative;
  z-index: 9999 !important;
  background: none
