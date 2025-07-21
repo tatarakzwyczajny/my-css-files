@@ -5376,7 +5376,7 @@ letter-spacing: 1px;
 .post {
     margin: 20px 30px 30px 30px;
 	 position: relative;
- background: var(--forabackground);
+ background: var(--darkerbackground);
  border: var(--border);
  border-radius: 0px;
  box-shadow: var(--shadow);
