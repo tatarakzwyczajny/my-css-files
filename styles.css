@@ -6804,6 +6804,7 @@ width: 100%;
     border-radius: 0px;
     border: var(--border);
     overflow: hidden;
+	background-repeat: no-repeat;
 }
 
 /* Champs à remplir */
