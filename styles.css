@@ -5364,6 +5364,17 @@ gap: 0px;
  color: var(--bright)
 }
 
+ul.topiclist.topics.bg_none > li.row {
+    width: 100%;
+    padding-bottom: 2%;
+    position: relative;
+    border-radius: 0px;
+    box-shadow: var(--shadow);
+    margin-bottom: 20px;
+    border: var(--border);
+    background: var(--forabackground);
+}
+
 
 .subtematy > .forumbg {
  background: transparent;
