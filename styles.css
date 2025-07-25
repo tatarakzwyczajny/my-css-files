@@ -2696,25 +2696,43 @@ box-shadow: var(--shadow);
     padding: 20px;
 	  }
 
+.mojpanel input#modif_topic_title {
+    padding: 10px !important;
+    font-family: var(--basicfont);
+    letter-spacing: 1px;
+}
+
+.mojpanel dt label {
+    background: var(--darkerbackground2);
+}
+
+.mojpanel dt label:hover {
+        -webkit-animation: pulseCTA 1s forwards;
+    animation: pulseCTA 1s forwards;
+}
+
 .mojpanel fieldset.fields1 {
-    width: 80%;
-    margin-left: 10%;
+    gap: 2px;
+    font-family: var(--basicfont);
+    color: var(--bright2);
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
 }
 
 .mojpanel label {
-	    flex: 100%;
-	border-radius: 0px;
-    box-shadow: var(--shadow3);
+    flex: 100%;
+    border-radius: 0px;
+    box-shadow: var(--shadowout);
     border: var(--border);
-    margin: 2px;
+    margin: 3px 0px !important;
     padding: 5px 10px;
     background: var(--darkerbackground2);
     color: var(--bright2);
     cursor: pointer;
-    margin-right: 18px;}
+    font-family: var(--basicfont);
+    font-size: 12px;
+}
 
 .mojpanel br {
     display: none;
