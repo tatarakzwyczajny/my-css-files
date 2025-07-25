@@ -2683,13 +2683,16 @@ box-shadow: var(--shadow);
   margin: 0px !important;
 }
 
-.mojpanel {   font-family: var(--basicfont);
+.mojpanel { 
+	    width: 50%;
+    margin-left: 25%;
+    font-family: var(--basicfont);
     letter-spacing: 1px;
     margin-top: 10px;
     box-shadow: var(--shadowout);
     border: var(--border);
     border-radius: 0px;
-    background: var(--forabackground);
+    background: var(--forabackground2);
     padding: 20px;
 	  }
 
