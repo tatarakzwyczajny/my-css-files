@@ -1,0 +1,38 @@
+.post-head .profile-icons {
+  position: relative;
+  right: 25px !important;
+}
+
+.postprofile,
+.postprofile-name,
+.topic-actions,
+.controls,
+.headerbar,
+.topic-date,
+.topic-date2,
+.postbody .content::before,
+.likesbutton {
+  display: none !important;
+}
+
+.postbody {
+  margin: 20px 10px !important;
+  padding: 0px !important;
+}
+
+.postbody .content {
+  margin: 0px !important;
+  background-color: var(--darkerbackground);
+  background-image: var(--poczatek4);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#content-main #main {
+  margin-top: 200px;
+}
+
+.postprofile-contact {
+  left: 30px !important;
+  top: 57px !important;
+}
