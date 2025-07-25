@@ -5583,6 +5583,10 @@ letter-spacing: 1px;
 
 .poster-list {display:none;}
 
+a.ion-locked.button1 {
+      background-color: var(--forabackground) !important;
+}
+
 .post {
     margin: 20px 30px 30px 30px;
 	 position: relative;
