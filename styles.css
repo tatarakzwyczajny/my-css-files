@@ -114,7 +114,7 @@ margin-top: 0px !important;
 
 .ZP {
         filter: var(--filter2);
-    background-size: 100%;
+    background-size: cover;
     border: var(--border);
        width: 250px !important;
     height: 100%;
