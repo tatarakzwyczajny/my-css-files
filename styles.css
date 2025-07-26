@@ -3,17 +3,20 @@
 /*Karta postaci*/
 
 .e2 > div:nth-of-type(12) {
+	  border-radius: 10px;
     padding: 20px !important;
 }
 
 
 .e2 > div:nth-last-of-type(-n + 4) {
+	  border-radius: 10px;
     height: 200px !important;
     min-height: 200px !important;
     max-height: 200px !important;
 }
 
 .e2 {
+	  border-radius: 10px;
       border-top: 0px !important;
       align-items: center;
          gap: 5px;
@@ -30,6 +33,7 @@
     justify-content: center;
 }
 .tyt {
+	  border-radius: 10px;
   margin: 30px 0px;
     width: 100%;
     grid-template-columns: 1fr auto 1fr;
@@ -40,7 +44,7 @@
 }
 
 .tyt2 {
-  
+    border-radius: 10px;
      margin: 10px 0px;
     width: 100%;
     grid-template-columns: 1fr auto 1fr;
@@ -54,6 +58,7 @@
 
 
 .IN {
+	  border-radius: 10px;
     font-family: var(--fancyfont);
     padding: 10px 10px;
     justify-content: center;
@@ -72,6 +77,7 @@
 }
 
 .KP {
+	  border-radius: 10px;
       flex-wrap: wrap;
     align-items: center;
     justify-content: center;
@@ -85,12 +91,14 @@
 
 .KP br {display: none !important;}
 
-.KP1  {height: 350px;
+.KP1  {  border-radius: 10px;
+	height: 350px;
     flex: 100%;
     display: flex;
   flex-wrap: wrap;}
 
 .KP3 {
+	  border-radius: 10px;
 margin-top: 0px !important;
       justify-content: center;
   display: flex;
@@ -113,7 +121,7 @@ margin-top: 0px !important;
     font-family: var(--fancyfont);
 }
 
-.ZP {
+.ZP {  border-radius: 10px;
         filter: var(--filter2);
     background-size: cover;
     border: var(--border);
@@ -122,7 +130,7 @@ margin-top: 0px !important;
     box-shadow: var(--shadowout);
 }
 
-.IoP {
+.IoP {  border-radius: 10px;
       gap: 10px;
         padding: 30px;
     flex-wrap: wrap;
@@ -134,7 +142,7 @@ margin-top: 0px !important;
     flex-direction: row;
 }
 
-.char {
+.char {  border-radius: 10px;
   width: 100%;
       background: var(--forabackground);
   color: var(--bright2);
@@ -146,7 +154,7 @@ padding: 30px;
     height: 500px;
 }
 
-.e1 { 
+.e1 {   border-radius: 10px;
     overflow: auto;
     height: 288px;
   background: var(--forabackground);
@@ -158,7 +166,7 @@ padding: 30px;
     flex-wrap: wrap;
   justify-content: center;}
 
-.e2 > div {
+.e2 > div {  border-radius: 10px;
      text-transform: uppercase;
     border: var(--border);
     font-family: var(--basicfont);
@@ -176,7 +184,7 @@ padding: 30px;
     color: var(--bright2);
 }
 
-.e2 > div:before {  
+.e2 > div:before {   border-radius: 10px; 
 box-shadow: var(--shadowinligh);
     z-index: 9999;
     content: '';
@@ -187,14 +195,17 @@ box-shadow: var(--shadowinligh);
 }
 
 .e2 > div:nth-last-of-type(-n + 4):before {
+	  border-radius: 10px;
     height: 200px;
 }
 
 .e2 > div:nth-of-type(even):before {
+	
     display: none;
 }
 
 .e2 > div:nth-of-type(even) {
+	  border-radius: 10px;
     text-transform: none;
     background: var(--forabackground);
     border: var(--border);
@@ -233,6 +244,7 @@ box-shadow: var(--shadowinligh);
 
 /*ankieta post*/
 .option_voters_list {
+	  border-radius: 10px;
     margin-top: 20px;
     letter-spacing: 1px;
     font-family: var(--basicfont);
@@ -244,10 +256,12 @@ box-shadow: var(--shadowinligh);
 }
 
 label[for="modif_topic_title"] {
+	  border-radius: 10px;
     margin: 10px 0px;
 }
 
 .ankieta fieldset dl:last-of-type dd {
+	  border-radius: 10px;
       margin: 15px 0px 0px 0px !important;
 }
 
@@ -259,15 +273,18 @@ label[for="modif_topic_title"] {
 }
 
 .ankieta dd label {
+	  border-radius: 10px;
   margin: 0px !important;
 }
 
 .ankieta input.tiny {
+	  border-radius: 10px;
   margin-bottom: 10px;
   width: 95%;
 }
 
 .ankieta fieldset dl:hover dt label {
+	  border-radius: 10px;
   color: var(--detale);
 }
 
@@ -280,10 +297,13 @@ label[for="modif_topic_title"] {
 .ankieta hr.dashed {display: none;}
 
 .ankieta input[type="text"], .inputbox {
+	  border-radius: 10px;
       background-color: var(--b4);
 }
 
 .ankieta textarea.inputbox {
+	
+	  border-radius: 10px;
       border: var(--border) !important;
     background: transparent !important;
     box-shadow: none !important;
