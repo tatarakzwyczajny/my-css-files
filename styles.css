@@ -159,11 +159,12 @@ padding: 30px;
   justify-content: center;}
 
 .e2 > div {
-    text-transform: uppercase;
+     text-transform: uppercase;
     border: var(--border);
     font-family: var(--basicfont);
     letter-spacing: 1px;
-    background: var(--darkerbackground);
+    background: var(--linearbcg);
+    box-shadow: var(--shadowout);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -173,6 +174,24 @@ padding: 30px;
     font-size: 10px;
     font-weight: 400;
     color: var(--bright2);
+}
+
+.e2 > div:before {  
+box-shadow: var(--shadowinligh);
+    z-index: 9999;
+    content: '';
+    position: absolute;
+    width: 158px;
+    height: 36px;
+    border: var(--border); 
+}
+
+.e2 > div:nth-last-of-type(-n + 4):before {
+    height: 200px;
+}
+
+.e2 > div:nth-of-type(even):before {
+    display: none;
 }
 
 .e2 > div:nth-of-type(even) {
