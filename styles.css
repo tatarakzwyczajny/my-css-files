@@ -5669,6 +5669,7 @@ letter-spacing: 1px;
 }
 
 .postbody .content div {
+	border-radius: 10px !important;
  line-height: 24px !important;
 	transition: 1s all;
 }
