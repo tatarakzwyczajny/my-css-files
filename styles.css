@@ -21,7 +21,7 @@
          gap: 5px;
     overflow: auto;
     height: fit-content;
-    background: var(--b4);
+        background: var(--linearbcg);
     box-shadow: var(--shadow);
     border: var(--border);
     flex: 1;
@@ -134,7 +134,7 @@ margin-top: 0px !important;
     border: var(--border);
     flex: 100%;
       height: fit-content;
-    background: var(--darkerbackground);
+        background: var(--linearbcg);
 }
 
 .KP3 span {
@@ -156,7 +156,7 @@ margin-top: 0px !important;
 
 .IoP {  
     margin-right: 10px;
-	background: var(--darkerbackground2);
+	    background: var(--linearbcg);
     border-radius: 10px;
     gap: 10px;
     padding: 30px;
