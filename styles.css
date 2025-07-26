@@ -141,14 +141,15 @@ margin-top: 0px !important;
     box-shadow: var(--shadowout);
 }
 
-.IoP {  border-radius: 10px;
-      gap: 10px;
-        padding: 30px;
+.IoP {  
+border-radius: 10px;
+    gap: 10px;
+    padding: 30px;
     flex-wrap: wrap;
     display: flex;
-    flex: 544px;
+    flex: 534px;
+    margin-right: 10px;
     border: var(--border);
-    border-right: none !important;
     box-shadow: var(--shadow);
     flex-direction: row;
 }
