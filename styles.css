@@ -73,12 +73,12 @@
     font-weight: 400;
     letter-spacing: 1px;
     color: var(--bright2);
-    border: var(--border);
     box-shadow: var(--shadow);
     background: var(--linearbcg);
 }
 
 .IN:before { 
+	  border: var(--border);
     height: 40px;
     width: 100%;
     content: '';
@@ -197,7 +197,6 @@ padding: 30px;
 
 .e2 > div {  border-radius: 10px;
      text-transform: uppercase;
-    border: var(--border);
     font-family: var(--basicfont);
     letter-spacing: 1px;
     background: var(--linearbcg);
