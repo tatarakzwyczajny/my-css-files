@@ -5647,6 +5647,7 @@ letter-spacing: 1px;
 
 
 .postbody .content {
+	border-radius: 10px;
 	margin-left: 10px;
  color: var(--c1);
  position: relative;
