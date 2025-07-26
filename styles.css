@@ -17,7 +17,6 @@
 
 .e2 {
 	  border-radius: 10px;
-      border-top: 0px !important;
       align-items: center;
          gap: 5px;
     overflow: auto;
@@ -58,9 +57,10 @@
 
 
 .IN {
-	  border-radius: 10px;
-    font-family: var(--fancyfont);
-    padding: 10px 10px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    font-family: var(--basicfont);
+    padding: 10px 30px;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -69,14 +69,26 @@
     position: relative;
     top: 25px;
     margin-bottom: 20px;
-    font-size: 20px;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 1px;
     color: var(--bright2);
     border: var(--border);
     box-shadow: var(--shadow);
-    background: var(--forabackground);
+    background: var(--linearbcg);
+}
+
+.IN:before { 
+    height: 40px;
+    width: 100%;
+    content: '';
+    position: absolute;
+    border-radius: 10px;
+    box-shadow: var(--shadowinligh);
 }
 
 .KP {
+	    gap: 10px;
 	  border-radius: 10px;
       flex-wrap: wrap;
     align-items: center;
@@ -106,7 +118,6 @@ margin-top: 0px !important;
     gap: 10px;
   box-shadow: var(--shadow);
     padding: 20px;
-    border-top: none !important;
     border: var(--border);
     flex: 100%;
       height: fit-content;
