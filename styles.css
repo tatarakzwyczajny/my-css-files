@@ -238,7 +238,7 @@ box-shadow: var(--shadowinligh);
     font-family: var(--basicfont);
     font-weight: 400;
     background: var(--detale);
-    border-radius: 0px;
+    border-radius: 10px;
     padding: 2px 10px;
     border: var(--border);
 }
@@ -291,7 +291,7 @@ label[for="modif_topic_title"] {
 
 .ankieta dt label {margin: 0px !important;}
 .ankieta {
-    border-radius: 0px;
+    border-radius: 10px;
     border: var(--border);
     box-shadow: var(--shadowout);
     margin: 10px 0px;
@@ -308,7 +308,7 @@ label[for="modif_topic_title"] {
     box-shadow: var(--shadow3);
     border: var(--border);
     margin: 10px 0px;
-    border-radius: 0px;
+    border-radius: 10px;
     padding: 20px !important;
     background: var(--darkerbackground2);
     width: 100%;
@@ -372,7 +372,7 @@ margin-left: 0px;
     width: 40px;
     background: var(--poster-avatar);
     border: var(--border);
-    border-radius: 0px;
+    border-radius: 10px;
     background-size: cover;
     background-position: center center;
     filter: grayscale(.3);
@@ -405,7 +405,7 @@ margin-left: 0px;
 
 #poll-panel strong {    background: var(--darkerbackground);
     padding: 5px 10px;
-    border-radius: 0px;
+    border-radius: 10px;
     border: var(--border);
     box-shadow: var(--shadow2);
     font-weight: 400;
@@ -427,7 +427,7 @@ animation: pulseCTA 1s ease-in-out forwards;}
     background-image: var(--poczatek);
     background-size: 100%;
     background-repeat: no-repeat;
-    border-radius: 0px;
+    border-radius: 10px;
 }
 
 
@@ -445,7 +445,7 @@ color: var(--bright2);
     align-items: center;
     justify-content: center;
     margin: 5px 0px !important;
-    border-radius: 0px;
+    border-radius: 10px;
     padding: 10px !important;
     background: var(--forabackground2) !important;
     width: 100% !important;
@@ -476,7 +476,7 @@ color: var(--bright2);
     justify-content: center;
     align-items: center;
     background: var(--darkerbackground);
-    border-radius: 0px;
+    border-radius: 10px;
     border: var(--border);
     box-shadow: var(--shadow3);
     height: 35px !important;
@@ -508,7 +508,7 @@ color: var(--bright2);
 
 .regulamin {
     box-shadow: var(--shadowout);
-    border-radius: 0px;
+    border-radius: 10px;
     border: var(--border);
     background: var(--forabackground2);
     text-align: justify;
@@ -612,7 +612,7 @@ label {
     margin: 70px 20px 20px 20px;
     justify-content: center;
     display: flex;
-    border-radius: 0px;
+    border-radius: 10px;
     border: var(--border);
     background: var(--darkerbackground2);
     box-shadow: var(--shadowout);
@@ -638,7 +638,7 @@ animation: slidebottom 1s 0s forwards !important; }
     justify-content: center;
     display: flex;
     margin: 20px;
-    border-radius: 0px;
+    border-radius: 10px;
     border: var(--border);
     background: var(--darkerbackground2);
     box-shadow: var(--shadowout);
@@ -758,7 +758,7 @@ grid-row-gap: 10px;
 }
 
  .borderslide:before {
-      border-radius: 0px;
+      border-radius: 10px;
       content: "";
     top: 0;
     bottom: 0;
@@ -773,7 +773,7 @@ grid-row-gap: 10px;
 
 .borderslide:after {
         animation-delay: 1s !important;
-      border-radius: 0px;
+      border-radius: 10px;
     content: "";
     position: absolute;
     border: 1px solid transparent;
@@ -839,7 +839,7 @@ grid-row-gap: 10px;
       box-shadow: var(--shadowout);
     padding: 5px;
     border: var(--border);
-    border-radius: 0px;
+    border-radius: 10px;
     background: var(--darkerbackground2);
 }
 
@@ -852,7 +852,7 @@ grid-row-gap: 10px;
     width: fit-content;
     background: var(--darkerbackground2);
     margin: 0px !important;
-    border-radius: 0px;
+    border-radius: 10px;
     border: var(--border);
   box-shadow: var(--shadowout);}
 
@@ -863,7 +863,7 @@ grid-row-gap: 10px;
 .slajdtresc5 {
     background-image: url(https://i.imgur.com/F5M2dDN.jpeg);
     background-size: cover;
-    border-radius: 0px;
+    border-radius: 10px;
     opacity: 0.7;
     cursor: cell;
     text-align: justify;
@@ -973,7 +973,7 @@ grid-row-gap: 0px;
 #matkaborder:before {
     content: '';
     position: absolute;
-    border-radius: 0px;
+    border-radius: 10px;
     border: 1px solid transparent;
     border-top-color: var(--sliderborder);
    border-bottom-color: var(--sliderborder);
@@ -985,12 +985,12 @@ grid-row-gap: 0px;
   width:100% !important;
     content: '';
     position: absolute;
-    border-radius: 0px;
+    border-radius: 10px;
     border: 1px solid transparent;
     border-left-color: var(--sliderborder);
   border-right-color: var(--sliderborder);
      left:0;
-  border-radius: 0px;
+  border-radius: 10px;
 }
 
 .animate #matkaborder:before {
@@ -1019,7 +1019,7 @@ position: relative;}
     position: absolute;
     width: calc(100% - 20px);
     height: calc(100% - 20px);
-    border-radius: 0px;
+    border-radius: 10px;
 }
 
 
@@ -1030,7 +1030,7 @@ position: relative;}
     position: absolute;
     pointer-events: none;
     display: grid;
-    border-radius: 0px;
+    border-radius: 10px;
   height: 100%;
   width: 100%;
 }
@@ -1055,7 +1055,7 @@ position: relative;}
     pointer-events: none;
     display: grid;
     content: '';
-    border-radius: 0px;
+    border-radius: 10px;
     border: 1px solid transparent !important;
     border-top-color: var(--sliderborder) !important;
     border-bottom-color: var(--sliderborder) !important;
@@ -1065,7 +1065,7 @@ position: relative;}
 pointer-events: none;
     display: grid;
     content: '';
-    border-radius: 0px;
+    border-radius: 10px;
     border: 1px solid transparent !important;
     border-left-color: var(--sliderborder) !important;
     border-right-color: var(--sliderborder) !important;
@@ -1112,7 +1112,7 @@ pointer-events: none;
     pointer-events: none;
     display: grid;
     content: '';
-    border-radius: 0px;
+    border-radius: 10px;
     border: 1px solid transparent !important;
     border-top-color: var(--sliderborder) !important;
     border-bottom-color: var(--sliderborder) !important;
@@ -1122,7 +1122,7 @@ pointer-events: none;
 pointer-events: none;
     display: grid;
     content: '';
-    border-radius: 0px;
+    border-radius: 10px;
     border: 1px solid transparent !important;
     border-left-color: var(--sliderborder) !important;
     border-right-color: var(--sliderborder) !important;
@@ -1149,7 +1149,7 @@ pointer-events: none;
     color: var(--bright3);
     width: 35px;
     height: 35px;
-    border-radius: 0px;
+    border-radius: 10px;
     background: var(--darkerbackground2);
     z-index: 99;
     border: var(--border);
@@ -1171,7 +1171,7 @@ pointer-events: none;
    cursor:cell;
 position:relative;
     grid-area: 2 / 8 / 7 / 10;
-    border-radius: 0px;
+    border-radius: 10px;
 }
 
 .czwartyslajdw {
@@ -1205,7 +1205,7 @@ position:relative;
 pointer-events: none;
     display: grid;
     content: '';
-    border-radius: 0px;
+    border-radius: 10px;
     border: 1px solid transparent !important;
     border-left-color: var(--sliderborder) !important;
     border-right-color: var(--sliderborder) !important;
@@ -1218,7 +1218,7 @@ pointer-events: none;
     pointer-events: none;
     display: grid;
     content: '';
-    border-radius: 0px;
+    border-radius: 10px;
     border: 1px solid transparent !important;
     border-top-color: var(--sliderborder) !important;
     border-bottom-color: var(--sliderborder) !important;
@@ -1266,7 +1266,7 @@ pointer-events: none;
 .piatyslajd:after {pointer-events: none;
     display: grid;
     content: '';
-    border-radius: 0px;
+    border-radius: 10px;
     border: 1px solid transparent !important;
     border-left-color: var(--sliderborder) !important;
     border-right-color: var(--sliderborder) !important;}
@@ -1278,7 +1278,7 @@ pointer-events: none;
     pointer-events: none;
     display: grid;
     content: '';
-    border-radius: 0px;
+    border-radius: 10px;
     border: 1px solid transparent !important;
     border-top-color: var(--sliderborder) !important;
     border-bottom-color: var(--sliderborder) !important;
@@ -1460,7 +1460,7 @@ pointer-events: none;
 .ramkaslider {
       -webkit-box-shadow: 0px 0px 49px 10px var(--slidershadow);
     -moz-box-shadow: 0px 0px 49px 10px var(--slidershadow);
-      border-radius: 0px;
+      border-radius: 10px;
     border: 1px solid;
     border-color: var(--sliderborder);
   padding: 20px;}
@@ -1557,7 +1557,7 @@ pointer-events: none;
         width: 600px;
         margin-bottom: 40px;
     padding: 10px;
-    border-radius: 0px;
+    border-radius: 10px;
     border: var(--border);
   box-shadow: var(--shadowout);
 }
@@ -1574,7 +1574,7 @@ pointer-events: none;
     color: var(--bright2);
     background-color: var(--b2);
     border: var(--border) !important;
-    border-radius: 0px;
+    border-radius: 10px;
     cursor: pointer;
     font-weight: 400;
     padding: 8px;
@@ -1593,7 +1593,7 @@ pointer-events: none;
     font-family: var(--basicfont);
     box-shadow: var(--shadow);
     border: var(--border);
-    border-radius: 0px;
+    border-radius: 10px;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
@@ -1606,7 +1606,7 @@ pointer-events: none;
 .wy1 {
     color: var(--bright2);
     padding: 5px 10px;
-    border-radius: 0px;
+    border-radius: 10px;
     border: var(--border);
     text-transform: lowercase;
     background: var(--forabackground2);
@@ -1615,7 +1615,7 @@ pointer-events: none;
 }
 
 .wyszukuz {
-      border-radius: 0px;
+      border-radius: 10px;
     border: var(--bi);
     box-shadow: var(--shadowout);
     background: var(--darkerbackground2);
@@ -1632,7 +1632,7 @@ pointer-events: none;
 .memberlist {  
 	z-index: 9;
     max-width: 19%;
-    border-radius: 0px;
+    border-radius: 10px;
     background: var(--forabackground2);
     border: var(--border);
     box-shadow: var(--shadowout);
@@ -1647,7 +1647,7 @@ pointer-events: none;
 .memberavinfo {
       box-shadow: var(--shadowout);
     border: var(--border);
-    border-radius: 0px;
+    border-radius: 10px;
     background: var(--darkerbackground);
     padding: 10px;
     margin: 10px;
@@ -1660,7 +1660,7 @@ pointer-events: none;
     height: 30px;
     margin-left: 10px;
     background: var(--darkerbackground2);
-    border-radius: 0px;
+    border-radius: 10px;
     border: var(--border);
     box-shadow: var(--shadowout);
     position: absolute;
@@ -1676,7 +1676,7 @@ pointer-events: none;
     text-transform: lowercase;
     box-shadow: var(--shadowout);
     border: var(--border);
-    border-radius: 0px;
+    border-radius: 10px;
     padding: 5px 10px;
     background: var(--darkerbackground2);
     position: absolute;
@@ -1702,7 +1702,7 @@ div.sceditor-dropdown .button {
     -moz-background-clip: padding;
     -moz-border-radius: 10px !important;
     -webkit-background-clip: padding-box;
-    -webkit-border-radius: 0px;
+    -webkit-border-radius: 10px;
     font-family: var(--basicfont) !important;
     background: var(--contrast) !important;
     background-clip: padding-box;
@@ -1720,7 +1720,7 @@ div.sceditor-dropdown input, div.sceditor-dropdown textarea {
 .sceditor-dropdown.sceditor-insertquote {
       color: var(--bright2);
     box-shadow: var(--shadow);
-    border-radius: 0px;
+    border-radius: 10px;
     border: var(--border);
     background: var(--forabackground);
     top: 17px;
@@ -1731,7 +1731,7 @@ div.sceditor-dropdown input, div.sceditor-dropdown textarea {
 .sceditor-dropdown.sceditor-insertspoiler{
       color: var(--bright2);
     box-shadow: var(--shadow);
-    border-radius: 0px;
+    border-radius: 10px;
     border: var(--border);
     background: var(--forabackground);
     top: 17px;
@@ -1756,7 +1756,7 @@ dd label {
     justify-content: center;
     align-items: center;
     color: var(--bright2);
-    border-radius: 0px;
+    border-radius: 10px;
     padding: 5px 10px;
     background: var(--darkerbackground);
     color: #444;
@@ -1770,7 +1770,7 @@ dd select {
     font-family: var(--bs);
     color: var(--bright2);
     box-shadow: var(--shadowout);
-    border-radius: 0px;
+    border-radius: 10px;
     border: var(--border);
     background: var(--b2);
     width: auto;
@@ -1779,7 +1779,7 @@ dd select {
 fieldset.quickmod {color: var(--bright2) !important;
     box-shadow: var(--shadowout);
     border: var(--border);
-    border-radius: 0px;
+    border-radius: 10px;
     width: 50%;
     margin-left: 25%;
     background: var(--darkerbackground2);
@@ -1801,7 +1801,7 @@ fieldset.quickmod  select {
     text-transform: lowercase;
     box-shadow: var(--shadowout);
     border: var(--border) !important;
-    border-radius: 0px;
+    border-radius: 10px;
     color: var(--bright2);
     background-color: var(--b2);
     border-color: #BCBCBC;
@@ -1837,7 +1837,7 @@ fieldset.quickmod label {
     align-items: center;
     justify-content: center;
     padding: 0px 10px;
-    border-radius: 0px;
+    border-radius: 10px;
     box-shadow: var(--shadow);
     text-transform: uppercase;
   background: var(--forabackground);}
@@ -1900,7 +1900,7 @@ color: var(--bright2);
     flex: 0.3;
     position: static;
     height: 45px;
-    border-radius: 0px;
+    border-radius: 10px;
     background: var(--darkerbackground2);
     display: flex;
     border: var(--border);
@@ -1913,7 +1913,7 @@ color: var(--bright2);
     max-height: 45px;
     overflow: auto;
     border: var(--border);
-    border-radius: 0px;
+    border-radius: 10px;
     box-shadow: var(--shadow);
     align-items: center;
     align-content: center;
@@ -1929,7 +1929,7 @@ color: var(--bright2);
 #mojetematyrez {
       width: 800px;
     padding: 100px 10px 10px 10px;
-    border-radius: 0px;
+    border-radius: 10px;
     box-shadow: var(--shadow);
     border: var(--border);
     background-color: var(--darkerbackground2);
@@ -1965,7 +1965,7 @@ color: var(--bright2);
 #mojetematyrez ul.topiclist li {
       border: var(--border);
     margin: 2px;
-    border-radius: 0px;
+    border-radius: 10px;
     flex-wrap: wrap;
     background: transparent;
     display: flex;
@@ -1982,7 +1982,7 @@ color: var(--bright2);
     background-size: 0px 0px !important;
     height: 70px;
     background: var(--forabackground2);
-    border-radius: 0px;
+    border-radius: 10px;
     overflow: hidden;
     border: var(--border);
     box-shadow: var(--shadow);
@@ -1995,7 +1995,7 @@ color: var(--bright2);
     flex-wrap: wrap;
     background: var(--forabackground);
     border: var(--border);
-    border-radius: 0px;
+    border-radius: 10px;
     box-shadow: var(--shadow);
     height: 55px;
 display: flex;
@@ -2015,7 +2015,7 @@ display: flex;
     opacity: 0;
     box-shadow: var(--shadowout);
     border: var(--border);
-    border-radius: 0px;
+    border-radius: 10px;
     overflow: hidden;
     width: 250px;
     height: 400px;
@@ -2035,7 +2035,7 @@ display: flex;
     margin: -10px;
     box-shadow: var(--shadowout);
     border: var(--border);
-    border-radius: 0px;
+    border-radius: 10px;
     z-index: 9;
     content: "";
     position: absolute;
@@ -2059,7 +2059,7 @@ display: flex;
 #schowane .postprofile-info img {
 opacity: 0.7;
     border: var(--border);
-    border-radius: 0px;
+    border-radius: 10px;
   width: 100%; }
 
 #schowane .postprofile .label {display:none;}
@@ -2068,7 +2068,7 @@ opacity: 0.7;
       border: var(--border);
     color: var(--bright2);
     box-shadow: var(--shadow);
-    border-radius: 0px;
+    border-radius: 10px;
     padding: 5px;
   background: var(--darkerbackground2);}
 
@@ -2076,7 +2076,7 @@ opacity: 0.7;
     overflow: auto;
         max-height: 140px;
     text-align: justify;
-    border-radius: 0px;
+    border-radius: 10px;
     background: var(--darkerbackground2);
     padding: 5%;}
 
@@ -2117,7 +2117,7 @@ opacity: 0.7;
  height: 35px;
  box-shadow: var(--shadow);
  border: var(--border);
- border-radius: 0px;
+ border-radius: 10px;
  background: var(--forabackground);
  bottom: 15px;
  z-index: 99999;
@@ -2224,7 +2224,7 @@ width: calc(100%);
 
 #scroll button {
       width: 35px;
-    border-radius: 0px;
+    border-radius: 10px;
     border: var(--border);
     box-shadow: var(--shadowout);
     background: var(--forabackground);
@@ -2246,7 +2246,7 @@ width: calc(100%);
   font-size:0px;
     border: var(--border);
     background: var(--forabackground);
-    border-radius: 0px;
+    border-radius: 10px;
     height: 35px;
     width: 35px;
     padding: 10px;
@@ -2277,7 +2277,7 @@ filter: var(--filterinvert2);}
 
 /*ogólne*/
 .panel {
-    border-radius: 0px;
+    border-radius: 10px;
     font-family: var(--basicfont);
     position: relative;
     background-color: var(--forabackground);
@@ -2391,7 +2391,7 @@ a:hover {
 
 .tresci {    box-shadow: var(--shadowout);
     border: var(--border);
-    border-radius: 0px;
+    border-radius: 10px;
     background: var(--forabackground);
     margin: 10px 0px;
   padding: 10px;}
@@ -2404,7 +2404,7 @@ a:hover {
 .informacje {
       color: var(--bright2);
   box-shadow: var(--shadowout);
-    border-radius: 0px;
+    border-radius: 10px;
     border: var(--border);
     display: flex;
     flex-wrap: wrap;
@@ -2443,7 +2443,7 @@ a.topictitle {
       color: var(--bright);
 }
 .pamiec .postbody {font-family: var(--basicfont);
-    border-radius: 0px;
+    border-radius: 10px;
     padding: 10px;
     position: relative;
     margin-left: 0 !important;
@@ -2464,7 +2464,7 @@ a.topictitle {
 .poslaniec {
   margin-top: 20px;
   overflow:hidden;
-  border-radius: 0px;
+  border-radius: 10px;
     box-shadow: var(--shadowout);
     border: var(--border);
     background: var(--darkerbackground);
@@ -2500,7 +2500,7 @@ form[action="/privmsg?folder=inbox"] {
     text-align: center;
     margin-bottom: 20px;
     position: relative;
-    border-radius: 0px;
+    border-radius: 10px;
     width: 26px;
     height: 26px;
     background: var(--contrast);
@@ -2517,7 +2517,7 @@ box-shadow: var(--shadowout);}
     width: 850px;
     border: var(--border);
     box-shadow: var(--shadowout);
-    border-radius: 0px;
+    border-radius: 10px;
     /* background: var(--forabackground2); */
     flex-wrap: wrap;
     display: flex;
@@ -2571,7 +2571,7 @@ box-shadow: var(--shadowout);}
       overflow: hidden;
          box-shadow: var(--shadowout);
     border: var(--border);
-    border-radius: 0px;
+    border-radius: 10px;
     background: var(--forabackground2);
     display: flex;
     flex-wrap: wrap;
@@ -2609,7 +2609,7 @@ box-shadow: var(--shadowout);}
     height: 270px;
         background: var(--forabackground2);
     margin: 10px;
-    border-radius: 0px;
+    border-radius: 10px;
     border: var(--border);
     box-shadow: var(--shadowout);
 }
@@ -2618,7 +2618,7 @@ box-shadow: var(--shadowout);}
   line-height: 1.5;
     background: var(--forabackground);
     margin: 10px;
-    border-radius: 0px;
+    border-radius: 10px;
     border: var(--border);
     box-sizing: var(--shadowout);
     padding: 20px;
@@ -2631,7 +2631,7 @@ box-shadow: var(--shadowout);}
     background: var(--forabackground);
     color: var(--linkcolor);
     margin: 35px 10px 0px 10px;
-    border-radius: 0px;
+    border-radius: 10px;
     border: var(--border);
     box-sizing: var(--shadowout);
     padding: 10px;
@@ -2639,7 +2639,7 @@ box-shadow: var(--shadowout);}
 
 #postingbox dd .select button:hover, .selectHover {
   filter: var(--filterinvert2);
-    border-radius: 0px;
+    border-radius: 10px;
     margin-top: 12px;
     margin-right: 15px;
     width: 20px;
@@ -2654,7 +2654,7 @@ box-shadow: var(--shadowout);}
     box-shadow: var(--shadowout);
     background: var(--forabackground);
     width: auto;
-    border-radius: 0px;
+    border-radius: 10px;
     border: var(--border);
     width: 30%;
 }
@@ -2664,7 +2664,7 @@ box-shadow: var(--shadowout);}
 
 .panelDICE {    box-shadow: var(--shadowout);
     border: var(--border);
-    border-radius: 0px;
+    border-radius: 10px;
     background: var(--forabackground);
   padding: 20px;}
 
@@ -2681,7 +2681,7 @@ align-items: center;
 #list_dice select {
 box-shadow: var(--shadow);
     background-color: var(--darkerbackground);
-    border-radius: 0px;
+    border-radius: 10px;
     cursor: pointer;
     padding: 9px;
     vertical-align: middle;
@@ -2693,7 +2693,7 @@ box-shadow: var(--shadow);
 #list_dice input[type="text"], .inputbox {
 box-shadow: var(--shadow);
     background-color: var(--darkerbackground);
-    border-radius: 0px;
+    border-radius: 10px;
     cursor: pointer;
     padding: 9px;
     vertical-align: middle;
@@ -2711,7 +2711,7 @@ box-shadow: var(--shadow);
     margin-top: 10px;
     box-shadow: var(--shadowout);
     border: var(--border);
-    border-radius: 0px;
+    border-radius: 10px;
     background: var(--forabackground2);
     padding: 20px;
 	  }
@@ -2742,7 +2742,7 @@ box-shadow: var(--shadow);
 
 .mojpanel label {
     flex: 100%;
-    border-radius: 0px;
+    border-radius: 10px;
     box-shadow: var(--shadowout);
     border: var(--border);
     margin: 3px 0px !important;
@@ -2780,7 +2780,7 @@ padding: 0px !important;
     background: var(--b5);
  width: 100% !important;
  padding: 0px 20px;
- border-radius: 0px;
+ border-radius: 10px;
      border: var(--border);
     box-shadow: var(--shadow);
  display: inline-block;
@@ -2871,7 +2871,7 @@ padding: 0px !important;
 .prywatne .pm-actions-buttons input[type="submit"].button2
 {
     padding: 10px;
-    border-radius: 0px;
+    border-radius: 10px;
         box-shadow: var(--shadow);
     align-items: center;
     justify-content: center;
@@ -2902,7 +2902,7 @@ padding: 0px !important;
 .prvmsg .inner .pmlist li.row {
 	background: transparent; border: var(--border);
  box-shadow: var(--shadowout);
- border-radius: 0px;
+ border-radius: 10px;
  margin-bottom: 10px;
  background: var(--darkerbackground)
 }
@@ -2943,7 +2943,7 @@ padding: 0px !important;
  display: flex;
  min-height: 30px;
  background-color: var(--b5);
- border-radius: 0px;
+ border-radius: 10px;
  border: var(--border);
  box-shadow: var(--shadow);
  margin: 1%;
@@ -3007,7 +3007,7 @@ ul.topiclist.pmlist.bg_none {
 .rejestracja #cp-main .panel .poslaniec {
     margin: 20px 0px !important;
 	    overflow: hidden;
-    border-radius: 0px;
+    border-radius: 10px;
     box-shadow: var(--shadowout);
     border: var(--border);
     background: var(--darkerbackground);
@@ -3035,7 +3035,7 @@ ul.topiclist.pmlist.bg_none {
  background-color: transparent;
  color: #444;
  border: var(--border);
- border-radius: 0px;
+ border-radius: 10px;
  padding: 2% !important;
  cursor: text;
  font-size: 1.2rem;
@@ -3081,7 +3081,7 @@ input[type="text"]:focus-visible,
 
 /*emblemat*/
 #nowyavatar img {
-    border-radius: 0px;
+    border-radius: 10px;
     border: var(--border);
     box-shadow: var(--shadowout);
   margin: 0px 10px;}
@@ -3100,7 +3100,7 @@ input[type="text"]:focus-visible,
     background: var(--darkerbackground2);
     width: 100%;
     margin-left: 0px !important;
-    border-radius: 0px;
+    border-radius: 10px;
     border: var(--border);
     box-shadow: var(--shadowout);
 }
@@ -3116,7 +3116,7 @@ input[type="text"]:focus-visible,
     width: 100%;
     border: var(--border);
     box-shadow: var(--shadowout);
-    border-radius: 0px;
+    border-radius: 10px;
     margin: 10px 0px;
     text-align: justify;
     padding: 10px !important;
@@ -3138,7 +3138,7 @@ input[type="text"]:focus-visible,
     background-color: var(--darkerbackground2);
     border: var(--border);
     color: var(--bright2) !important;
-    border-radius: 0px;
+    border-radius: 10px;
     box-shadow: var(--shadowout);
     padding: 18px;
   position: relative;}
@@ -3152,7 +3152,7 @@ input[type="text"]:focus-visible,
     justify-content: center;
     border: var(--border);
     box-shadow: var(--shadow);
-    border-radius: 0px;
+    border-radius: 10px;
     width: 90px;
 }
 
@@ -3163,7 +3163,7 @@ input[type="text"]:focus-visible,
     justify-content: center;
     border: var(--border);
     box-shadow: var(--shadow);
-    border-radius: 0px;
+    border-radius: 10px;
     width: 90px;
 }
 
@@ -3174,7 +3174,7 @@ input[type="text"]:focus-visible,
     justify-content: center;
     border: var(--border);
     box-shadow: var(--shadow);
-    border-radius: 0px;
+    border-radius: 10px;
     width: 90px;
 }
 
@@ -3198,7 +3198,7 @@ fieldset dl:last-of-type dd {
 #cp-main .panel p {
     box-sizing: var(--shadow);
     border: var(--border);
-    border-radius: 0px;
+    border-radius: 10px;
     padding: 5px 0px;
     text-align: center;
     background: var(--darkerbackground2);
@@ -3247,7 +3247,7 @@ margin-bottom: 24px;}
     color: var(--bright2) !important;
     margin: 10px 10px !important;
     padding: 10px 0px !important;
-    border-radius: 0px;
+    border-radius: 10px;
     text-align: center;
   background: var(--darkerbackground);}
 
@@ -3287,7 +3287,7 @@ margin-bottom: 24px;}
     font-family: var(--basicfont);
     box-shadow: var(--shadowout);
     background: var(--darkerbackground2);
-    border-radius: 0px;
+    border-radius: 10px;
     border: var(--border);
     display: inline-block;
     font-size: 1.3rem;
@@ -3352,7 +3352,7 @@ margin-bottom: 24px;}
 #cp-main .panel.sig {
     box-shadow: var(--shadow);
     border: var(--border);
-    border-radius: 0px;
+    border-radius: 10px;
     margin: 10px;
     background-color: transparent;
 }
@@ -3368,7 +3368,7 @@ margin-bottom: 24px;}
     text-decoration: none;
     background: var(--forabackground);
     margin: 1px;
-    border-radius: 0px;
+    border-radius: 10px;
     border: var(--border);
     box-shadow: var(--shadowout);
     text-transform: lowercase;
@@ -3388,7 +3388,7 @@ input#autologin.radio { filter: var(--filterinvert2);}
     padding: 5px 5px;
     margin: 10px 0px;
     background: var(--darkerbackground2);
-    border-radius: 0px;
+    border-radius: 10px;
     font-size: 11px;
     font-style: normal;
     font-family: var(--basicfont);
@@ -3419,7 +3419,7 @@ input#autologin.radio { filter: var(--filterinvert2);}
     width: 40%;
 }
 .rejestracja input.inputbox, select.inputbox {
-	border-radius: 0px !important;
+	border-radius: 10px !important;
     padding: 10px 20px !important;
     margin: 0px !important;
 }
@@ -3432,7 +3432,7 @@ input#autologin.radio { filter: var(--filterinvert2);}
 .okolorej {    
       margin-bottom: 10px;
   width: 100%;
-    border-radius: 0px;
+    border-radius: 10px;
     border: var(--border);
     display: flex;
     flex-wrap: wrap;
@@ -3509,7 +3509,7 @@ align-items: center;
   margin: 0px 10px 10px 0px;
     background: var(--darkerbackground2);
     padding: 10px;
-    border-radius: 0px;
+    border-radius: 10px;
     border: var(--border);
     box-shadow: var(--shadowout);
     color: var(--bright2);
@@ -3520,7 +3520,7 @@ align-items: center;
 
 #like_popup, #inactive_popup {
     color: var(--bright2);
-    border-radius: 0px;
+    border-radius: 10px;
     border: var(--border) !important;
     box-shadow: var(--shadowout);
     font-family: var(--basicfont);
@@ -3555,7 +3555,7 @@ dl#field_id:nth-of-type(2) {display: none}
      color: var(--bright2) !important;
     box-shadow: var(--shadowout);
     border: var(--border);
-    border-radius: 0px;
+    border-radius: 10px;
     padding: 10px;
     background: var(--b2);
     color: var(--b1);
@@ -3616,7 +3616,7 @@ dl#field_id:nth-of-type(2) {display: none}
  background: var(--forabackground);
  box-shadow: var(--shadow);
  float:left;
- border-radius: 0px;
+ border-radius: 10px;
  padding: 5px 15px;
  text-align:right;
  color: #444;
@@ -3633,7 +3633,7 @@ dl#field_id:nth-of-type(2) {display: none}
  height: 60px;
  box-shadow: var(--shadowout);
      background: var(--forabackground);
- border-radius: 0px;
+ border-radius: 10px;
  border: var(--border);
  margin: 10px 10px;
  z-index: 999;
@@ -3646,7 +3646,7 @@ dl#field_id:nth-of-type(2) {display: none}
  height: 60px;
  box-shadow: var(--shadowout);
      background: var(--forabackground);
- border-radius: 0px;
+ border-radius: 10px;
  border: var(--border);
  margin: 0px 10px;
  z-index: 999;
@@ -3679,7 +3679,7 @@ dl#field_id:nth-of-type(2) {display: none}
  background: var(--forabackground);
  box-shadow: var(--shadow);
  float:left;
- border-radius: 0px;
+ border-radius: 10px;
  padding: 5px 15px;
  text-align:right;
  color: #444;
@@ -3766,7 +3766,7 @@ dl#field_id:nth-of-type(2) {display: none}
 .charav {
  box-shadow: var(--shadowout);
  overflow: hidden;
- border-radius: 0px;
+ border-radius: 10px;
  margin: 0px 10px 0px 10px;
  border-bottom: var(--border);
  border-top: var(--border);
@@ -3794,7 +3794,7 @@ dl#field_id:nth-of-type(2) {display: none}
 .profilinfo4 dl.details dd {
 background: var(--forabackground);
  border: var(--border);
- border-radius: 0px;
+ border-radius: 10px;
  width: 100% !important;
  text-align: justify;
  line-height: 160%;
@@ -3824,7 +3824,7 @@ margin-top: 2px;
  border: var(--border);
  box-shadow: var(--shadow);
  float:left;
- border-radius: 0px;
+ border-radius: 10px;
  padding: 5px 15px;
  text-align:right;
  color: #444;
@@ -3875,7 +3875,7 @@ margin: 0px 10px 40px 10px;
  border: var(--border);
  background: var(--forabackground);
  float:left;
- border-radius: 0px;
+ border-radius: 10px;
  padding: 5px 5px;
  width: 10em;
  text-align:right;
@@ -4024,7 +4024,7 @@ display: flex;
  font-family: var(--basicfont);
  background: var(--b4);
  position: absolute;
- border-radius: 0px;
+ border-radius: 10px;
  top: 27px;
  left: 2%;
  color: var(--bright) !important;
@@ -4070,7 +4070,7 @@ padding: 0px}
 	    margin: 10px;
     flex-wrap: wrap;
     display: flex;
-    border-radius: 0px;
+    border-radius: 10px;
     font-family: var(--basicfont);
     position: relative;
     border: var(--border);
@@ -4130,7 +4130,7 @@ font-family: var(--basicfont);
     color: var(--bright2);
     text-align: center;
     padding: 8px;
-    border-radius: 0px;
+    border-radius: 10px;
     border: var(--border);
     z-index: 6;
     opacity: 0;
@@ -4159,7 +4159,7 @@ dl.left-box.details2 {
    letter-spacing: 1px;
     box-shadow: var(--shadowout);
     border: var(--border);
-    border-radius: 0px;
+    border-radius: 10px;
     padding: 10px;
     align-items: center;
     justify-content: center;
@@ -4180,9 +4180,9 @@ dl.left-box.details2 {
  padding: 8px;
  background: #222;
  background: var(--forabackground) !important;
- -moz-border-radius: 0px;
- -webkit-border-radius: 0px;
- border-radius: 0px;
+ -moz-border-radius: 10px;
+ -webkit-border-radius: 10px;
+ border-radius: 10px;
  -moz-box-shadow: var(--shadow);
  -webkit-box-shadow: var(--shadow);
  box-shadow: var(--shadow);
@@ -4397,7 +4397,7 @@ content: ""
 }
 
 .navbar li {
- border-radius: 0px;
+ border-radius: 10px;
  transition: 0.5s;
  position: relative;
  bottom: 20px;
@@ -4440,7 +4440,7 @@ h1.page-title {
 .search-box input {
  transition: 1s;
  height: 39px !important;
- border-radius: 0px;
+ border-radius: 10px;
  border: var(--border);
  padding: 10%;
  background: var(--forabackground)}
@@ -4476,7 +4476,7 @@ h1.page-title {
     left: 60px;
     background: var(--forabackground);
     position: relative;
-    border-radius: 0px;
+    border-radius: 10px;
     padding: .5% 2%;
     border: var(--border); }
 
@@ -4629,7 +4629,7 @@ font-size: 30px !important;
 
 .ramkatytul {
  z-index: 9;
- border-radius: 0px;
+ border-radius: 10px;
  box-shadow: var(--shadow);
  border: var(--border);
  align-items: center;
@@ -4645,7 +4645,7 @@ ul.forums {background-color: transparent}
 
 .forabg {
  border: var(--border);
- border-radius: 0px;
+ border-radius: 10px;
  position: relative;
  overflow: hidden;
  box-shadow: var(--shadow);
@@ -4760,7 +4760,7 @@ li.tematy > dl.icon {
 .opisramka {
  height: 130px;
  margin-top: 10px;
- border-radius: 0px;
+ border-radius: 10px;
  box-shadow: var(--shadow);
  column-gap: 10px;
  flex-wrap: wrap;
@@ -4799,7 +4799,7 @@ li.tematy > dl.icon {
     color: var(--bright);
     padding: 3px 5px;
     text-align: center;
-    border-radius: 0px;
+    border-radius: 10px;
     border: var(--border);
     font-family: var(--basicfont);
     font-size: 12px !important;
@@ -4831,7 +4831,7 @@ ul.topiclist.forums {
 .avatarlastpost {
  min-height: 89px;
  margin-top: 20px;
- border-radius: 0px;
+ border-radius: 10px;
  background: var(--forabackground);
  flex-wrap: wrap;
  display: flex !important;
@@ -4867,7 +4867,7 @@ flex: 1
  border: none;
  opacity: 0.9;
  z-index: 99;
- border-radius: 0px;
+ border-radius: 10px;
  flex: 1;
  position: relative
 }
@@ -4994,7 +4994,7 @@ font-size: 12px;
 
 
 .tematy:hover dd.kwadracik {
-    border-radius: 0px;
+    border-radius: 10px;
     opacity: 1;
     font-family: var(--basicfont) !important;
     font-weight: 500;
@@ -5029,7 +5029,7 @@ form[name="go_page"] .row1 {
 form[name="go_page"] {
   font-family: var(--basicfont);
     background: var(--forabackground2);
-    border-radius: 0px;
+    border-radius: 10px;
     border: var(--border);
     box-shadow: var(--shadowout);
     overflow: hidden;
@@ -5073,7 +5073,7 @@ ul.topics .row dd.dterm {
  min-height: 55px;
  overflow: auto;
  border: var(--border);
- border-radius: 0px;
+ border-radius: 10px;
  box-shadow: var(--shadow);
  align-items: center;
  align-content: center;
@@ -5107,7 +5107,7 @@ h2.topic-title.hierarchy a:hover {
  font-size: 9px;
  letter-spacing: 1px;
  font-weight: 400;
- border-radius: 0px;
+ border-radius: 10px;
  justify-content: center;
  align-content: center;
  text-align: center;
@@ -5136,7 +5136,7 @@ ul.topiclist.topics.bg_none {padding: 2%}
 ul.topiclist.topics.bg_none > li.row {
  padding-bottom: 2%;
  position: relative;
- border-radius: 0px;
+ border-radius: 10px;
  box-shadow: var(--shadow);
  margin-bottom: 20px;
  border: var(--border);
@@ -5157,7 +5157,7 @@ ul.topiclist.topics.bg_none > li.row > dl.icon {
 
 .avlast {
  position: relative;
- border-radius: 0px;
+ border-radius: 10px;
  box-shadow: var(--shadow);
  border: var(--border);
  position: absolute;
@@ -5167,7 +5167,7 @@ ul.topiclist.topics.bg_none > li.row > dl.icon {
 
 
 .topics .lastpost-avatar {
- border-radius: 0px;
+ border-radius: 10px;
  box-shadow: var(--sh);
  border: var(--o1);
  background: var(--b1);
@@ -5196,7 +5196,7 @@ li.row:hover > dd.views {
  position: relative;
  background: var(--forabackground);
  border: var(--border) !important;
- border-radius: 0px;
+ border-radius: 10px;
  box-shadow: var(--shadow);
  min-width: 55px;
  /* padding: 0px 5px !important; */
@@ -5215,7 +5215,7 @@ li.row:hover > dd.views {
  flex-wrap: wrap;
  background: var(--forabackground);
  border: var(--border);
- border-radius: 0px;
+ border-radius: 10px;
  box-shadow: var(--shadow);
  width: 30%;
  height: 55px;
@@ -5251,7 +5251,7 @@ dd.lastpost > span.lastpost-inf0s img {
  position: relative;
  background: var(--forabackground);
  border: var(--border) !important;
- border-radius: 0px;
+ border-radius: 10px;
  box-shadow: var(--shadow);
  min-width: 55px;
  height: 35px;
@@ -5311,7 +5311,7 @@ gap: 0px;
     color: var(--bright2);
     margin-top: 0px;
     height: 35px;
-    border-radius: 0px;
+    border-radius: 10px;
     display: flex;
     flex-wrap: wrap;
     float: right;
@@ -5349,7 +5349,7 @@ gap: 0px;
  flex-wrap: wrap;
  display: inline-flex;
  background-color: var(--b5);
- border-radius: 0px;
+ border-radius: 10px;
  box-shadow: var(--shadow);
  border: var(--border);
  font-size: 1.2rem;
@@ -5369,7 +5369,7 @@ gap: 0px;
  flex-wrap: wrap;
  display: inline-flex;
  background-color: var(--forabackground);
- border-radius: 0px;
+ border-radius: 10px;
  box-shadow: var(--shadow);
  border: var(--border);
  font-size: 1.2rem;
@@ -5388,7 +5388,7 @@ ul.topiclist.topics.bg_none > li.row {
     width: 100%;
     padding-bottom: 2%;
     position: relative;
-    border-radius: 0px;
+    border-radius: 10px;
     box-shadow: var(--shadow);
     margin-bottom: 20px;
     border: var(--border);
@@ -5404,7 +5404,7 @@ ul.topiclist.topics.bg_none > li.row {
  margin: 0px;
  clear: both;
  padding: 0;
- border-radius: 0px !important;
+ border-radius: 10px !important;
  box-shadow: none !important;
  border: none
 }
@@ -5419,12 +5419,12 @@ ul.topiclist.topics.bg_none > li.row {
  background: var(--forabackground);
  display: flex;
  border: var(--border);
- border-radius: 0px;
+ border-radius: 10px;
  flex-wrap: wrap
 }
 
 .subtematy::before {content: "";
- border-radius: 0px;
+ border-radius: 10px;
  position: absolute;
 width: 100%;
 height: 100%;
@@ -5441,7 +5441,7 @@ input[type="submit"], .button, .button1, .button2 {
     color: var(--bright2) !important;
  background-color: var(--forabackground);
  border: var(--border);
- border-radius: 0px;
+ border-radius: 10px;
  box-shadow: var(--shadowout);
  display: inline-block;
  font-weight: 500;
@@ -5458,7 +5458,7 @@ input[type="submit"], .button, .button1, .button2 {
     color: var(--bright2);
     background-color: var(--forabackground);
     border: var(--border);
-    border-radius: 0px;
+    border-radius: 10px;
     box-shadow: var(--shadowout);
     display: inline-block;
     font-weight: 500;
@@ -5482,7 +5482,7 @@ input[type="submit"]:hover, .button:hover, .button1:hover, .button2:hover {
 .grid-section .topic-card {
  background: var(--forabackground);
  margin-bottom: 5px;
- border-radius: 0px;
+ border-radius: 10px;
  box-shadow: var(--shadow);
  border: var(--border);
  flex: 100%;
@@ -5517,7 +5517,7 @@ input[type="submit"]:hover, .button:hover, .button1:hover, .button2:hover {
  flex-wrap: wrap;
  display: inline-flex;
  background-color: var(--forabackground);
- border-radius: 0px;
+ border-radius: 10px;
  box-shadow: var(--shadow);
  border: var(--border);
  font-size: 1.2rem;
@@ -5536,7 +5536,7 @@ input[type="submit"]:hover, .button:hover, .button1:hover, .button2:hover {
 	padding: 50px 0px 0px 0px;
  position: relative;
  width: 1000px;
- border-radius: 0px;
+ border-radius: 10px;
  border: var(--border);
  box-shadow: var(--shadow)
 }
@@ -5545,7 +5545,7 @@ input[type="submit"]:hover, .button:hover, .button1:hover, .button2:hover {
 	margin-top: -50px;
 box-shadow: var(--shadowout);
  border: var(--border);
- border-radius: 0px;
+ border-radius: 10px;
  z-index: -9;
  content: "";
  position: absolute;
@@ -5576,7 +5576,7 @@ letter-spacing: 1px;
 }
 
 .controls button {
-      border-radius: 0px;
+      border-radius: 10px;
     border: var(--border);
     box-shadow: var(--shadowout);
     width: 35px;
@@ -5610,7 +5610,7 @@ letter-spacing: 1px;
 
 .postbody .content::before {
 	z-index: -9;
- border-radius: 0px;
+ border-radius: 10px;
  content: "";
  box-shadow: var(--shadowout);
  position: absolute;
@@ -5644,7 +5644,7 @@ a.ion-locked.button1 {
 	 position: relative;
  background: var(--darkerbackground);
  border: var(--border);
- border-radius: 0px;
+ border-radius: 10px;
  box-shadow: var(--shadow);
  margin-bottom: 24px;
  display: flex;
@@ -5656,7 +5656,7 @@ blockquote {
     z-index: 9;
     background-color: var(--darkerbackground);
     /* border-color: rgba(0, 0, 0, 0.1); */
-    border-radius: 0px;
+    border-radius: 10px;
     border: var(--border);
     border-width: 1px 1px 1px 6px;
     font-size: 1.2rem;
@@ -5670,7 +5670,7 @@ dl.codebox {
     z-index: 9;
     background-color: var(--darkerbackground);
     /* border-color: rgba(0, 0, 0, 0.1); */
-    border-radius: 0px;
+    border-radius: 10px;
     border: var(--border);
     border-width: 1px 1px 1px 6px;
     font-size: 1.2rem;
@@ -5744,7 +5744,7 @@ fieldset.jumpbox {display:none;}
 
 .profile-icons li {
     box-shadow: var(--shadow);
-    border-radius: 0px;
+    border-radius: 10px;
     border: var(--border);
     background: var(--forabackground);
     display: flex;
@@ -5831,7 +5831,7 @@ fieldset.jumpbox {display:none;}
     height: 35px;
     box-shadow: var(--shadowout);
     border: var(--border);
-    border-radius: 0px;
+    border-radius: 10px;
     z-index: 99;
     position: absolute;
     padding: 0px 10px;
@@ -5848,7 +5848,7 @@ fieldset.jumpbox {display:none;}
  position: absolute;
  height: 100%;
  margin: 0px -10px;
- border-radius: 0px;
+ border-radius: 10px;
  z-index: -9;
  box-shadow: var(--shadowout)}
 
@@ -5869,7 +5869,7 @@ fieldset.jumpbox {display:none;}
  align-items: center;
  justify-content: center;
  padding: 0px 10px;
- border-radius: 0px;
+ border-radius: 10px;
  box-shadow: var(--shadow);
  background: var(--forabackground)
 }
@@ -5890,7 +5890,7 @@ background: var(--contrast);
  width: 35px;
  height: 35px;
  border: var(--border);
- border-radius: 0px;
+ border-radius: 10px;
  box-shadow: var(--shadowout);
 margin-top: 0px}
 .postprofile-contact img {
@@ -5901,7 +5901,7 @@ margin-top: 0px}
 
 .postprofile dl {
 
- border-radius: 0px;
+ border-radius: 10px;
  border: var(--o1);
  box-shadow: var(--sh);
  position: sticky;
@@ -5930,7 +5930,7 @@ margin-top: 0px}
 	height: 100%;
 	 min-width: 250px;
 box-shadow: none;
- border-radius: 0px;
+ border-radius: 10px;
  border: var(--border);
  filter: var(--filter2)
 }
@@ -5958,7 +5958,7 @@ box-shadow: none;
 
 .rep-button, .rep-button:focus, .rep-button:active {
  width: 50px;
- border-radius: 0px;
+ border-radius: 10px;
  display: flex;
  flex-wrap: wrap;
  align-items: center;
@@ -5985,7 +5985,7 @@ p.fa_like_list {
     opacity: 0.7;
     margin-left: 10px;
     border: none !important;
-    border-radius: 0px;
+    border-radius: 10px;
     padding: 10px;
     flex-wrap: wrap;
     margin-top: 20px;
@@ -6047,7 +6047,7 @@ p.fa_like_list a:hover {
     justify-content: space-evenly;
     align-items: center;
     border: var(--border);
-    border-radius: 0px;
+    border-radius: 10px;
         padding: 5px 4px;
     text-align: left;
     font-size: 0;
@@ -6068,7 +6068,7 @@ p.fa_like_list a:hover {
  flex-wrap: wrap;
  display: flex;
  border: var(--border);
- border-radius: 0px;
+ border-radius: 10px;
  box-shadow: var(--shadow);
  overflow: hidden;
  padding: 18px;
@@ -6080,7 +6080,7 @@ p.fa_like_list a:hover {
  align-items: center;
  background: var(--stopkaimg);
  background-size: cover;
- border-radius: 0px;
+ border-radius: 10px;
  border: var(--border);
  border-right: none;
  position: relative;
@@ -6094,7 +6094,7 @@ p.fa_like_list a:hover {
  background: var(--forabackground);
  overflow: auto;
  box-shadow: var(--shadowout);
- border-radius: 0px;
+ border-radius: 10px;
  margin-left: 10px;
  height: 100% !important;
  padding: 10px;
@@ -6116,7 +6116,7 @@ p.fa_like_list a:hover {
  height: 40px;
  display: flex;
  border: var(--border);
- border-radius: 0px;
+ border-radius: 10px;
  padding: 10px;
  margin: 15px 0px 15px 0px
 }
@@ -6180,7 +6180,7 @@ margin-top: -12px;
 .statistics-item {
 color: var;
     background: var(--contrast);
-    border-radius: 0px;
+    border-radius: 10px;
     margin-left: 10px;
     border: var(--border);
     width: auto;
@@ -6215,7 +6215,7 @@ filter: var(--filterinvert2)
  margin-right: 10px;
  border: var(--border);
  padding: 2px 10px;
- border-radius: 0px;
+ border-radius: 10px;
  background: var(--forabackground);
  display: flex
 }
@@ -6232,7 +6232,7 @@ filter: var(--filterinvert2)
 .ostematy {
      background: var(--forabackground2);
     box-shadow: var(--shadowout);
-    border-radius: 0px;
+    border-radius: 10px;
     border: var(--border);
     height: 80%;
     width: 100%;}
@@ -6349,7 +6349,7 @@ filter: var(--filterinvert2)
  background-color: var(--forabackground);
  box-shadow: var(--shadow);
  color: #444;
- border-radius: 0px;
+ border-radius: 10px;
  margin-bottom: 24px;
  overflow: hidden;
  padding: 2%;
@@ -6358,7 +6358,7 @@ filter: var(--filterinvert2)
 }
 
 .panel.msgdie-panel > .inner { border: var(--border);
- border-radius: 0px;
+ border-radius: 10px;
  box-shadow: var(--shadowout);
  padding: 2%}
 
@@ -6464,7 +6464,7 @@ body#sce_smilies_body {
     background-repeat: no-repeat;
     background-size: contain;
     box-shadow: var(--shadowout);
-    border-radius: 0px;
+    border-radius: 10px;
     border: var(--border);
     padding: 20px;
     background-color: var(--forabackground);
@@ -6480,7 +6480,7 @@ body#sce_smilies_body {
     color: var(--bright);
     box-shadow: var(--shadow);
     padding: 5px;
-    border-radius: 0px;
+    border-radius: 10px;
     font-family: var(--basicfont);
     background: var(--forabackground2);
     display: block;
@@ -6491,7 +6491,7 @@ body#sce_smilies_body {
 .odpowiedzbit input[type="text"], .inputbox {
     box-shadow: var(--shadowout);
     border: var(--border) !important;
-    border-radius: 0px !important;
+    border-radius: 10px !important;
        background-color: var(--forabackground2);
     color: var(--bright);
     cursor: text !important;
@@ -6583,7 +6583,7 @@ margin: 0px !important}
 	    margin-bottom: 10px;
 overflow: auto;
     box-shadow: var(--shadowout);
-    border-radius: 0px;
+    border-radius: 10px;
     padding: 10px;
     border: var(--border);
     width: 100%;
@@ -6645,7 +6645,7 @@ form[name="jumpbox"] {display:none;}
     background-repeat: no-repeat;
     flex-wrap: wrap;
     display: flex;
-    border-radius: 0px;
+    border-radius: 10px;
     border: var(--border);
     padding: 2%;
     box-shadow: var(--shadow);
@@ -6671,7 +6671,7 @@ fieldset dl:hover dt label {
     top: 38px;}
 
 .controls button {
-      border-radius: 0px;
+      border-radius: 10px;
     border: var(--border);
     box-shadow: var(--shadow);
     width: 35px;
@@ -6700,7 +6700,7 @@ p.rightside {
     background-color: var(--darkerbackground);
     box-shadow: var(--shadowout);
     color: #444;
-    border-radius: 0px;
+    border-radius: 10px;
     margin-bottom: 10px;
     overflow: hidden;
     /* padding: 2%; */
@@ -6724,7 +6724,7 @@ p.rightside {
     flex-wrap: wrap;
     box-shadow: var(--shadowout);
     border: var(--border);
-    border-radius: 0px;
+    border-radius: 10px;
     padding: 90px 10px 10px 10px;
     background-color: var(--darkerbackground2);
     background-image: var(--poczatek5);
@@ -7013,7 +7013,7 @@ width: 100%;
  width: 35px;
  height: 35px;
  background: var(--forabackground);
- border-radius: 0px;
+ border-radius: 10px;
  box-shadow: var(--shadow)
 }
 .switcheroo__squircle--button:hover {
@@ -7068,7 +7068,7 @@ width: 100%;
     background-image: var(--poczatek5);
     background-color: var(--darkerbackground2);
     background-size: 100%;
-    border-radius: 0px;
+    border-radius: 10px;
     border: var(--border);
     overflow: hidden;
 	background-repeat: no-repeat;
@@ -7091,7 +7091,7 @@ width: 100%;
     font-size: 11px !important;
     background: var(--darkerbackground);
     padding: 1% 2%;
-    border-radius: 0px;
+    border-radius: 10px;
     border: var(--border);
     box-shadow: var(--shadowout);
     margin-bottom: 8px;
@@ -7104,7 +7104,7 @@ width: 100%;
 .switcheroo__form-input {
     padding: 6px !important;
     font-size: 16px;
-    border-radius: 0px;
+    border-radius: 10px;
     width: 100%;
     height: 40px;
     background-color: var(--forabackground2) !important;
@@ -7121,7 +7121,7 @@ width: 100%;
     letter-spacing: 1px;
     color: var(--bright2);
     font-size: 11px !important;
-    border-radius: 0px;
+    border-radius: 10px;
     padding: 2% 4%;
     border: var(--border);
     outline: none;
