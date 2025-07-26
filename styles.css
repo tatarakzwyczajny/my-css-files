@@ -181,6 +181,8 @@ padding: 30px;
     height: 500px;
 }
 
+.char br {display: block !important;}
+
 .e1 {   border-radius: 10px;
     overflow: auto;
     height: 288px;
