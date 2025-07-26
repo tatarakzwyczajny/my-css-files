@@ -5618,6 +5618,7 @@ box-shadow: var(--shadowout);
 }
 
 .postbody a {
+	    border-radius: 10px;
 	    font-style: italic;
 letter-spacing: 1px;
     color: #5367dd;
