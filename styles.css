@@ -162,7 +162,7 @@ margin-top: 0px !important;
     padding: 30px;
     flex-wrap: wrap;
     display: flex;
-    flex: 544px;
+
     border: var(--border);
     border-right: none !important;
     box-shadow: var(--shadow);
