@@ -6523,7 +6523,7 @@ body#sce_smilies_body {
     border: var(--border);
     padding: 20px;
     background-color: var(--forabackground);
-    width: 850px;
+    width: 1000px;
 }
 .odpowiedzbit #preview .postbody .content {margin-left: 0px;}
 .odpowiedzbit #preview .postbody {padding: 20px !important;}
