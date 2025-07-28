@@ -222,8 +222,6 @@ box-shadow: var(--shadowinligh);
     z-index: 9999;
     content: '';
     position: absolute;
-    width: 158px;
-    height: 36px;
     border: var(--border); 
 }
 
