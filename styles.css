@@ -195,7 +195,9 @@ padding: 30px;
     flex-wrap: wrap;
   justify-content: center;}
 
-.e2 > div {  border-radius: 10px;
+.e2 > div {  
+	    position: relative;
+	border-radius: 10px;
      text-transform: uppercase;
     font-family: var(--basicfont);
     letter-spacing: 1px;
@@ -212,7 +214,10 @@ padding: 30px;
     color: var(--bright2);
 }
 
-.e2 > div:before {   border-radius: 10px; 
+.e2 > div:before {   
+	    width: 100%;
+    height: 100%;
+	border-radius: 10px; 
 box-shadow: var(--shadowinligh);
     z-index: 9999;
     content: '';
