@@ -2429,9 +2429,7 @@ a:hover {
      color: var(--strong);
 }
 
-.informacje .pagination > a > b, strong:hover {
-     color: var(--bright2);
-}
+
 
 
 .trescin {    color: var(--bright2);
