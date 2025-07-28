@@ -154,7 +154,7 @@ margin-top: 0px !important;
 }
 
 .IoP {  
-	    flex: auto;
+	    flex: calc(100);
     margin-right: 10px;
 	    background: var(--linearbcg);
     border-radius: 10px;
