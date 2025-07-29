@@ -1178,6 +1178,7 @@ color: var(--bright2);
     color: var(--bright2);
     padding: 10px 60px;
     font-family: var(--basicfont);
+	margin-bottom: 20px;
 }
 
 .regulamin .poslaniec1 {
