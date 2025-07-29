@@ -3606,6 +3606,8 @@ padding: 0px !important;
 
 }
 
+#privmsgs-menu a:hover {color: var(--bright2) !important;}
+
 #privmsgs-menu > li {
  align-items: center;
  justify-content: center;
