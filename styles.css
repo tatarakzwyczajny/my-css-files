@@ -5328,9 +5328,6 @@ ul.forums {background-color: transparent}
  background-color: var(--forabackground2);
 transition: 1s}
 
-.forabg:hover .header {
- height: 270px}
-
 .forabg::before {
  content: "";
  position: absolute;
