@@ -6693,7 +6693,7 @@ form[name="jumpbox"] {display:none;}
    .podgladmsg {
      justify-content: center;
     align-items: center;
-    width: 850px;
+    width: auto;
     background-color: var(--darkerbackground2);
     background-image: var(--poczatek);
     background-size: cover;
