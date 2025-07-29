@@ -3476,7 +3476,10 @@ input#autologin.radio { filter: var(--filterinvert2);}
 .rejestracja form[name="go_page"] input[type="text"], .inputbox {
   margin: 0px;}
 
-.rejestracja .odpowiedzbit input[type="text"], .inputbox {margin: 0px;}
+.rejestracja .odpowiedzbit input[type="text"], .inputbox {margin: 0px;
+							 background-color: transparent !important;
+    border: var(--border) !important;
+    box-shadow: none !important;}
 
 .okolorej {    
       margin-bottom: 10px;
