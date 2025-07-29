@@ -844,6 +844,7 @@ box-shadow: var(--shadowinligh);
 }
 
 .e2 > div:nth-of-type(even) {
+	    line-height: 14px !important;
 	  border-radius: 10px;
     text-transform: none;
     background: var(--forabackground);
@@ -6297,7 +6298,7 @@ letter-spacing: 1px;
 
 .postbody .content div {
 	border-radius: 10px !important;
- line-height: 24px !important;
+ line-height: 24px;
 	transition: 1s all;
 }
 
