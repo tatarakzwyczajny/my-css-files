@@ -252,6 +252,7 @@ text-align: center !important;
 .broszura br {display: none !important;}
 
 .br1 {
+	position:relative;
     border-radius: 10px;
     background: var(--linearbcg);
     font-weight: 400;
