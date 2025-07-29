@@ -614,10 +614,6 @@ span.hljs-attr, .hljs-keyword, .hljs-selector-tag, .hljs-type, .hljs-section .hl
 
 /*Karta postaci*/
 
-.e2 > div:nth-of-type(12) {
-	  border-radius: 10px;
-    padding: 20px !important;
-}
 
 
 .e2 > div:nth-last-of-type(-n + 4) {
