@@ -624,8 +624,8 @@ span.hljs-attr, .hljs-keyword, .hljs-selector-tag, .hljs-type, .hljs-section .hl
     position: relative;
     border-radius: 10px;
     height: 200px !important;
-    min-height: 120px !important;
-    max-height: 120px !important;
+    min-height: 80px !important;
+    max-height: 80px !important;
 }
 
 .e2 {
