@@ -6411,6 +6411,7 @@ fieldset.jumpbox {display:none;}
 .ikonyprofile .profile-icons i {
     font-size: 20px;
     color: var(--bright);
+	margin: 0px !important;
 }
 
 .profile-icons li:hover {
