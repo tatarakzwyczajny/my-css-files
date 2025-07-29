@@ -2275,6 +2275,7 @@ pointer-events: none;
 }
 
 .wyszukuz {
+	    margin-bottom: 10px;
 	min-width: 1000px;
       border-radius: 10px;
     border: var(--bi);
