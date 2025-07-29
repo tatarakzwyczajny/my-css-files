@@ -4173,6 +4173,7 @@ align-items: center;
    margin-left: 0px; }
 
 #main.zaloguj .password-container {width:100% !important;}
+.password-container {width:100% !important;}
 
 #main.zaloguj label {
   width:100%;
@@ -4187,6 +4188,10 @@ align-items: center;
     font-family: var(--basicfont);
     font-size: 12px;
   letter-spacing: 1px;}
+
+#cp-main input#email, input#password_reg {
+    background: var(--forabackground) !important;
+}
 
 #like_popup, #inactive_popup {
     color: var(--bright2);
