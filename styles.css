@@ -751,7 +751,9 @@ margin-top: 0px !important;
     font-family: var(--fancyfont);
 }
 
-.ZP {  border-radius: 10px;
+.ZP {  
+	background-position: center;
+	border-radius: 10px;
         filter: var(--filter2);
     background-size: cover;
     border: var(--border);
