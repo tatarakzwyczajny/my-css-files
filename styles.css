@@ -347,7 +347,9 @@ text-align: center !important;
     flex-wrap: wrap;
     gap: 1%;
 }
-.br5 > div {  border-radius: 10px;
+.br5 > div {  
+	position:relative;
+	border-radius: 10px;
     background-size: cover !important;
     margin-bottom: 10px;
     width: 10%;
@@ -364,8 +366,8 @@ text-align: center !important;
     -webkit-box-shadow: var(--shadowinligh) !important;
     border-radius: 10px;
     content: '';
-    width: 9.7%;
-    height: 89px;
+    width: 100%;
+    height: 100%;
     margin: -2px;
     border: var(--border);
   position: absolute;
