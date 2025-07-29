@@ -3246,7 +3246,6 @@ fieldset dl:last-of-type dd {
 
 #cp-main .panel p {
     box-sizing: var(--shadow);
-    border: var(--border);
     border-radius: 10px;
     padding: 5px 0px;
     text-align: center;
