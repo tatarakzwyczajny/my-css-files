@@ -4251,7 +4251,7 @@ dl.left-box.details2 {
  box-shadow: var(--shadow)}
 
 #fa_toolbar #fa_right #notif_list {
-	min-height: 10px;
+	min-height: 300px;
      max-height: 500px;
     border-radius: 10px !important;
     padding: 15px;
