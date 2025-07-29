@@ -6908,12 +6908,18 @@ filter: var(--filterinvert2)
 /*recent topics*/
 
 .ostematy {
+	      height: 240px !important;
+  overflow: auto !important;
      background: var(--forabackground2);
     box-shadow: var(--shadowout);
     border-radius: 10px;
     border: var(--border);
-    height: 80%;
     width: 100%;}
+
+.ostematy iframe {
+    height: 520px !important;
+}
+
 
 
 /*page footer*/
