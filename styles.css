@@ -2939,6 +2939,7 @@ padding: 0px !important;
 }
 
 .prywatne ul.pmlist dt {
+	flex: 90%;
 	 filter: var(--filter3);
 	 font-family: var(--basicfont);
  padding-left: 81px
@@ -2957,14 +2958,20 @@ padding: 0px !important;
 }
 
 .prvmsg .inner .pmlist li.row dl.icon {
-	 filter: var(--filterinvert2);
-	min-height: 20px
+	    display: flex;
+    flex-wrap: wrap;
+    filter: var(--filterinvert2);
+    min-height: 20px;
 }
 
 .prywatne ul.topiclist dd {
- display: flex;
- height: 100%;
- padding: 0px
+    display: flex;
+    padding: 0px;
+    width: 10% !important;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .prvmsg .inner ul.topiclist li {
