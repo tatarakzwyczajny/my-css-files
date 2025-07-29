@@ -3551,7 +3551,7 @@ align-items: center;
 #main.zaloguj fieldset dd {
    margin-left: 0px; }
 
-#main.zaloguj .password-container {width:100%;}
+#main.zaloguj .password-container {width:100% !important;}
 
 #main.zaloguj label {
   width:100%;
