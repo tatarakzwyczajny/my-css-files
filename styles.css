@@ -635,7 +635,6 @@ span.hljs-attr, .hljs-keyword, .hljs-selector-tag, .hljs-type, .hljs-section .hl
     height: fit-content;
         background: var(--linearbcg);
     box-shadow: var(--shadow);
-    border: var(--border);
     flex: 1;
     flex-direction: row;
     padding: 30px 10px;
@@ -742,7 +741,6 @@ margin-top: 0px !important;
     gap: 10px;
   box-shadow: var(--shadow);
     padding: 20px;
-    border: var(--border);
     flex: 100%;
       height: fit-content;
         background: var(--linearbcg);
@@ -774,8 +772,6 @@ margin-top: 0px !important;
     padding: 30px;
     flex-wrap: wrap;
     display: flex;
-
-    border: var(--border);
     border-right: none !important;
     box-shadow: var(--shadow);
     flex-direction: row;
