@@ -2958,7 +2958,7 @@ padding: 0px !important;
 
 .prvmsg .inner .pmlist li.row dl.icon {
 	 filter: var(--filterinvert2);
-	height: 80px
+	min-height: 20px
 }
 
 .prywatne ul.topiclist dd {
