@@ -249,7 +249,7 @@ text-align: center !important;
     background: var(--linearbcg);
 }
 
-.broszura br {display: none !important;}
+.broszura br {display: none;}
 
 .br1 {
 	position:relative;
