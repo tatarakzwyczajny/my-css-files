@@ -6384,7 +6384,7 @@ dl.codebox dt {
  height: 100%}
 
 .post-head {
-	    border-radius: 10px 10px 0px 10px;
+	    border-radius: 10px 10px 0px 0px;
     box-shadow: 0px 0px 80px -24px rgba(92, 92, 92, 0.75) inset;
     -webkit-box-shadow: 0px 0px 80px -24px rgba(92, 92, 92, 0.75) inset;
     -moz-box-shadow: 0px 0px 80px -24px rgba(92,92,92,0.75) inset;
