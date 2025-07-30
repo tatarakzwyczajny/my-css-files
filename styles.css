@@ -722,7 +722,6 @@ z-index: 9 !important;
     position: absolute;
 }
 
-.KP br {display: none !important;}
 
 .KP1  {  border-radius: 10px;
 	height: 350px;
@@ -789,7 +788,6 @@ padding: 30px;
     height: 500px;
 }
 
-.char br {display: block !important;}
 
 .e1 {   border-radius: 10px;
     overflow: auto;
