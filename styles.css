@@ -1672,6 +1672,7 @@ grid-row-gap: 0px;
 position: relative;}
 
 #pierwszydiv:after {
+	transition: 1s !important;
     background-image: var(--naglowekimg);
     background-size: cover;
     content: '';
