@@ -1672,7 +1672,7 @@ grid-row-gap: 0px;
 position: relative;}
 
 #pierwszydiv:after {
-    background-image: url(https://i.imgur.com/yyKvxfn.gif);
+    background-image: var(--naglowekimg);
     background-size: cover;
     content: '';
     opacity: 0.9;
