@@ -812,12 +812,15 @@ padding: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex: 17%;
+    flex: 19%;
     height: fit-content;
     padding: 5px;
     font-size: 10px;
     font-weight: 400;
     color: var(--bright2);
+}
+.e2 {
+    display: none !important;
 }
 
 .e2 > div:before {   
