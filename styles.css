@@ -5852,13 +5852,15 @@ ul.topiclist.topics.bg_none > li.row > dl.icon {
 }
 
 .lastpost-avatar img {
- margin-top: -20px;
- width: 200%;
- height: 200%;
- display: block;
- padding: 2px;
- position: relative;
- z-index: 1
+    border-radius: 0px !important;
+    margin-top: -15px;
+    margin-left: -5px;
+    width: 200%;
+    height: 200%;
+    display: block;
+    padding: 2px;
+    position: relative;
+    z-index: 1;
 }
 
 li.row:hover > dd.posts {
