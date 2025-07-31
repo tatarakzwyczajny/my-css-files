@@ -2990,11 +2990,18 @@ li.header dl.icon dt, li.header dl.icon dd.dterm {
  font-family: var(--fancyfont)
 }
 #fa_toolbar #fa_right #fa_notifications #notif_unread {
-    display: block !important;
-    font-size: 12px;
-    margin-left: 30px;
+       display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    font-size: 8px;
     color: var(--bright2);
     font-weight: 700;
+    width: 20px;
+    height: 20px;
+    top: 12px;
+    left: 3px;
 }
 a.forumtitle {
  display: block;
