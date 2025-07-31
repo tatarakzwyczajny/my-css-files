@@ -6306,7 +6306,7 @@ letter-spacing: 1px;
 }
 
 .postbody .content div {
-	border-radius: 10px !important;
+	border-radius: 10px;
  line-height: 24px;
 	transition: 1s all;
 }
