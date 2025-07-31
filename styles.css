@@ -4820,9 +4820,10 @@ font-family: var(--basicfont);
     filter: var(--filterinvert2);
     background-image: var(--award-image);
     background-position: center;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     float: left;
-    height: 25px;
+    height: 100%;
     margin: 0 7px 0 0;
     width: 26px;
 }
