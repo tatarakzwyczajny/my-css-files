@@ -2991,7 +2991,7 @@ li.header dl.icon dt, li.header dl.icon dd.dterm {
 }
 #fa_toolbar #fa_right #fa_notifications #notif_unread {
     border-radius: 5px;
-    display: flex;
+    display: flex !important;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
@@ -2999,7 +2999,7 @@ li.header dl.icon dt, li.header dl.icon dd.dterm {
     font-size: 12px;
     background: var(--forabackground);
     color: var(--bright2);
-    font-weight: 500;
+    font-weight: 700;
     width: 35px;
     height: 35px;
     right: 40px;
