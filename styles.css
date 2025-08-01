@@ -3898,7 +3898,7 @@ fieldset dl:last-of-type dd {
 }
 
 #cp-main input#username_reg {
-    background: var(--forabackground);
+    background: var(--forabackground) !important;
 }
 #cp-main input#email,input#password_reg {
     background: var(--forabackground);
