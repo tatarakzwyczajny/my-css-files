@@ -1164,6 +1164,7 @@ color: var(--bright2);
 /*regulamin*/
 
 .regulamin {
+	width: 1000px;
     box-shadow: var(--shadowout);
     border-radius: 10px;
     border: var(--border);
