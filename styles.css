@@ -2990,18 +2990,21 @@ li.header dl.icon dt, li.header dl.icon dd.dterm {
  font-family: var(--fancyfont)
 }
 #fa_toolbar #fa_right #fa_notifications #notif_unread {
-       display: flex;
+    border-radius: 5px;
+    display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     position: absolute;
-    font-size: 8px;
+    font-size: 12px;
+    background: var(--forabackground);
     color: var(--bright2);
-    font-weight: 700;
-    width: 20px;
-    height: 20px;
-    top: 12px;
-    left: 3px;
+    font-weight: 500;
+    width: 35px;
+    height: 35px;
+    right: 40px;
+    border: var(--border);
+    box-shadow: var(--shadow);
 }
 a.forumtitle {
  display: block;
@@ -5022,9 +5025,9 @@ align-content: center !important;
     position: absolute !important;
     content: "";
     background: var(--notif);
-    width: 60%;
-    margin: 10% !important;
-    height: 70%;
+    background-position: center;
+    width: 80%;
+    height: 100%;
     background-size: contain;
     background-repeat: no-repeat;
 }
