@@ -4977,7 +4977,30 @@ margin-bottom: 10px;
 }
 
 #fa_toolbar #fa_right #notif_list li .contentText a {
- color: var(--contrast) !important}
+    color: var(--bright2) !important;
+    background: var(--linearbcg);
+    border-radius: 5px;
+    margin: 2px;
+        position: relative;
+    padding: 2px;
+    box-shadow: var(--shadowinligh);
+}
+
+#fa_toolbar #fa_right #notif_list li .contentText a:before {
+    border: var(--border);
+    border-radius: 5px;
+    margin: -2px;
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    box-shadow: var(--shadowinligh);
+}
+
+#fa_toolbar #fa_right #notif_list li .contentText a:hover {
+ -webkit-animation: pulseCTA 1s forwards;
+ animation: pulseCTA 1s forwards;
+}
 
 #fa_toolbar #fa_right #notif_list li .contentText {
 	flex: 2;
