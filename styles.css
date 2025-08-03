@@ -120,24 +120,24 @@ border: none !important;
     width: 180px;
   height: 288px;}
 
-.e2 > div:nth-of-type(12) {
+.e2 > div:nth-of-type(15) {
     display: block;
       align-items: flex-start;
     flex: 59% !important;
       padding: 10px !important;
 }
-.e2 > div:nth-of-type(11)
+.e2 > div:nth-of-type(15)
  {
     flex: 30% !important;
 }
 
-.e2 > div:nth-of-type(10) {
+.e2 > div:nth-of-type(14) {
   display: block;
       padding: 10px !important;
       align-items: flex-start;
     flex: 59% !important;
 }
-.e2 > div:nth-of-type(9) {
+.e2 > div:nth-of-type(13) {
     flex: 30% !important;
 }
 
