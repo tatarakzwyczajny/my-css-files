@@ -1708,6 +1708,11 @@ grid-row-gap: 10px;
     border: var(--border);
   box-shadow: var(--shadow);}
 
+.aksl li:hover {
+	  -webkit-animation: pulseCTA 1s ease-in-out forwards;
+	animation: pulseCTA 1s ease-in-out forwards;
+}
+
 .aksl p {margin: 0px !important;}
 
 .aksl .datasl {margin-bottom:3px !important;}
