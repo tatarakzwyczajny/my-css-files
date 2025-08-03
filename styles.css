@@ -120,12 +120,13 @@ border: none !important;
     width: 180px;
   height: 288px;}
 
-.e2 > div:nth-of-type(15) {
+.e2 > div:nth-of-type(14) {
     display: block;
-      align-items: flex-start;
+    padding: 10px !important;
+    align-items: flex-start;
     flex: 59% !important;
-      padding: 10px !important;
 }
+
 .e2 > div:nth-of-type(15)
  {
     flex: 30% !important;
