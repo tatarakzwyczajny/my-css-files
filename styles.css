@@ -131,7 +131,7 @@ border: none !important;
     flex: 30% !important;
 }
 
-.e2 > div:nth-of-type(14) {
+.e2 > div:nth-of-type(16) {
   display: block;
       padding: 10px !important;
       align-items: flex-start;
