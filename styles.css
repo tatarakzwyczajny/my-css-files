@@ -6588,12 +6588,6 @@ letter-spacing: 1px;
 }
 
 /*kolejnosc postow*/
-.post:nth-child(odd) .postprofile {
-    order: 3 !important;
-}
-.post:nth-child(odd) .postprofile {
-    order: 3 !important;
-}
 
 .poster-list {display:none;}
 
