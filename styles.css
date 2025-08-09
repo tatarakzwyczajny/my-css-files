@@ -420,6 +420,9 @@ text-align: center !important;
 /*BROSZURA*/
 
 .br7 {
+    font-size: 10px;
+    text-align: left;
+    line-height: 12px !important;
     overflow: auto;
     padding: 20px;
     border: var(--border);
