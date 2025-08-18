@@ -432,9 +432,11 @@ text-align: center !important;
     width: 100% !important;
 }
 .br8 {
-  margin: 10px;
+    line-height: 13px !important;
+    font-size: 10px;
+    margin: 10px;
     overflow: auto;
-    padding: 20px;
+    padding: 10px 20px;
     border: var(--border);
     background: var(--forabackground);
     border-radius: 10px;
