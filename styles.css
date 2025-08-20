@@ -4019,6 +4019,7 @@ input[type="text"]:focus-visible,
 
 /*emblemat*/
 #nowyavatar img {
+	    height: 250px !important;
     border-radius: 10px;
     border: var(--border);
     box-shadow: var(--shadowout);
