@@ -3182,6 +3182,7 @@ width: calc(100%);
 
 
 .fa-eye:before {
+	margin: -10px;
     color: black;
     font-size: 20px !important;
 filter: var(--filterinvert2);}
