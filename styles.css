@@ -369,6 +369,7 @@ dl.codebox:before {
   
 }
 #antykwariat table {
+	display: table;
     width: 100%;
     border: 0px !important;
 }
@@ -386,7 +387,7 @@ background: var(--darkerbackground);
     padding: 10px;
   display: flex;
     flex-wrap: wrap;
-justify-content: flex-start;
+justify-content: center;
 }
 
 #antykwariat td {
