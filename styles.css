@@ -378,7 +378,7 @@ dl.codebox:before {
     gap: 5px;
     overflow: auto;
     height: fit-content;
-background: var(--forabackground2);
+background: var(--darkerbackground);
     box-shadow: var(--shadow);
     border: var(--border);
     flex: 1;
