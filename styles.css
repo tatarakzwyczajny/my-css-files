@@ -347,11 +347,16 @@ dl.codebox:before {
 .ikonkakopiuj {
 	background: var(--linearbcg);
     border: var(--bor);
-    width: fit-content;
     padding: 5px 10px;
     font-size: 9px;
     letter-spacing: 1px;
     text-transform: uppercase;
+	    width: fit-content;
+    margin-inline: auto;
+    left: 0;
+    right: 0;
+    position: absolute;
+        bottom: 10px;
 }
 
 .ikonkakopiuj a {
