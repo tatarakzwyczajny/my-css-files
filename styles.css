@@ -344,6 +344,9 @@ dl.codebox:before {
 }
 
 /* ANTYKWARIAT */
+#antykwariat br {
+    display: none ! important;
+}
 .antyk {
   position: relative;
       margin: 10px;
