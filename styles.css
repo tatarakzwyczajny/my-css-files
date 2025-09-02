@@ -344,6 +344,20 @@ dl.codebox:before {
 }
 
 /* ANTYKWARIAT */
+.ikonkakopiuj {
+	background: var(--linearbcg);
+    border: var(--bor);
+    width: fit-content;
+    padding: 5px 10px;
+    font-size: 9px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.ikonkakopiuj a {
+font-style: normal !important;
+}
+
 #antykwariat br {
     display: none ! important;
 }
