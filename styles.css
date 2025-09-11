@@ -6949,7 +6949,7 @@ box-shadow: none;
 
 
 .rep-button, .rep-button:focus, .rep-button:active {
- width: 50px;
+ min-width: 50px;
  border-radius: 10px;
  display: flex;
  flex-wrap: wrap;
