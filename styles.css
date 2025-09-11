@@ -760,6 +760,7 @@ html {
        background: var(--b4);
     border: var(--border);
 }
+.r3 br {display: none !important;}
 
 .r3 {
       text-align: left;
