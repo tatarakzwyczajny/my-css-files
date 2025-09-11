@@ -6845,6 +6845,7 @@ fieldset.jumpbox {display:none;}
  box-shadow: var(--shadowout)}
 
  .topic-date {
+	     margin-left: 10px !important;
  z-index: 99;
  top: 59px;
  left: 70px;
