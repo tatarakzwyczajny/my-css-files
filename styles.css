@@ -5723,6 +5723,7 @@ li.tematy {
 }
 
 li.tematy > dl.icon {
+	flex: auto;
  background-position:left 3% top 24% !important
 }
 
