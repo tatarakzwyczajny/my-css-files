@@ -5749,7 +5749,7 @@ li.tematy > dl.icon {
 }
 
 .opisramka {
-	width: auto;
+	    flex: auto;
  height: 130px;
  margin-top: 10px;
  border-radius: 10px;
