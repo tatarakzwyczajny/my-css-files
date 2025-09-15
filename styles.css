@@ -7860,6 +7860,7 @@ width: 100%;
 /* Avatar du compte connecté */
 .switcheroo__squircle.active,
 .switcheroo__squircle.active img {
+	    border: 1px solid var(--detale);
  border-radius: 6px;
  cursor:default
 }
