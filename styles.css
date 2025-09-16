@@ -3019,6 +3019,18 @@ opacity: 0.7;
 [data-color-scheme="dark"] .color-scheme-toggle .dark,
 [data-color-scheme="light"] .color-scheme-toggle .light {display: none}
 
+i.ion-ios-moon {
+    margin: 0px !important;
+}
+
+.icon.dark {
+    display: flex !important
+;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
 .color-scheme-toggle {
  background-color: var(--neutralDark);
  font-size: 36px;
