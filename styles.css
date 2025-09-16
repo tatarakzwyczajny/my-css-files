@@ -3023,13 +3023,7 @@ i.ion-ios-moon {
     margin: 0px !important;
 }
 
-.icon.dark {
-    display: flex !important
-;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
+
 
 .color-scheme-toggle {
  background-color: var(--neutralDark);
