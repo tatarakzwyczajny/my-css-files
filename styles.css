@@ -892,7 +892,6 @@ span.hljs-attr, .hljs-keyword, .hljs-selector-tag, .hljs-type, .hljs-section .hl
     background: var(--linearbcg);
     box-shadow: var(--shadow);
     flex: 100%;
-    margin: -30px 0px;
     padding: 30px 10px;
     display: flex;
     flex-wrap: wrap;
